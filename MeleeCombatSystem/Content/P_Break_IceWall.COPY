@@ -1,0 +1,869 @@
+Begin Object Class=/Script/Engine.ParticleSystem Name="P_Break_IceWall"
+   Begin Object Class=/Script/Engine.Texture2D Name="ThumbnailTexture"
+      Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleCameraOffset Name="ParticleModuleCameraOffset_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionCameraOffset"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleCameraOffset Name="ParticleModuleCameraOffset_1"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionCameraOffset"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorOverLife Name="ParticleModuleColorOverLife_12"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionFloatConstant_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLifetime Name="ParticleModuleLifetime_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionFloatConstant_3"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLifetime Name="ParticleModuleLifetime_11"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="DistributionFloatConstant_2"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRequired Name="ParticleModuleRequired_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRequired Name="ParticleModuleRequired_11"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRequired Name="ParticleModuleRequired_2"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRequired Name="ParticleModuleRequired_6"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_11"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_2"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSpawn Name="ParticleModuleSpawn_6"
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="BurstScaleDistribution"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionFloatConstant Name="RequiredDistributionSpawnRateScale"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorOverLife Name="ParticleModuleColorOverLife_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_1"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_4"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorOverLife Name="ParticleModuleColorOverLife_11"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionColorOverLife"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorOverLife Name="ParticleModuleColorOverLife_2"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionColorOverLife"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleColorOverLife Name="ParticleModuleColorOverLife_4"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_0"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionColorOverLife"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSubUV Name="ParticleModuleSubUV_0"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_3"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSubUV Name="ParticleModuleSubUV_4"
+      Begin Object Class=/Script/Engine.DistributionFloatConstantCurve Name="DistributionFloatConstantCurve_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLifetime Name="ParticleModuleLifetime_2"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionLifetime"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLifetime Name="ParticleModuleLifetime_6"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionLifetime"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRotation Name="ParticleModuleRotation_0"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartRotation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRotation Name="ParticleModuleRotation_11"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartRotation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRotation Name="ParticleModuleRotation_2"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartRotation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRotation Name="ParticleModuleRotation_5"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartRotation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRotationRate Name="ParticleModuleRotationRate_0"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionFloatUniform_60"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleRotationRate Name="ParticleModuleRotationRate_2"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionFloatUniform_60"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSubUV Name="ParticleModuleSubUV_2"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionFloatUniform_69"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleVelocity Name="ParticleModuleVelocity_0"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionVectorUniform_4"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleVelocity Name="ParticleModuleVelocity_2"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartVelocity"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleVelocity Name="ParticleModuleVelocity_3"
+      Begin Object Class=/Script/Engine.DistributionFloatUniform Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartVelocity"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAcceleration Name="ParticleModuleAcceleration_3"
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_4"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLocation Name="ParticleModuleLocation_4"
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSize Name="ParticleModuleSize_11"
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_3"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSize Name="ParticleModuleSize_8"
+      Begin Object Class=/Script/Engine.DistributionVectorConstant Name="DistributionVectorConstant_2"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSizeMultiplyLife Name="ParticleModuleSizeMultiplyLife_0"
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_2"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSizeMultiplyLife Name="ParticleModuleSizeMultiplyLife_10"
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_2"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSizeMultiplyLife Name="ParticleModuleSizeMultiplyLife_2"
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_3"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSizeMultiplyLife Name="ParticleModuleSizeMultiplyLife_7"
+      Begin Object Class=/Script/Engine.DistributionVectorConstantCurve Name="DistributionVectorConstantCurve_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAcceleration Name="ParticleModuleAcceleration_0"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionAcceleration"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleAcceleration Name="ParticleModuleAcceleration_2"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionAcceleration"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLocation Name="ParticleModuleLocation_0"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartLocation"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLocation_Seeded Name="ParticleModuleLocation_Seeded_0"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionVectorUniform_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleLocation_Seeded Name="ParticleModuleLocation_Seeded_1"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionVectorUniform_1"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSize Name="ParticleModuleSize_0"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionVectorUniform_8"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSize Name="ParticleModuleSize_2"
+      Begin Object Class=/Script/Engine.DistributionVectorUniform Name="DistributionStartSize"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.InterpCurveEdSetup Name="InterpCurveEdSetup_0"
+   End Object
+   Begin Object Class=/Script/Engine.ParticleSpriteEmitter Name="ParticleSpriteEmitter_0"
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleSpriteEmitter Name="ParticleSpriteEmitter_11"
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_10"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleSpriteEmitter Name="ParticleSpriteEmitter_2"
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleSpriteEmitter Name="ParticleSpriteEmitter_6"
+      Begin Object Class=/Script/Engine.ParticleLODLevel Name="ParticleLODLevel_6"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleOrientationAxisLock Name="ParticleModuleOrientationAxisLock_3"
+   End Object
+   Begin Object Class=/Script/Engine.ParticleModuleSize Name="ParticleModuleSize_9"
+   End Object
+   Begin Object Name="ThumbnailTexture"
+      Begin Object Name="AssetImportData"
+      End Object
+      ImportedSize=(X=512,Y=512)
+      Source=(Id=97F08917498DCB3CDEAD6D877F455EA0,SizeX=512,SizeY=512,NumSlices=1,NumMips=1,bPNGCompressed=True,Format=TSF_BGRA8,BlockDataOffsets=(0))
+      LightingGuid=E9BC3C8847770671821232955FBE3933
+      AssetImportData=AssetImportData'"AssetImportData"'
+      CompressionNoAlpha=True
+      bUseLegacyGamma=True
+      CustomProperties TextureSourceData PayloadSize=38530 89 50 4e 47 d a 1a a 0 0 0 d 49 48 44 52 0 0 2 0 0 0 2 0 8 6 0 0 0 f4 78 d4 fa 0 0 20 0 49 44 41 54 78 da ec bd db 93 1c 49 76 e6 f7 1d 77 8f c8 ac 1b ee 40 f 7a ba 7b ae cd e1 68 78 19 2d 57 2b a3 ad 1e 64 26 d9 da 9a fe 4 fd 65 7a d3 8b 4c 8f 32 49 26 ed 8b 68 a6 15 25 d2 b8 cb 21 b9 1c e 67 d8 3d cd be 37 ba d1 0 ea 5e 79 89 8 77 d7 83 5f c2 23 32 b2 0 f4 0 3 c f0 fd c6 30 5 64 55 66 45 66 56 f5 f9 ce f1 73 be 23 0 3c 8 21 84 10 f2 5a a1 f8 12 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 43 c 5f 2 42 5e 6f 24 ff 25 fc cd 7b cf 17 85 10 a 0 42 c8 ab 8c d6 1a 95 31 d0 5a c1 7b 8f b6 eb d0 75 96 22 80 10 a 0 42 c8 ab cc de ce e f6 f7 76 30 af 6b 38 ef 71 b1 58 e2 f4 ec 1c eb b6 e5 8b 43 8 5 0 21 e4 95 fc e5 37 1a bb 3b 73 dc bc 76 d 3b 3b 73 58 6b 61 b4 41 d3 b6 68 bb e 8e 55 0 42 28 0 8 21 af 1e 22 2 11 c1 c1 fe 1e 6e dd b8 8e ae eb 0 f 9c 9e 9f e3 c 17 7c 81 8 a1 0 20 84 bc 8a 38 e7 b0 5a af d1 34 2d da b6 83 73 16 d6 3b 58 e7 98 fd 13 f2 3a 24 1 0 f8 9b 4e c8 6b 5a 1 98 55 15 6e 5e f 47 0 80 c7 62 b9 c6 d1 f1 9 96 eb 35 5f 20 42 28 0 8 21 af 32 95 31 50 4a e0 bd 87 b5 e ce 39 fe 47 81 10 a 0 42 8 21 84 bc 8a d0 9 90 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 1 60 f8 12 10 42 7e 97 11 91 fe ef 0 3c 0 ef 3d 5f 18 42 28 0 8 21 af 72 f0 57 22 30 c6 c0 18 3 78 8f a6 6d d1 59 4b 11 40 8 5 0 21 e4 95 15 0 0 8c 31 b8 b2 bf 87 dd dd 1d 78 ef 71 7e b1 c0 c5 62 89 a6 69 40 9 40 8 5 0 21 4f 9d 59 1a ad 1 80 d9 e4 4b 8e 52 a fb 7b bb b8 71 ed 1a 3c 3c 94 8 56 eb 35 5f 18 42 28 0 8 f9 6 bf 18 46 e3 60 77 17 1e c0 c5 62 81 b6 a3 8 78 19 71 de c3 7b 7 e7 3d ac b5 f0 f0 e1 36 e7 99 fd 13 42 1 40 c8 37 c8 2a 45 41 29 5 f 40 20 7c 41 5e 62 3a 6b 71 7a 76 8e f5 7a d e7 3d d6 eb 6 4d d7 f1 85 21 e4 31 a4 a6 59 42 48 41 65 c ea ba 82 8f 1 25 64 9a bf bb bf 2a 22 2 f8 57 37 2b 16 11 68 ad 20 22 70 2e 54 3 8 21 14 0 84 7c f3 a0 19 f9 5d e fe b3 ba 82 88 a0 eb 2c 9c 77 70 8e bf f2 84 10 1e 1 10 b2 95 57 e1 cc 5f 44 70 f3 fa 75 cc 67 35 2e 16 b 9c 9c 5d 60 dd 34 af 74 35 80 10 42 1 40 8 7f c1 8d c6 1b b7 6e e0 c6 b5 ab 38 3c 3e c1 ba f9 22 8 80 78 24 40 8 79 7d a1 15 30 21 af f2 2f b8 8 0 81 d6 1a 95 29 f4 3e 83 3f 21 4c 10 f8 12 10 f2 fc 48 6d 4 2f 2a de 5a eb f0 f5 a3 43 ac 9b 6 8b e5 2a 64 ff 60 e3 f 21 84 4d 80 84 3c 57 76 e6 33 54 c6 c0 5a 87 e5 7a d e7 dc 6f fd 1a e6 b3 19 8c d6 68 bb e 4d db 46 41 c2 5f 7b 42 58 1 20 84 3c 9f 5f 2e ad 71 b0 b7 87 f9 ac c6 ba 69 e1 bd c7 aa 69 7e eb 22 60 b5 5e e7 89 6 6 7e 42 8 5 0 21 cf 18 1d 8d 83 52 80 17 11 28 a5 a0 b5 81 31 e 5a eb 17 66 29 c4 c0 4f 8 a1 0 20 e4 79 4 7f ad b1 bf b7 8b 59 5d a1 69 5a 9c 9e 5f c0 3a 87 8b e5 12 d6 3a 38 ef 60 5d b0 aa 25 84 10 a 0 42 5e 11 94 8 ea ca 60 3e 9b e5 ae 1a e7 1c ce 2f 16 58 2c 57 50 4a e0 bd a7 9 f 21 84 2 80 90 57 8d fd bd 3d ec ef ee c0 5a 3b 28 f5 7b ef e1 fd b0 c 5f 55 6 2 a0 69 e9 59 4f 8 a1 0 20 e4 a5 e4 49 1a e8 bc f 6b 68 45 42 a6 ef 7 c1 df 23 f5 fd 89 8 ea aa c2 b5 2b 7 d0 5a e1 c1 e1 11 5a 8a 0 42 8 5 0 21 2f 5f f0 37 5a 3 2 d8 ce c2 6d 11 1 d6 39 1c 9f 9c 62 b1 5c e1 7c b1 d8 da e9 2f 0 f6 76 77 70 e7 d6 d 0 c0 d1 c9 29 5 0 21 84 2 80 90 97 53 5 e0 b1 dd fb de 7b 1c 9d 9c 2 b1 2 b0 f5 eb a2 a8 10 25 50 a2 6 b 87 8 21 84 2 80 90 97 4 ef 3d ac 75 39 78 5f 86 b 7 fd 8f 7d cc c5 72 89 87 8f 8e 51 d7 6 dd 6b bc b6 76 5e 57 b8 b2 b7 83 59 55 61 dd b6 78 78 7c b6 b5 c2 42 8 79 2e b9 d e7 92 8 f9 6d fe c2 29 ad a1 55 58 c3 91 9c f9 5e 47 6e 5d 3d c0 bf f9 57 7f 88 eb 7 7b 78 ef 93 2f f1 57 bf fc 0 e7 cb d5 b bd 26 15 df 97 d4 bb 41 8 2b 0 84 90 67 53 51 0 60 ad 85 73 ee 85 7 98 cb 9a 1b 45 4 82 b8 34 10 78 2e e3 8b f3 ba c2 5b b7 6f e0 3b 6f dc 42 db 59 fc ec bd f 5f f8 eb a1 75 38 96 e9 3a 4b 1 40 28 0 8 21 cf 41 8 bc 24 c1 7f 9b 10 b8 7e b0 87 b7 ef dc 44 65 34 1e 9d 9c e1 93 fb f 9f b9 8 68 da e 1f dd 7b 80 b6 b3 38 3c 3d 47 fb 32 1c 87 30 e6 93 d7 8 1e 1 10 f2 32 fe 62 3e 67 ef fe f4 f8 32 6a 5a 4c 7f ff ee dd db f8 d3 9f bc 8b 5b 57 f6 f1 f1 57 f f1 ff fc fd af 70 7a b1 7c e6 d7 71 65 6f 7 46 6b 34 5d 87 f3 c5 ea 95 7f dd 9 61 5 80 10 f2 dc 2a 4 65 76 bf ad bc 7f 99 8 0 0 a3 15 de 7d eb 5b f8 fe dd 3b 30 5a e3 cf 7f fe 4f cf e5 79 3e f 51 f1 a2 5e 77 42 28 0 8 79 4d 32 74 25 92 c7 fe bc 73 2f bc 94 36 35 52 38 3d 66 28 18 df 9c 44 40 fa 78 b1 5c e3 c1 d1 29 e6 55 85 47 27 e7 58 ae 1b be e9 84 bc 6a ff 1d 3 8f 0 8 f9 46 c1 76 56 55 80 8 ba ae 83 7d c1 4d 7d 53 67 fa 4f 2b 16 d2 f5 7b ef 61 b4 c2 d5 fd 5d d4 c6 60 dd b4 78 74 7a ce 37 9d 10 a 0 42 48 b2 f4 95 97 40 0 48 b4 20 7e 5c 96 7f 99 0 28 83 ff d4 c7 57 e9 3f 78 e0 7f f4 8 a1 0 20 e4 37 e bc f1 17 68 5b a0 7c dc 79 fc b3 a fe db b3 fe ed 42 60 dc f0 56 7e 7c d1 2 a0 7f 3e 1e cf ea 12 b4 d6 50 22 70 de c3 be c6 6 4c 84 24 d8 3 40 5e f1 20 d 3c af 18 56 2e fd 79 5c 30 7b da 40 fa 24 1 b0 c fe 97 97 fd 1f 5f d 28 cf ff 5f 74 27 bc 8 70 e7 fa 15 0 8 ee 80 f8 cd 4d 79 44 4 4a 9 b4 52 10 e7 5f a 1f 6 42 28 0 8 79 4e 28 11 cc 66 35 0 60 b9 5a bf b0 60 56 16 d9 2e b d4 29 20 f5 dd f9 80 f7 9b 45 ba b2 7b ff c9 4 c0 93 8b 94 6f 22 56 9e 35 6f dd be 81 7f f5 9f fd 10 80 c7 5f fd e2 3 7c 75 78 2 fb 2c ae c9 27 d1 c6 c0 4f 8 5 0 79 a5 83 7f 5d d7 b8 b2 bf 8f f9 7c 86 fb f 1e 61 dd 34 bf f5 e0 e6 3d 72 f6 fd b8 20 3d 75 8e 9f 82 ff f8 73 53 c1 7f db e3 f b2 fa 74 51 5b be c7 b8 2 f0 22 aa 1 5a 29 18 ad a0 44 b0 33 af 9f d5 3b 1 eb 1c ac 4b cf 9f 22 80 10 a 0 f2 ca 52 57 15 ae 5f bd 82 ca 18 3c 3a 3a c6 f3 9e 64 7b dc 39 fc b6 99 fc 71 e6 3f f5 35 53 5d fe 4f 22 0 1e 9f d5 fb 4b af e7 45 54 3 8e ce 16 f8 db f7 3e 46 65 34 16 ab 66 eb 6a e5 a7 15 62 de 3b fe 52 10 42 1 40 5e 7 9c f 67 bd 4d db 3e f7 33 df c7 65 e1 4f 52 1 78 d2 c0 ff ec 82 ff 13 5d c5 6f 3d 5b 3e b9 58 e0 62 15 5c 1 ad 63 c1 9e 10 a 0 42 9e 26 e3 3 d0 34 d 1e 1e 1d 43 89 a0 69 9e fd d6 bd 6d 65 f9 cb 33 51 ff d4 8f f3 a4 22 60 9c f1 6e ab 3a a4 cf 87 c7 78 dc f3 f3 f1 b1 2e 17 12 d7 f f6 60 b4 c6 d9 62 89 d5 33 78 ad 3b cb 6c 9d 10 a 0 42 be 89 0 f0 1e 9d b5 38 39 3b 83 f7 fe b9 6c b3 9b ca fe 9f 26 cb df ba 85 6f 22 b3 df 76 4 d0 7f 9c 3e 66 18 fa fc 63 23 9b 4f c1 7d ea 3a 9e b4 72 30 ab 2a bc 7d e7 26 ee 5c bf 82 5f 7e fc 5 be 7c 74 bc f5 be 2a 3f bf 54 a1 61 7e 4f 8 5 0 21 cf 98 67 71 76 fc b8 80 3f e c0 93 2 60 62 16 b1 cf d0 fb a0 dc 7 7f 95 1f 6b a3 3a 80 30 d9 30 9b d5 b0 d6 c6 e9 6 19 34 1a fa d8 e4 b6 99 b9 fb c9 ec ff 71 81 fe 71 62 40 89 e0 ca ee e ae ed ef 61 5e 57 50 22 93 5d fb 22 82 fd 9d 39 be fb e6 6d 5c d9 db c1 fd c3 13 7c f0 d9 57 80 8 94 a 6b 78 e1 fd b 77 55 24 84 2 80 10 b2 35 43 1f 7 fe 6d 2 20 77 d1 8f 44 40 fa 67 ba 6f ba 31 ed 18 d8 56 4d 50 a2 70 fd da 15 1c ec ed 62 b9 5a a3 b3 47 b0 9d 2b 1e 22 ed 26 f0 70 d8 16 48 c7 42 e0 e9 8f 2d 4a 3a 6b 71 7c 7e 1 eb dd a5 3b 3 2a ad f0 ce 1b 37 f1 d3 1f 7e 7 d7 e f6 f0 4f 9f dc c3 87 5f 7c d 0 98 cf 6a ec ed ee c0 7b 8f f3 8b 5 d6 eb 6 8e 22 80 10 a 0 42 5e a6 e0 bf ad 3c bf 19 b4 8b cc bc cf f3 b1 6d b4 6f fc 3d 26 5 80 12 cc 67 33 cc e7 33 b4 5d 7 ad 14 9c f2 d1 bf 5f 63 56 d7 50 4a a1 6d 5b ac 9b 6 ed 13 34 2 fa a2 24 20 78 fa 91 bf d6 5a bc ff f9 57 a8 8d 46 d3 d9 c9 c0 2d f1 b9 fd 37 7f f2 7 f8 97 3f fa 1e 8e 2f 16 78 70 74 a a5 14 bc f7 d8 dd d9 c1 c1 fe 1e 9c 73 b0 d6 c1 3a f7 5c fa 36 8 21 14 0 84 7c e3 cc ff b2 e0 3f dd 95 1f 82 7e 1f 88 1f e3 da a7 a4 f8 8a 61 17 be f7 c0 62 b9 84 73 16 cb e5 3a 9f a1 8b 8 b4 d6 98 cd 6a ec cc 66 e8 ac c5 e9 d9 39 ba a7 b1 bc dd e2 6c f8 24 26 41 4d db a1 69 bb c7 3d 3c f6 e6 33 bc fb 27 3f c5 d1 c5 12 7f fe f7 ff 14 1e 2f 3e 59 67 1d 9c f7 50 4a 20 90 67 fc fe 61 50 f5 20 84 50 0 10 f2 8d 85 c0 b6 6 bd a9 2a 40 72 f4 7b a2 26 41 19 87 3f c9 bd 2 de 7b 1c 1e 9d 84 c7 99 58 e8 e3 5c 38 e d0 4a e5 23 85 f2 9a be c9 68 e0 ac 32 d8 99 d5 50 22 58 b7 1d ce 97 ab ad de 5 5b a7 e e2 e7 fe f6 fd 8f f1 fb f7 1f c1 7b 8f 2f 1f 1e a1 b3 16 4a 29 2c 96 2b 74 5d 7 81 a0 ed ba a7 13 2e 4f f4 9e 4d 37 41 12 f2 5a ff f7 8c bf 11 84 3c 3e 80 8c b3 fc 6d 15 80 dc cc 36 ba ef 13 27 e1 a3 fa c0 e5 4b 86 86 7d 7 4a 4 c6 18 cc ea a de 7b 2c 96 2b b4 5d 17 cb ea 76 73 e9 cf 28 25 ee 45 42 1f 28 f7 77 66 f8 ce b7 6e e3 4f ff e0 5d 1c ec cc f0 8b f 3f c7 5f ff ea 43 1c 9e 85 f5 c0 95 d6 0 80 2e 36 ee a5 c7 9e 55 6 4a 29 38 e7 d0 16 c7 2 6f de ba 8e 7f f1 ee 77 e1 1 fc 87 7f fc 0 f 4f cf c2 b5 17 af 5b 16 32 cf 8 15 c5 52 79 7d 84 10 56 0 8 f9 46 94 36 b9 53 c1 fe 49 8c 81 a6 34 b8 8c 2 f3 54 50 4e 12 61 d0 40 8 81 7 d0 76 1d da ae 3 3c e0 bc 9b ac 0 94 df ab 18 1f e8 1f a9 c8 96 e7 75 8d df 7b fb 2e 7e ef ad 6f e1 60 77 8e a6 b5 f8 e4 fe 23 9c 2e 96 a8 2b 83 bb 37 ae e1 ca ee e ce 97 2b 7c f8 e5 d7 b0 ce 41 0 ec cc 66 f8 d3 9f fc 10 1e 1e ff f7 df fe 12 eb 78 3c 70 be 5c e1 67 ef 7d 84 ce 59 1c 5d 5c e4 6b 71 ce e5 4c fd 59 e3 bc 87 f0 47 96 10 a 0 42 be 49 f6 7f 59 96 1e 5b dc b6 88 80 cb 82 9a 4c 2f fc 29 16 8 f4 fd 79 e3 ef 5a 8a 80 e1 69 c0 54 a9 fb 69 1d a 53 30 36 46 e3 fb df be 83 1f 7d e7 4d 68 ad 70 ff f8 c 57 f6 76 a1 b5 c6 ce ac c6 bf fe c3 1f e1 8f 7e f0 36 3e bd ff 8 ff c3 ff f6 67 b0 39 73 f7 e1 9a bc e4 2b 99 55 6 77 6f 5e c3 77 bf 75 1b cb 75 83 bf f8 c5 fb 83 ef 37 9f d5 d0 4a c3 79 87 ae b3 68 bb ee 99 65 ec 4f f3 38 3 f1 e6 3d a7 11 8 5 0 21 af 73 e0 bf 3c 80 26 d 20 83 e0 5c 66 e9 93 77 8f 59 f7 94 8 48 41 bc bf 9f 4c b8 f7 c9 96 6b 1d 36 bb 25 6f 1 c0 c5 6b f1 93 d7 31 7e c a5 14 1c 4 87 67 17 38 3a 5f 40 6b 85 87 a7 e7 58 b6 2d 66 f3 19 44 6b 5c dd df c5 fe 7c e ad 4 75 65 d0 74 1d 3c 80 8b e5 1a 7f f1 f ef c3 fb d0 20 28 12 3e ff 6f fe cb 3f c2 ef bf fd 26 7e f5 f1 17 f8 9b f7 3e c2 85 d 5b 1a 95 12 1c ec ef 61 77 be 3 6b 2d ce 17 b 9c 9e 5f c0 3e c3 5e 80 27 45 89 60 6f 6f 17 46 6b ac 56 6b 2c a2 2d 31 21 14 0 84 bc e 81 5f b6 f7 a1 cb 96 db e4 32 81 b0 45 4 84 86 bc a9 c 7f 33 9b 1f de 5f 46 47 0 e5 df 87 e7 fa 1e 80 28 40 7c d8 b2 77 b0 33 c7 b5 fd 5d 58 eb f0 e0 f4 1c eb a6 cd 59 6e b9 8a 58 6b d eb 81 7f ff f3 f7 f1 d1 57 8f 30 9f 55 b8 7f 74 8a c3 8b 25 e6 f3 19 0 8f f7 3e fb 12 9f de 7f 84 f ef dd 1f d4 1c 5a 6b 71 72 b1 1c 3c 97 37 6e 5c c3 7f f5 af fe 10 ff c5 8f be 87 dd ff 50 e3 7f fe b3 bf c4 45 5e d3 1c be 6f 55 19 18 a3 b1 5c af 9f cb 71 c0 93 bc ff c6 68 bc 71 eb 26 76 76 66 38 3c 3c 81 9c 8 16 ab 15 fb 7 8 5 0 21 af 72 e0 7f ba b3 fb a7 79 fc ed 19 77 19 c8 53 f5 7f 9c c5 fb 89 66 bd f2 71 cb db c2 a4 61 3f d3 2f e8 9b 14 f 76 77 f0 a3 77 ee e2 c7 ef dc c5 f5 fd 3d 7c f6 e0 10 7f f9 8b 5f e3 ab a3 d3 a2 5a 20 50 2a 4 42 6d 34 1a eb f1 e1 d7 87 79 7a 40 1b 3 89 f3 fb 3f ff f4 1e da b6 43 db b4 68 2f f1 ef f7 de 43 89 e0 eb e3 33 7c f1 f0 8 47 e7 8b 41 69 dd 3b 87 d3 b3 8b 30 ce 28 a 4d d3 bc 10 9b e0 f0 5a 29 ec ed ee 60 7f 6f 17 eb 75 83 b3 8b 5 7f 41 8 5 0 21 af 6a f0 7f 5a 1 70 f9 a7 2f 99 f5 9f 18 f1 2b 67 d4 73 25 20 3f 84 87 df 32 15 bf f5 5a 45 20 3e de af 7c 6c 25 98 d5 15 6e 5c d9 c7 77 ee de c6 ef bd 75 17 77 ae 5f c5 2f 3e fa 2 f 4e 2f fa 69 82 18 fc 8d 31 f9 a3 d6 a 0 e0 5c 98 d3 b7 56 72 a7 be 73 1e 56 db fc 3a 6e cb 94 1f 1c 9d e2 7f fa 5f fe c ff ee ea 3e 1e 9d 9c 63 b1 5c e7 cf 39 ef b1 6e 9a 3c e2 68 9d 7b 6e 56 ce 8f 7b e7 bc 73 58 ad d7 0 3c d6 4d b eb 2c b3 7f 42 1 40 c8 ab 1e fc 9f 66 a1 cf b6 e6 b9 ed d9 a5 5c 2a 24 6 95 80 52 42 14 4d 81 db bf 5f 3f eb 2e f0 f0 22 e1 a3 1f 1e 3d 34 6d 87 b3 e5 a f7 1e 1d a3 32 6 5f 3d 3c c6 62 dd e0 ca fe 1e 6e dd b8 6 f 8f 47 47 27 80 84 72 bc d6 1a 5a 6b 28 25 39 d8 3b 17 82 bd b5 e1 36 ad 55 1c e3 1b 5e d7 38 68 1e 9d 5f e0 67 ef 7d 94 3 fe d4 e2 a2 b6 eb 5e e8 cf 43 5a 22 f5 e0 f0 8 2 60 b5 6e b0 be c4 de 98 90 df e9 ff fe 81 3e 0 84 2 e0 31 4e 7e e3 20 d1 7 ec f2 eb b5 d6 d8 dd 99 47 2b de e 6d 67 e3 ed a 46 6b f8 b8 e8 66 5b 0 1f fe 46 f6 33 fb fd fc 3e 30 3e df 9f ba d6 34 46 d8 7f 79 2f 27 94 12 bc 79 f3 2a f6 77 e7 68 da e 27 e7 4b ac 3a 8b 6f dd be 89 77 de 7a 13 6d d7 e2 c3 4f 3e 87 75 e 26 ce f2 f7 33 fa be b7 ea b5 1d ba ce a2 b3 16 5d db 61 bd 6e b1 58 2c b0 5a ad 37 fc 6 7e 57 7f 2e 54 ec 9f 78 11 95 8 42 58 1 20 e4 5 fd c7 ff 71 22 a0 77 f5 eb cd 78 76 e6 33 5c bd 72 0 1 70 7e b1 88 2e 77 e1 f6 ca 18 34 6d b d7 b4 45 60 1c 66 ef 3 59 e 19 78 d 84 10 3e 31 80 38 55 85 28 4a b b9 aa 20 a1 2 21 22 f8 fa f8 1c f 4e 17 61 e9 90 12 54 c6 40 69 d eb 2c 3a eb 60 aa a 95 92 22 f3 f c1 7f 70 3d 5e 43 94 87 38 17 44 82 56 1b 59 ff d3 3a e be 4c 78 ef 27 37 1a 12 42 1 40 c8 2b 5c 9 18 67 e6 e3 46 bb a1 9f 7f 2f 0 b4 52 98 d7 55 df 84 17 cf fb eb ca c0 68 83 b6 ed a6 cd e8 27 1a 4 4b cb de 61 83 9f 9f 16 d 23 5f 80 74 4b 98 2 8 5d 4 4a 2b 68 a5 73 c9 be ff a8 b1 6e 5b 7c f5 f0 8 80 47 55 57 a1 1 30 ba fc 85 cc df 67 b3 1e ef 1 a5 42 2f 80 52 a d0 1e 5a a9 b0 c3 e0 77 38 e8 13 42 1 40 c8 6b 9e e9 4f ad fb 7d 9c bd af 88 a0 ed 2c 16 cb 30 33 9e 4c 6c 1c 80 f5 ba 45 a7 a3 b1 d 1e 13 ff b 21 80 32 f8 4f f6 15 6e 1f 2d 2c 3f aa 68 51 ac b5 41 55 e9 18 dc c3 f9 be 31 2a 66 fa a 1e 3e 1c 57 c4 d2 7f 12 0 ce 39 28 e5 e0 9c a0 b3 80 f6 1e de 2b 38 a7 e1 b5 8f d7 9 68 11 54 46 a3 6d fb e7 49 41 40 8 5 0 21 2f bd 8 d8 5c e2 33 f5 b9 ed 41 b7 b3 16 87 27 67 10 41 1e 61 f3 de 63 b1 5a 4d 37 17 4e b9 ef 94 9f 92 72 34 f0 71 5b 4 4b f 83 be dc f 20 6 fa d0 cd 5f d7 15 4c 65 60 74 18 f1 33 31 f8 2b 35 dc 65 90 7a 17 d2 65 84 63 70 81 9 8f dc f7 26 48 61 e3 1b fb 5 8c d1 d8 df 99 3 f0 38 39 5f c2 6d 54 2f 8 21 14 0 84 bc 44 22 60 4a 8 6c ff dc 44 c9 3d 66 bb c3 f9 f5 61 f9 5e c6 41 1e b2 55 f f4 df 23 76 0 f8 c2 1f 40 b6 c8 81 68 e1 9b 4 40 8 c8 6 75 6d 50 55 15 66 b3 2a 8c f5 19 3 a3 15 94 ea cf f9 c7 4d 8d 4a a5 72 bf 8a 47 1c 1e 4a 19 78 e7 b1 52 a ab f8 9c 42 f9 5f 1 10 38 17 8e 1b 8c d6 a1 32 a0 4 b0 c fc 84 50 0 10 f2 3b 28 4 a6 a6 4 86 95 80 f1 2c ff b6 40 3e d5 57 b0 99 fd f7 4d 7b fd bf 53 15 20 84 57 bf e1 27 90 ea 3 c9 c3 5f 44 e5 e fe ba 36 98 cd 6a 54 55 8d ba ae 8a f1 3e 35 8 fe e9 fa 93 50 e9 d7 e8 6 d5 b1 3b 9f 61 67 3e 47 d7 75 38 3e 3d 47 d7 75 b0 d6 c6 cc 3f 34 14 7a 4 e7 82 65 1a 9d f3 98 ec 65 28 5 11 2b 3 84 50 0 10 f2 c2 82 fe 66 b9 ff 32 1 30 1d fc 87 c1 d 93 4d 7a 1b b1 3e 3d c6 d6 e0 df df c7 43 20 d1 d0 67 5a 62 20 96 f2 55 6c d0 b a5 ff ba ae 50 d7 35 aa aa 1a 8 80 54 fa 2f 3 b0 73 1e de bb f8 3d 15 8a 28 e 63 c 76 e7 73 38 e7 b1 5e 37 38 bf 88 13 2 c5 58 64 30 9 2 96 eb 26 1c 13 4c 88 2b bf 61 3b bc b9 a9 f0 45 fd 1c 50 8c 10 a 0 42 5e 83 c0 7f 59 13 60 fe 7c 5e d8 33 3c 1f 7f fa ef b7 f1 97 c9 4d 7e 43 a9 b0 79 7b 19 fc c7 bb 0 d2 35 a6 ee fc d0 d0 57 a1 ae 67 51 0 98 e8 b5 6f a0 8d e a5 7b e9 b3 fe 90 91 3b 38 a7 b2 98 40 ca d0 a3 49 cf f9 72 9 41 f0 fa f 66 3e 2e 7e 3e c8 18 a5 14 bc 7 1c 5c 7a e0 c9 ac 7f 7c db f3 e c2 d3 93 14 23 c5 46 8 5 0 21 ac 8 8c 45 42 5d d7 38 d8 dd c5 ce 7c 16 2 e1 62 81 a6 ed 46 e1 b9 c 22 d3 fd fe a9 b9 4f 36 be 9f 4c 57 7 a4 ef 14 98 12 2c fd a2 21 c9 25 ff 34 de 57 55 6 55 5d 61 3e f a5 ff a1 b5 af ee 3 bc 73 d9 99 cf 3b 81 88 8b 2 40 7 c1 11 3 7d e7 1c ce 2e 16 68 db e ab d5 a d6 da 38 1e e8 e3 c2 a1 38 16 18 af d1 39 37 30 32 9a 7a 9d 86 de 2 97 b 1 25 82 bd 9d 19 9a b6 c3 ba 7d b6 8e 81 c ff 84 2 80 90 d7 84 a9 4c 74 2a f8 a7 3f bb f3 39 be 75 e7 16 7e f0 ce db 68 bb 16 bf 78 ef 3 7c 7d 78 94 3d 1 c6 cb 7b 1e 2b 30 26 45 c0 16 c1 80 69 9f 82 74 d6 2f 2a b8 d6 e9 d8 d4 a7 75 18 e1 ab 2a 83 ba ae e3 9f 2a 6 7f 9d cb ff 39 d0 a6 dd 1 ce c1 b 0 a4 a 80 ca 3e 2 ce a ac b5 b0 36 b8 ff d9 18 dc 53 90 4f 4f 3e 9 80 b4 7a 38 7c 4a 8a e0 be b9 fa b8 7c 3f a6 96 1e a5 db b4 56 78 f7 ed bb f8 e4 ab 7 68 4e 2f be 51 b5 80 25 7e 42 28 0 8 99 14 1 e3 cc bf f 84 c0 bc ae 71 eb c6 35 34 4d 1b b2 68 a5 61 bd 1b f5 f1 fb 2d 15 81 29 a1 21 97 2f 15 92 69 31 52 8e ed e5 60 ae 82 11 91 d6 1a 2a 5a f 1b 63 50 d5 a6 28 fd 6b a8 e4 ed 9f 16 f7 c0 87 4e 7f ef 21 46 c3 c4 a6 c0 ce ba 90 d5 c7 4c 1e f1 98 0 a3 ad 83 29 c3 f 7f a e1 72 c9 51 c9 36 b1 b4 cd f4 68 db 6d db de bf a9 80 cf c0 4f 8 5 0 21 8f cb d1 37 85 80 7 d6 4d 8b a3 d3 53 7c 7a ef 4b ac 9b b0 22 56 4 50 a3 e6 be 94 c 6f cb 74 f1 d8 ac 7f 98 fd 8f 83 bf d6 a 55 55 41 69 15 b3 fe 3e 9b 4f 33 f8 c1 f1 4f 85 51 bf 41 d6 1f ce fd 95 12 28 51 a1 d9 d0 b bc 78 68 d1 b8 7b 7d 1f ef de bd d e7 3c fe e1 93 2f 71 bc 1c fa fa a7 79 ff 32 f8 f7 cd 92 e5 f5 a6 db 55 7c fe fe 1b b b1 32 78 5b e7 f1 cb 8f bf 88 63 96 e5 94 42 f9 fa fb 27 ca fe 87 3e b 14 7 84 2 80 90 d7 37 ec 17 de f9 29 a0 e5 e0 26 40 67 2d be 3e 3c c2 f1 d9 39 ac 75 61 6b dd 44 86 da 67 fe 7e 32 d3 f5 4f 20 3e ca 86 c1 dc 7c 18 cf d7 2b a3 8b 2e fe a1 0 48 86 3f 65 2f 40 a8 8 e8 41 73 a0 88 ca cf 2b cc 16 28 cc 6b 83 b7 6f 5e c7 db b7 6f c0 68 8d e3 c5 a 67 5f 7c 9d 83 a3 f3 6e a3 41 21 79 5 84 a9 3 1d ff b8 22 a8 a6 26 41 99 e8 5 c0 a5 19 bc d6 41 ac a4 d 81 e9 fe 69 c1 52 da 4e 98 ac 89 d3 ab bb ad 7f 60 fc 6f ad 35 66 b3 1a 22 82 a6 6d 83 7b 21 85 0 a1 0 20 e4 f5 15 1 43 21 0 94 e3 80 6d 1b 36 e0 4d 9d e3 f 9b f5 62 86 8c 89 8e 7e ef 1f 1f f8 e3 6d aa 68 ec cb 5d fd 26 1a f9 c4 f3 7e 63 fa cf a7 26 3f 89 47 16 3a dd 2f 3f 86 ce 5b ee 30 18 63 14 cc 8c c1 bc ae a1 a0 70 65 77 7 d7 f7 77 e3 88 60 2c b5 bb 71 f0 47 71 24 d1 ff 49 82 c5 39 1f ed 83 d5 a4 ec 49 d9 7b da 31 90 1c e 44 4 f3 d9 c 57 e f6 70 b0 bf 7 6b 2d e 8f 4e 70 7a 7e 91 b7 f2 6d 58 1d e7 51 46 99 38 22 18 be e4 de 7b 18 a3 71 fd ca 15 5c bf 7a 5 d6 5a 7c f5 f0 51 d8 d3 40 8 5 0 21 af 57 b0 df f6 b9 14 a4 6 81 7a ec 3 20 e3 19 fe ed 96 bd b9 d1 6d 32 fc 4f 7f ff 3e b8 a6 c6 3e 9d 5 40 32 f3 d1 f1 5c 3f 95 fb 93 0 10 51 79 e3 5f 32 ea 29 9b ff 0 c0 4b 8 92 ad 75 38 ba 58 e0 c6 c1 2e 1c 3c e cf 17 c3 a6 3c 8f 38 d 50 64 f2 69 4c 52 fa e0 df 8b a 0 50 79 a2 60 90 7d 2b 85 bd 79 8d b7 de b8 81 a3 d3 b 7c 7d 78 82 c6 da bc 50 e9 ce ad 1b 78 e7 db 77 b1 bf bf 8b b3 b3 73 38 e7 b0 5c af d1 75 76 b2 49 30 bd 56 65 23 e1 bc ae 70 e3 ca 1e e6 75 85 e3 b3 b 3c 38 3e 2b 5e 6f 41 5d 57 98 d5 35 9a b6 61 e6 4f 28 0 8 79 5d 85 0 9e 48 8 24 8b dd b2 32 30 2d 2 b2 2b df 44 ee eb 1 c8 25 1 67 f3 7b 86 12 7b 1f e8 4d 2e f3 87 8a 80 c9 99 7f 3a 1a 90 22 c3 17 a0 af 22 8c 2 75 b4 f2 7 44 b0 b6 16 9f 1d 9e e2 7c dd 46 1 b0 8c 19 b5 cb 59 ba b5 e1 8f 8b d 7f e9 e4 7f 7c bd 29 f3 2e 83 74 49 5d 19 7c fb f6 d fc d1 f de c1 e9 c5 12 3f ff e0 53 7c 79 78 2 91 b0 9a 78 36 ab b1 bf b7 8b ab 7 fb 70 d6 c1 98 a 95 a9 72 86 3f 75 9c 50 be 1f 61 5c 70 8e ff fe bf fd d7 d8 df 99 e3 7f ff ff 7e 86 87 27 e7 45 2f 81 c3 72 b5 c6 21 4e d0 b6 dd a0 fc 4f 43 20 42 1 40 c8 ab 1e f4 b7 6 db d1 ac 7d 12 8 85 31 50 1f f0 47 15 82 74 df d8 5 18 5b d5 86 32 a0 28 10 28 91 3c 7f 3f 15 2c 65 94 5d e7 40 9e 9a fc 52 a7 7f ec f2 4f 95 80 32 88 5 77 3e 55 fc 29 4 40 52 1 f1 7b 2d 9a 16 ab ae 43 59 4a 4f cd 7f 79 fc cf 3a 78 e7 f2 13 49 62 c3 8f 82 66 59 24 18 a8 11 f 18 ad f1 c3 b7 de c0 cd 2b fb a8 eb a 77 6e 5e c5 e1 c5 32 b 9d a6 ed 70 78 72 8a ce 5a 5c 2c 16 68 bb 2e 6c 28 d4 e1 68 21 f8 f 6c f3 18 40 3e e6 d8 9d d7 d8 9b d7 30 f1 35 29 5f df a3 93 53 1c 9f 6e 6 7b 13 17 20 25 a1 43 8 5 0 21 af 70 f0 57 63 e7 bf e2 a3 14 d9 3c ca bf 8f ce ff 87 27 5 31 f8 f7 ff 57 c4 fd 3e 70 de bc 7e 15 f0 1e 87 c7 a7 b0 c5 f9 f6 d4 9f c1 19 bb 8 94 2e 8f 2 54 3e 22 48 d3 1 39 c3 8f e3 81 fd 63 a8 8d d7 24 1b f6 8e 92 f5 14 60 9d 73 21 f8 77 16 ce d9 6c fc 13 9e 9b 87 77 1e ce da c9 80 3c 58 96 84 e8 29 e0 7d a8 26 38 8f e5 ba 45 e7 3c ea ba ce d7 d6 76 1d 1e 3c 3a c2 f1 e9 29 ae cc 6b dc 3c d8 41 db b5 68 bb 10 f8 bb 4e 65 4f 82 60 5d bc 19 a8 57 4d 8b 3f fb d9 2f 30 ab 2b 7c f1 f0 28 b a8 f1 35 4e dd 57 80 cb a6 38 9 a1 0 20 e4 77 3d f8 e7 db ca 60 9b 3e 3f ca c2 fb a3 82 62 87 df 38 f0 4f 5 91 14 fc bd f 86 3b f1 f3 95 31 f8 ce 9b 77 71 be 58 e0 ec 7c 1 d7 b6 c3 ac 3f 2e f3 49 1d fb e9 63 38 cb 2f 1b fb a 7b e2 d4 98 97 7a 0 20 45 e7 bf 14 dd f3 63 2b 5e d7 57 2b e2 e9 81 f7 1e ce bb 9c fd db 2e 64 ff 29 e0 6 d7 c0 10 c8 bb ce a2 8b c1 b9 dc 2a 98 1a f3 d2 2e 1 c4 33 fa ce 39 fc f2 93 7b 10 a5 70 74 be c0 83 93 b 54 55 15 96 9 b9 20 10 96 eb 35 bc 37 a8 f 76 63 6f 43 5 51 1a ce 39 28 d5 a1 eb 24 56 2a ba 41 20 4f ef eb aa ed f0 b3 f7 3f 9 55 16 e7 6 c1 7f 7c 8c 50 4e 23 74 9d c5 13 bb 3a 11 42 1 40 c8 ef a4 1c e8 45 c0 38 d0 63 b8 c a8 c fa 7d 49 7b 73 81 cf 58 0 84 18 e2 c3 df a3 db 1e 24 6d f6 b 81 a9 6b bb c1 d9 79 16 1 4a 6 59 7b 1e e9 cb b3 fc 6a 18 f4 45 c2 79 3c 50 4c f 4 31 a0 52 33 63 9a 0 80 c 8e 9 42 a7 7f 2f 2 92 39 90 77 1e 36 6 79 6b 5d 31 da 17 8f 5 d2 d1 40 d7 65 71 b0 d9 5c e9 7b d1 50 bc 3a f 4e 2f f0 57 bf fa 10 4a 6b 20 8e 30 8a 4 4f 82 14 9c ad 3 4e 2e 56 61 42 40 9 2a 6d f2 24 0 90 26 8 14 ac 75 5b 7b e 5c fc be 69 47 41 da 5d 50 fe 49 8f 99 af 91 c1 9f 50 0 10 f2 ea 66 ff d3 67 ff 45 b3 5f 19 58 37 96 ee 60 28 c 64 9b c0 48 a3 69 c8 2b 7c d3 81 40 67 2d 3e fa fc 1e 6c 17 ce d6 43 cc 99 2a fb f7 67 fd c1 d0 47 d cb f8 7e f3 79 6 7f 80 89 ea 0 36 7b 1d 7a 3b df e8 f9 8f 3e c8 27 11 50 9e b7 3b 17 2b 3 d6 87 6b 8f 2b 81 53 10 1d 2e 4c f2 fd 1a e3 22 d0 a6 d7 ba 73 1e 46 79 e8 e2 f9 94 62 c8 3 38 5b ad c3 73 d2 fd e3 26 41 a1 75 2f 4c fa 9e 83 69 43 a1 fc 7c 36 dc b 37 9d 2 d9 0 48 28 0 8 79 85 c5 c0 30 c0 cb e4 6d c3 fb 4c 89 0 3f 61 2 d4 7f 3e 39 1 ca e8 28 20 6d d8 3b 3d bf 0 bc cf cd 66 e3 e3 88 be d3 bf 77 f3 1b 9f f3 a7 84 b5 1c cd 2b ef 5f fa 1a f4 4b 83 ca 63 80 be 63 3f 9 80 61 90 2c a7 0 6c ee 5 b0 b6 2b 4a ff 69 93 60 29 3a 80 b4 53 a0 14 1a 89 74 bc 51 76 46 a4 23 82 4d 3f 86 5e c4 60 d4 d4 a8 63 d3 9e bf a4 99 b2 77 2c f4 f0 5e e5 ca 4c bf 1 31 54 63 ca eb a3 8 20 14 0 84 bc 42 99 ff 74 5 40 5d 3a d 30 95 d9 f 83 cb 66 a7 7b b9 f9 d7 a7 7f 95 55 80 24 2 d2 22 9d f2 ba 30 3c cf ee e7 fb b 4f ff ca e4 ef 51 ce f7 97 5d fe 53 ab 8b c7 81 35 5c 97 c 8a 9 29 f8 bb dc 3 90 44 40 5f ee ef da 2e 7c ec ba 22 f8 6f 7e df f2 75 f1 de f 2a 17 c3 af 57 f9 b9 a7 eb df b6 a8 c9 8b cf 95 11 a5 15 c c b4 2e 77 11 c 97 33 85 92 ff 70 27 40 3a ca 48 38 e7 26 9d 0 29 2 8 5 0 21 bf e3 c1 7f 2a f0 8c 97 ea 6c 1f 5 2c 1a ff 64 d0 2 38 a2 1f fa 9b 92 b 83 b5 0 45 3f c0 e6 75 61 e3 8 a2 df ec 57 e5 b5 be c9 50 28 38 fe e9 de 14 48 e9 41 7f 40 39 81 d7 f7 30 ca 36 3d 53 34 f8 39 78 37 3c 27 b7 ce c1 76 16 6d d7 85 89 0 5b a 18 35 21 0 64 63 91 4f 5f a9 48 47 12 6a 30 89 31 34 14 9a 92 5f fd 7b 57 19 83 ca 98 51 15 c4 8f 2a 23 65 e3 62 78 9f 92 a8 49 d8 38 c1 90 aa 0 c fc 84 2 80 90 e7 88 8e fe f6 5d 67 9f 7b f0 9f cf 66 98 cd 2a 58 eb b0 5a 37 f9 f6 c9 c0 3f 6a 92 eb e3 a8 e4 f4 be f0 bb 3 e4 9 af 7 a1 11 30 55 2 bc c a5 c4 30 58 e 85 81 ca 22 a0 42 55 d7 30 46 f7 9f 2b c 7e 92 8 48 96 bf 85 5b c1 e0 3a 36 e3 6b 3a af f7 39 fb cf 56 c6 f1 e a1 1f 20 88 80 10 28 7d a1 67 54 16 2c c3 89 3 35 59 8e cf f7 f4 18 34 39 e 2d 8a 37 37 f9 8d 97 22 e9 62 be bf 6f dc f7 a3 12 3f 6 81 dd 39 1f 56 19 c7 72 7f b8 1d 50 ca 41 29 5b 48 32 6a e 0 0 20 0 49 44 41 54 4c 4 78 d4 95 9 8b a0 68 13 4c 28 0 8 79 36 81 59 29 c1 de ce e ae 1c 1c 60 b5 5a e1 f8 ec ec b9 9 81 ba 32 b8 73 eb 6 e e f6 70 71 b1 c4 c3 c3 63 74 d6 6e cf 5a 51 9c 97 e7 a0 5f 6 7e d9 cc a2 1f 1f fa fb b0 1e 8f 5 92 1b a0 c7 e6 58 62 5a 70 53 9e eb ab 18 f4 4c 61 f6 a3 94 40 2b 3d 8 8a 53 8d 7f 7d b6 3d 7c 1f fa 4c d7 17 a5 7f 97 1b fd 52 0 4d 53 5 28 8e 33 f2 73 12 41 28 b0 8c 2b 2b 6a d4 83 20 c3 a 3 7c 9e e 54 4a 61 7f 77 17 95 31 58 ae d7 68 da 76 c3 f2 b7 fc 77 aa e8 28 9d 1c e 55 71 dc e0 8b e9 b c1 9d ab fb a8 b4 c2 c7 f7 1f a1 ed 82 77 80 b2 16 ce a9 fc 98 4a b9 62 87 41 f8 fb f df ba 8b 1f bc 79 7 4d d7 e1 93 af 1e e1 9f 3f ff 8a c6 40 84 2 80 90 df 94 9d f9 1c 37 af 5f c7 b7 6e df c4 72 b5 c2 c5 62 59 8c 99 3d bb ec 5f 24 58 e5 de be 79 3 77 6e df c0 f1 f1 19 9c 73 38 3c 3e 85 2b ce ad 31 ae 0 e4 b1 39 14 46 40 b2 39 ed 27 4f 7c 45 28 22 e7 c6 b5 6e fa 12 f4 77 e9 3d 1 d2 b6 bd de d6 37 65 fb 4a c9 66 b0 dd 8 fe 43 1 e0 8b 2c bb 3c e7 f7 2e 1a fb 38 5f f4 28 14 46 44 3 11 50 56 45 64 b0 96 38 65 f5 83 cd 83 1e 13 9d f7 a1 79 50 c7 55 c6 ba ed 9b fa ca ad 7f e3 2a 40 e9 8a a8 8a c6 c6 81 ab 9f 52 f8 e3 1f bc 8d 1b 57 f6 70 f4 57 3f c7 e9 c5 12 6d 9b 5e 4 97 83 7d 1e bb 2c 8c 92 fe e0 7b 6f e1 bf fb d3 9f e2 f0 f4 1c ff c7 5f fe 1d 3e bd ff 0 eb 86 95 0 42 1 40 c8 6f f6 43 67 c 76 e6 33 5c 39 d8 cf 99 dc f3 a9 36 14 76 b8 22 a1 99 4e eb cd 91 b8 51 a8 1e ce f7 97 15 80 3e fb 97 cb e2 fc f8 86 51 23 80 14 99 7f 36 13 1a 64 e9 32 a a8 43 27 c0 61 96 2d 79 35 b0 1f 4 58 c9 66 40 e3 92 7f 9e 75 2f ce bd d3 1c 7f 3e 2f 77 e3 c6 ba e1 f4 4 24 4d 38 94 b6 c8 e3 ed 85 ba e8 f6 2f 67 f0 91 ff 1d bc 3 80 e5 ba 41 d3 75 e8 6c 6c c6 13 c 2 f2 40 30 95 de 8 4a a1 ae c 6e ec ef 41 4 38 3a 5f a2 e9 42 a0 d6 4a a1 b1 e ad 75 71 73 a2 29 ce fa fd 16 c7 c5 50 19 48 55 22 a5 14 ac 73 a8 8d c1 c1 ee e 94 8 96 eb 16 e7 8b 25 8d 2 9 5 0 21 4f 8b b3 e 4d db e2 fc 62 81 e3 d3 b3 67 da 78 35 2e 39 77 9d c5 83 47 47 68 da e eb 75 13 fe c3 ed 2f f7 3 d8 68 c8 cb 62 a0 8 fe 13 c1 5e a6 82 7e 21 5 ca 46 c0 8d 9d 3 e5 e3 a4 72 bf d1 83 e5 3e 71 42 1f b1 91 60 a3 91 b1 2c e5 27 a7 c2 f2 62 fa cc 1b 79 c4 af 4b 9d fd c9 5f 3f 9e ed 97 c1 bf 7c 6b c6 23 93 e5 35 8b 92 d1 71 84 8e 55 80 f0 75 ce 65 e9 13 1f 5f 41 c4 e6 80 db d9 7e db 9f 2e 44 44 69 cc 27 82 ec 84 a8 b5 82 28 85 9f 7e ef 2d fc d7 3f fd 11 56 4d 8b ff eb 6f 7e 89 f be 7a 14 8f 19 4 ff f0 e9 57 a8 b5 46 63 dd 86 c7 82 f7 32 30 51 52 a2 e2 94 81 c2 df bc f7 31 da ce 2 1e b8 f7 e0 8 df 7b f3 e 7e f8 ed 37 50 57 6 9f 7e f5 8 3f ff e7 4f 70 be 5c f3 97 99 50 0 10 f2 34 34 4d 83 b3 f3 b 34 6d 8b d3 b3 73 34 cf a8 c9 6a aa 7b dc 3a 87 87 87 c7 38 39 3b f 82 c0 ba 27 7b ac 41 f c0 70 17 c0 e3 7a 0 b6 35 b1 f7 f9 7f 11 cc 26 c6 dd d4 68 cb 9f 52 aa f ca ce a7 f8 5f 3c 67 19 5 f6 4d 8b db f4 f9 de c9 cf c3 ba 30 c7 9f 7d fe 93 53 ce 28 d8 f 2a 0 aa b4 28 76 fd f3 2d ec 8b c7 95 8a e1 4c 7f 51 89 f0 1e 5d 87 c1 c fe b8 c9 af 14 10 e5 31 40 ba 6 15 37 8 de b9 7e 15 6d 67 b1 33 ab 83 fd 6f 7c c5 db ce a2 e9 ec a0 b7 62 28 2 e2 e3 14 e3 93 0 d0 76 16 7f f9 8b 5f a3 69 5a 18 ad f1 dd bb b7 f1 ce b7 6e e1 fa fe 1e 6a 63 f0 ab 4f be 0 40 1 40 28 0 8 79 62 bc f7 58 35 d ba a3 63 28 a5 72 e6 f9 2c 19 7 d5 75 d3 84 e6 af 38 53 2f 50 9b d 5d 83 91 3f 19 7c 18 34 fe 4d cc f9 3d 55 5f 80 f4 d6 c3 fd f7 2d 2 5b 3c f d7 85 eb 9f a8 e8 d2 e7 7c e1 6a e7 27 b3 fa b4 5d 50 e5 1b 87 d7 d5 bb e1 b9 1c 78 53 e9 3f 7 61 95 ae c9 17 ed 8b 32 da 39 b0 dd 5b a1 dc 99 30 fd f9 68 39 ec 83 85 6f d7 d9 7c 5c 93 fa d 92 0 8 2 68 d4 14 9 e4 33 7f 81 e0 57 9f 7d 85 2b 3f fb 25 b4 56 b8 77 78 3a 10 59 fd 2a 82 f1 b5 2a 28 85 38 1 90 7a 29 5c f6 2b b8 79 f5 0 4a 80 f 3e bf 8f b6 eb b0 6e 5b 2c d7 d 2a ad 71 b1 5c c3 5a cb 7d 41 84 2 80 90 6f 42 67 2d 60 9f 5d e7 ff 65 b3 e3 29 d0 d6 55 85 83 fd 3d 68 a5 b0 5c af b1 6e da 10 f4 64 aa ac 3f ce fe 87 c3 74 97 1f 3 6c 92 32 4b 37 ca b0 f3 fd 4a fb 5f 9d 3a db 55 9e f7 f 4d 92 e 82 94 31 c7 8e 75 a5 20 85 97 7d 8a f0 d9 d4 27 76 c3 97 3a 27 7f 99 f3 70 d6 85 3f ce c1 79 17 be 36 de d9 8d ec 72 b 29 10 af b7 98 e9 97 e1 22 a3 52 70 e4 a3 8a fc bc c2 11 42 16 7e 22 70 36 b8 f1 9 62 89 5f 27 11 a4 7 7d 0 c3 a3 a2 f0 f7 f3 75 83 7f ff 8f 1f 40 0 74 6e d3 11 30 5d 67 f9 33 12 ce fa 25 b 80 52 a0 a4 23 89 4a 6b 78 78 34 9d c5 bd 7 47 98 55 15 bc f7 f8 e8 de d7 58 ae 5b 2e d 22 14 0 84 bc 4c 6c 3b 5b 57 4a b0 b7 3b c7 f5 2b 7 a8 aa a e7 8b 5 e 8f 4f b0 6e fc 70 d5 6f 51 a6 2e b3 ff b2 f4 2f 32 5d 2 b8 2c f8 bf 75 f7 e 2a 63 70 ff e1 21 2e 16 cb a2 2 10 3 aa 8a 66 38 6a 58 92 e eb 76 1d ac 8 da b6 43 a3 5b 68 a3 21 ca 41 79 5 e5 1c dc c4 f3 1e 74 eb 4b bf 82 38 7c 74 c3 aa 41 c fe 39 b8 c6 36 83 32 eb e af 4b 31 de a7 14 94 2f 82 38 c6 6b 8b d5 c6 6b 60 72 53 60 7f 1c a1 75 f0 34 b0 59 24 c5 a9 80 7c 4 a0 27 d 85 c6 62 c0 79 bf 35 16 6f 34 32 2a 15 b6 33 7a 89 19 ff b8 7a 1 dc 7b 74 2 eb 2c ac b f7 fb e4 fe 23 7c f6 f5 23 78 84 25 44 9b 62 84 10 a 0 42 5e 58 d0 9f ba 3d 1b 2 89 60 67 3e c7 6c 56 43 2b d a3 cd e5 8e 73 5b 8e 0 ca 45 40 22 4f 74 71 d0 5a 63 77 67 8e 83 bd 3d 34 4d 8b e5 6a 3d 38 9f ef 47 d1 fa 91 b6 32 50 26 67 be b6 ed 20 aa c1 5c ea 30 b3 ae 1c 5c f9 1c 63 e0 1d 74 da 17 35 80 de 30 a7 70 dd 53 7d 13 5c dc 4 50 8 80 b2 27 60 58 c6 9f d7 6 7b 75 d 25 c0 e9 62 8d 65 d3 e cf e6 95 e4 8f c3 6d 86 12 1f d2 d c4 19 a0 e0 9d c7 ad 2b bb d8 df 99 e3 6c b5 c6 f9 ba 1d bc 26 7d 2f c0 d0 f5 6f 6c f3 5b 5e f6 38 49 4f c6 4a c9 85 a1 3c 89 29 45 80 8b 7d 12 65 55 c0 32 f0 13 a 0 42 5e 76 21 b0 e9 ff ef 3c d0 34 61 f2 0 0 96 ab 75 3e 7b be fc 41 a7 32 7b d9 d8 8 58 e4 9b 93 29 e8 d1 f1 69 c8 e0 63 c3 e3 a0 2 20 85 ed 50 5a d9 2b c3 c 36 fb f3 c7 d5 bc 4a d9 51 d7 bd 46 3a 3f 4f 99 6d 79 75 e5 4c bd 52 c3 71 3d a5 42 4f 84 ea 93 f9 5c fe 77 a3 a3 80 14 fb 6a 6d f0 c6 f5 2b a8 b4 86 f3 47 58 b5 76 58 1d c8 9d fa 3a 2f 33 4a e 86 61 d4 50 6 1b fc 94 52 30 46 e1 df fe cb 9f e0 7b 6f de c6 df fd fa 53 fc c5 3f 7d 8c c6 ba dc ed 9f c 7f 36 a7 46 86 b 8c 9c f3 c5 ea 62 a0 9c 64 48 8d 7f fd 86 43 c 5 3 a d7 c7 c9 6a 2 83 3f a1 0 20 e4 a5 cd fe b3 2d 6d ca 48 a3 c3 db a3 a3 63 9c 9e 5f 40 6b 9d bd ed e5 49 d2 f8 b2 5f 6f 2a e6 f 7c 7e 6 a6 ff 0 c2 24 c2 f1 e9 19 4e ce ce 61 9d db 12 5b 3c 86 26 c3 c3 96 79 8f a1 4f bf 75 e 62 ed 60 2e 3e dd 57 29 89 79 7f ff ef 81 c7 7e 39 e 17 b3 74 ed 15 dc e0 6a 6c 6f dc 53 ec 4 48 ff 6b ba e ab b6 45 67 1d 9a ce e 45 85 d6 d9 d8 c7 54 55 76 2f 34 26 5c e3 86 e9 53 f1 5e d9 34 a3 1f 2b 9 5a 23 34 e8 8d 37 20 26 65 84 e1 7b e3 e2 f5 ba f8 3a 85 7e 89 61 45 48 29 81 73 52 ac 42 e af 95 12 81 57 2a 7b 13 94 95 8f b2 af 80 22 80 50 0 10 f2 92 a 82 94 51 d6 75 85 9b d7 af c1 7b e0 d1 d1 71 8 2e 4d b a5 ba 62 61 8e c 46 e9 1e ab 2 c6 ce fa 93 db 80 87 de fb 1e 1e 6d c d6 e3 47 18 94 1 d0 3b d2 8d cf a4 53 d4 b a5 68 7 71 e ce a ac c4 e0 1b cf e7 53 30 4c cd 76 65 86 9d 32 d8 81 dd 71 34 dc 11 17 4d 70 b2 45 ef f0 5a 7d d9 13 e0 81 c6 5a 7c f1 f0 4 0 a2 d1 4e 61 0 14 a7 18 c2 ee 82 2a 1b 30 85 c6 3b c4 d9 ff 7e 9 8f a8 f0 5d 1c 80 ff f3 67 bf c2 d5 bd 8f d0 39 8f d6 b9 62 bf 81 ca 26 3d 97 89 be 72 1 90 73 16 6d 67 21 d6 f5 47 3a 1b 63 93 80 d1 a 57 76 f6 f0 d6 ad 6b f0 de e3 c3 2f be c6 d7 c7 a7 b1 bf c1 c1 39 19 8c 22 52 4 10 a 0 42 5e 2 b6 5 4 a5 14 f6 76 77 f1 c6 ad 5b d0 5a e1 f4 fc 2 6d d7 6d f8 e1 cb 28 80 c bd 0 65 23 c3 94 6d 8b 0 37 63 ff 50 6 94 1d f9 52 ac 10 1e 54 2b 46 16 b7 e5 4c 3d 92 99 8e 83 16 c1 8e d1 10 a5 d0 39 87 ae b3 61 7c 50 ab ec d9 bf b1 ec 28 8e 12 3a 87 5e 6c 64 c1 a4 20 e2 73 bf 60 b9 53 6f 23 ce f9 fe 39 35 9d 2d ba fc 65 e0 fe 97 d6 17 d7 71 7d b1 31 26 4 70 e7 d1 75 fd 73 19 2c f3 1 d0 79 8f a3 c5 3a 1a 21 19 a8 e8 f6 97 9e cf a0 4e 22 d3 3d 19 29 b3 ef 3a 81 73 1e 9d 94 af 61 5f ae f1 b1 7 e0 60 77 8e 3f 79 f7 6d fc de db 77 31 37 6 ef 7f fa 25 fe d7 ff f7 6f 70 dc 75 5b b7 1a 12 42 1 40 c8 4b 5b 5 0 2a 63 b0 bb bb 3 e4 5d f4 e3 79 f6 cd 4c 5b 64 98 1d 8f 53 7c 3f ae 15 6c 4 83 cd 2d 7f 83 e0 39 2a 2d a7 6c 3f 95 c0 b5 52 85 b 5e 38 f7 1e b 8f 1b fb 3b f8 c9 77 de c4 62 dd e2 1f 3f bf f 38 f 6b 2d ac 8d c2 1 2a 8b a0 60 2c 14 1e df c5 73 71 57 1e 78 a3 f7 25 10 ef e1 50 58 f6 a6 30 39 28 ff 6f 3e af de 18 48 6 c1 bf aa 2a 54 55 15 4 40 6c 0 2c cb eb de 7b 58 ab 6 fd 9 f9 fd 53 fd 6b 92 bc 10 fa 65 4d 53 eb 9b fb 6b 83 f af 47 e8 17 f0 68 f3 72 a1 a2 71 b0 10 33 fb f3 19 7e f2 bd b7 70 eb ea 1 16 cb 35 6e 5d 3b c0 95 bd 39 8e cf 2f 6 55 25 6 7f 42 1 40 c8 4b 16 ec a7 70 ce 63 b5 5e e3 e4 f4 c 6d db a2 b3 5d d1 e9 ad 6 1e f6 65 36 5c a 81 71 46 9f 6d 6c f3 cd fe 71 17 b7 b5 6a 51 56 1d 94 6c 96 fe f3 f9 bc 56 1b 7 a e9 8a 2b ad f1 ed eb 57 b0 bf 3b c3 f9 ba c5 d1 b2 81 77 c3 e 78 a5 15 4c 74 d3 13 e7 1 38 a8 54 c6 de 92 e1 a7 66 43 67 5d 5e c e4 7c 72 20 2c 96 25 a1 cf fe 7b f 3 1d 32 ff ba 46 5d f7 2 40 c7 a9 6 a5 7c bf 5e d8 23 3b 1d 96 8e 83 28 3 7d 39 1e 89 68 11 ac 83 98 4b 9f 43 1e 97 4c 53 c 3e 1f 7 68 ed f2 df 7 be 6 c5 df d7 6d 87 d3 8b 25 bc f3 78 70 74 8a 47 a7 e7 b0 76 78 e6 5f 7e 64 25 80 50 0 10 f2 12 b 2 ef 3d ce 2e 16 f8 e8 d3 cf 1 11 58 eb e3 59 f9 30 78 c9 c8 c4 e6 32 51 b1 99 c5 6f b9 86 22 88 6d 7b 3c 1f e7 d0 f3 fc bc a4 26 b7 fe ec 3d 35 f7 a9 22 43 b6 d6 e1 e1 e9 5 fe e3 fb 1f e3 60 67 8e 77 bf 7d 7 b7 ae ed e3 de d1 29 4e d7 6d ef dd a7 92 6d 6f 30 16 2a 8d 7b bc f6 b0 4a 85 60 1f 9b ee fa 8e f8 b4 d d0 c5 aa 42 da 11 e0 8a c5 4a a 4e f9 b8 d2 b8 9f fb d7 5a a3 32 6 75 5d 61 36 ab 31 9b d5 a8 2a 13 66 f9 cb a0 59 bc 36 1e 3e 56 3c 8a 75 c1 e8 97 18 8d ab 1 3f ba 7b b d7 f6 77 f1 c1 fd 43 5c 34 5d 16 4d 79 b1 91 f7 70 d6 22 ed 1b b0 36 6c 51 94 78 c6 e0 9c 87 8d 93 14 a9 d2 71 78 76 81 bf fc 87 5f e3 8d eb 57 0 0 5f 3e 3a c6 f1 c5 62 32 f8 97 9e 2 84 50 0 10 f2 92 64 ff 53 81 76 dd b6 43 4f 7a e9 83 ee 30 64 97 c1 7f 98 73 f e3 fe 13 28 0 c fb 1 d3 f9 78 69 b7 5b a 8a be ac ae 8a 3e 0 c9 e6 39 5a 87 ac d7 28 85 ae eb b0 6e 3a 34 8b 15 ac f3 38 5d ac a0 b5 c6 f9 aa cd 5e 2 e5 cc bd 2a 9e bb 43 8 da a1 e1 af 10 15 ae 5f 5 5c da 3 5b eb d0 75 71 53 a0 2f af 11 31 f8 f af 5b 1b 8d aa 36 a8 63 f0 9f d5 75 c8 fe b5 ca d 8c ce 7b 88 b5 b9 d2 80 98 d5 27 cf ff fc 35 e5 c6 c6 f8 3c b4 52 f8 17 ff f9 ef e3 7 6f bf 89 83 ff f8 f f8 4f 9f 7e 9 48 38 1e f0 b1 6a d1 75 36 f6 7a b4 59 30 99 68 ab dc b6 32 10 36 36 3a 20 b6 d6 e2 9f 3e fd a 9f de 7f 84 bd f9 c bb f3 1a 77 ae 1d e0 d3 fb d 7c 6e f8 4b db f 11 85 1b 45 0 a1 0 20 e4 85 4 fb a9 cf 6f 9e b f 3f 97 bb de 47 4e 7e bd 2e 28 cb ff 97 7f bf 6d 32 60 b8 85 2f 64 cb f3 d9 c 75 65 60 ad c3 ba 69 d0 76 b6 8 1f c3 3d f7 3a 96 d0 c3 f9 b9 41 5d 55 30 c6 60 6f 5e e1 db 37 ae 62 dd 34 78 ff 8b 7 a1 b9 cd 7b 7c fa e8 4 f 2e 96 f0 4a 41 62 6 5e 19 93 fb 8 94 2a fa 8 62 13 62 7a ae 92 3c f0 c5 c2 f9 d2 48 a7 9f a7 1f 8c c9 65 a7 3e c 66 f8 53 15 a0 32 6 b3 59 cc fe eb a 75 9c 0 48 c7 18 ce c5 35 bb de 43 69 f ed 82 65 b0 d1 3a db 4 a7 9e 83 f2 48 a6 ec 8f 70 5e e0 45 61 77 77 7 7b 7b bb f0 92 fa 1b 1c 6c 67 d1 b6 1d 54 db 37 4f 5a e7 72 3 62 da 37 e0 9c 1d ac 41 b6 d6 a1 f3 1e df fb d6 4d fc f4 dd ef e0 7b 77 6f e3 d3 af 1e e0 7f fc 77 7f 9e 47 45 45 7c 11 f8 19 fc 9 5 0 21 2f 34 f0 6f 5b 46 53 66 fc e3 f5 be e3 70 2d b2 25 78 5f 26 2 1e 53 4 e8 b3 ff 38 8e 58 55 d8 df dd c9 d9 bf 75 eb b8 83 0 c3 0 57 9e 9f cf 42 0 4d 2 e0 fa fe 2e be 7f f7 36 ce 2e 96 f8 e8 fe 51 30 ee 51 a 6b eb e0 5b 8b d9 4c 63 66 4c cc b8 75 ee 9e 4f 5d f9 1e 1e e2 65 60 53 90 b7 ee 19 13 ce c7 93 48 70 63 95 54 ae 0 76 bd 89 8f 20 4f 35 28 a5 a2 68 a9 87 cd 7f 26 78 2 0 c9 c0 7 f0 ca 43 79 1f ab 1a e1 39 87 97 b5 78 61 8b 51 c6 34 11 61 b4 c2 47 9f dc c7 e2 62 8d af 2f 56 98 cd ea 70 8f d8 e0 68 95 ed 9b 11 93 e3 9f f7 58 cd 62 25 a2 d1 b1 5a 80 bc 0 29 9d e3 2b 11 cc 67 35 de b9 73 13 ef dc be 89 f3 8b 25 e6 75 35 d8 54 59 a 1f 9e ff 13 a 0 42 5e a0 28 18 cf b9 f7 8b 68 8a e6 b1 b2 e9 ef 32 41 50 8c c6 6d 2e 7 ba bc 1a 30 ab 83 35 6f d3 b6 d9 27 3e dd cb 7b 8f a6 6d d1 b4 26 7 aa d4 a4 96 ff 37 19 fc eb 90 4d d7 c1 ba d8 89 e0 74 b9 c6 e9 62 5 a5 75 c8 a2 63 93 60 e8 ba f 42 21 cd cd 9b 42 4 e4 6d 7a e5 f4 43 ea 3d d0 a c6 29 78 1f ce c9 d3 7e 26 6d 5d 8 bc 2e 65 fd e9 8c 5e e5 89 0 14 ab 75 b5 d1 a1 e9 cf c4 8e ff 28 3c 54 51 de b7 56 62 23 9e e 1 54 6b cc aa a 7 7b bb b0 d6 e1 62 bd 1a 8a ba 74 c 62 34 6a 63 30 ab 2b ac bc c7 c3 8b 15 5a ef 61 b4 86 4f db 5 9d 1f f4 15 a4 c7 f0 0 e6 eb 6 b3 59 8d b6 ed 50 b5 1d 3a d3 c5 de 86 e1 fb 78 7c b6 c0 e1 d9 39 8c 56 f8 fc c1 61 e1 81 30 b6 1a 66 f0 27 14 0 84 bc d0 e0 3f ce f6 55 3c f ce 9d ea 45 97 f8 f8 58 60 23 bb 2d b2 fe a9 1 80 6d 12 40 6b 85 dd 9d 39 ea aa c2 e9 f9 39 56 eb 6 c5 a0 7f c8 40 d7 d 9a b6 b 25 6c e7 ca 51 fa 9c ad 26 1 60 52 f9 bf ee 83 ba 88 60 d9 59 fc fa ab 43 34 4d 13 9a ea bc 87 12 9 3d 2 69 6b 9e 8e a3 83 d1 79 4f 1b 5d 3c 37 81 f2 80 f2 a1 e9 ce 16 9e 3 69 21 8f 88 cd af 93 73 1e 95 73 71 6d af 8f 5d fc 82 ce 76 e8 ac cb 1b 7 5 f1 da 6b 93 4d 7f 42 d3 61 b1 5c 29 bd 3f 0 b4 d7 70 ce 43 47 c1 21 5a 85 c7 51 52 2c fe e9 45 5d da a b8 3b 9f 63 7f 67 7 ce 3 67 8b 25 a0 0 14 4d 92 4e 79 d8 f8 5e 97 8d 90 10 60 3e 9f 61 36 9b a1 6d 3b d8 ae 3c ff f7 83 8c fe e8 7c 81 5f 7d 7c f f7 f6 8e 71 ef e1 11 d6 31 fb f7 9e c1 9f 50 0 10 f2 d2 88 80 f4 c7 c4 33 ef aa aa 0 0 5d d7 c5 26 32 d9 de 17 30 10 5 7d 5 60 90 f5 8b 5c 1a fd d3 4d 3a 76 98 fb d1 36 ba f2 38 c1 c7 b9 f4 d2 f8 26 65 d5 29 0 a7 c6 3d 63 4c fe 93 ca f7 3a 36 b9 b5 d6 a1 f3 80 36 3a 4 73 25 83 19 fb 7e 1c f 79 89 ce a0 17 22 5a fe fa 18 54 8d 73 80 d7 3 e7 e2 a1 50 12 54 26 34 ec cd 67 35 2a 63 b0 58 ae 70 be 58 e6 e3 c 11 5 53 69 cc ea 1a 75 5d 87 6b 2b 2a c a5 60 d3 4a c1 6b f ef 74 ac 8e 68 88 c4 46 4d 25 e1 28 40 a 63 21 e9 a7 18 a0 42 13 a3 75 e d6 bb 28 76 74 df 34 e9 91 9f 6f 72 2b 4c fd 9 f3 d9 c f3 f9 c 5d db e5 d5 c7 c9 8e 38 78 5 84 6b 5c 77 16 7f f7 cf 9f 43 8b 60 b5 5e a3 cd eb aa 19 fc 9 5 0 21 2f 95 0 d0 b1 84 7c ed ea 15 dc bc 76 15 6d 67 f1 e5 83 87 68 62 e7 7f 5f ee c6 86 0 90 7e fe 6f 60 f3 37 5a 27 34 b1 c 68 78 83 75 e cb d5 a 0 d0 c6 ef 9b 49 23 6f 31 f8 c5 50 92 33 67 15 2d 73 cb a0 9f 3a d6 b5 28 cc 8c c6 ed ab 7b 78 f7 ee 2d 38 ef f1 cb cf ee e3 e1 e9 45 fe b5 55 5a 85 86 bf e8 a 18 9e 8b 2f 9d 85 fb c6 46 1f ce d4 a1 10 84 46 e 68 92 33 dc 70 9d 1e ce f8 28 2a 34 9c b5 50 22 d8 df d9 81 d1 21 7b 6f da e 6d 67 1 84 73 fc 3a 9e f9 a7 91 bf f2 cf b8 17 c3 44 71 90 ac 89 cb 69 84 2c c8 ca de 82 78 cc e1 bd c7 ba 6b 87 2e 89 79 7c 32 3c 2f 51 e1 ce de b9 d8 a7 11 be 57 5d 57 98 cf 66 68 9b e 5d d7 a1 6d 3b d4 75 7 ef 5d ac 76 38 ec ce e7 51 e0 2c 71 7a 7e 91 b3 ff a1 88 41 76 3e ec 85 1 7f 1f 9 5 0 21 bf d5 cc 3f ef a6 d7 1a b3 59 8d 83 fd 7d 34 6d b 73 a4 61 63 99 7d 32 f0 17 1f c7 7f 8a 6f b4 51 4 c0 16 41 60 ad c5 da b9 68 6e e3 7 2b 6b d3 fd 8d 56 d8 df 99 43 2b 85 65 d3 60 d5 76 a1 74 ae 74 b1 28 c7 44 53 1c 9d 7b 16 e6 95 c1 5b 37 ae e2 8f 7f f0 16 8c 56 68 3a 8b 93 c5 1a 4a f9 5c 32 4f 4d 76 79 d6 3f 66 ce 22 23 d7 43 df ef 1 48 42 24 b 1d 1f 3c 12 f2 f2 1f 0 ae 72 50 ba 85 ed 6c 2e f7 b7 d6 c2 c1 43 1b 1d dc 8d 3d e2 d1 45 8 fe 55 ee 45 e8 b7 ff a5 4d 7e 29 b8 2b 20 76 f3 87 e3 85 ab bb 33 28 11 9c ad 9b d0 3f 51 f4 29 a6 c9 3 55 ec 3 90 3c d9 80 81 cd 71 b2 48 f2 da c3 c4 e3 5 a5 4 9d 48 18 4d ac 2b cc 66 15 9a a6 42 55 b5 a8 6a 13 df 2f 5 ef 1d e6 f3 19 e6 b3 19 44 80 55 d3 c0 39 b ef d3 e6 c5 b4 65 d1 67 9b e1 34 1d 51 36 12 12 42 1 40 c8 33 c f8 db fe 5e 1a fe 84 d9 f1 f0 1f 65 29 66 fc 47 a6 bc a3 6 bf a9 25 bf c3 af 9b ca f8 37 35 81 f4 9b e9 b6 4c 2c 68 a5 30 af 2b d4 26 88 93 75 67 b3 d1 4f ef a3 1f 45 4d e1 5b af 95 60 77 56 61 b7 ae b0 3b 9f e1 e6 c1 5e 58 a9 6b 63 7 7d a fe aa 77 12 cc 7d 10 45 80 4c 5b f4 5c cc 8a 95 12 28 af a0 94 cb 4d 76 ca a9 c1 ca 5f a7 14 6c 6c 68 b4 9d 45 63 6d 74 da 43 5e ca 83 78 fe af 75 bf 87 a0 5c dc 93 ca f3 3 87 43 8 bc 78 68 4 51 70 75 77 e a5 4 ab ce a2 15 97 5f e3 52 0 e8 bc a 58 46 e 8e fd db 33 38 56 d1 a9 1a 82 d8 bf b0 59 95 8 b7 a5 95 c0 2a ba 22 ba dc 90 69 8c 86 73 6 22 36 37 46 26 e3 a0 f4 76 3 2e 8f 16 12 42 1 40 c8 6f 19 ef 3d 9a a6 d cb 7e da 2e ac db c5 e6 51 fe 60 ba f d8 2a 2 9e 52 a2 6c 6d e ec 3 70 38 26 8 25 73 a0 2b 44 4a 6f 80 a3 46 e5 ef e4 c1 1f 2 e1 ba b3 70 ab 35 d6 9d 85 d6 a 5e 7a f3 9c 34 df 3e b0 14 4e 35 8d 9c d1 b c4 97 d7 dc bb f 6a e5 1 8d e8 12 e8 f3 14 83 75 2e 9c d9 2b 5 e8 e0 e 68 a5 f b0 e9 e1 94 1e 2e 30 d2 5a f7 e6 45 85 10 c8 8e 7d 10 78 17 be 57 d9 a0 59 19 d 67 25 57 29 a6 76 e c 4b 2b 13 b3 98 3 1b 65 40 b4 86 6 e0 2a 83 b3 28 b0 ca ea 44 ca e2 53 2f 40 17 fb 34 2a a3 e1 7d ea 29 91 51 5 c0 41 c4 65 61 90 8e 11 28 2 8 5 0 21 cf 21 fb 1f 84 ae d1 14 80 f3 1e e7 8b 25 16 eb 75 de 5b 2f c3 95 7f 5b ad 79 c7 fe ff 9b 42 41 b6 6a 4 89 1d f8 a2 24 3b e7 6d 13 9 ce 7b 2c d6 d 54 a7 d0 59 97 83 63 79 ee df 9b f6 f4 15 87 a6 b b6 bf ef 7f f1 35 0 e0 cb a3 33 68 6d a0 4d 9a 8d 2f b2 e0 34 d3 af 74 dc fc 17 cb fc 2e cc dd 97 c6 ff 22 2 2d 2a 4 7e 60 b0 65 2f c5 b1 b0 aa 37 9c d1 5b ab 61 6d 7 df 86 a9 7 f 3 25 e 1e 1e c6 4 e7 bf fe 8 c0 a0 32 3a fb 11 e8 a2 2 a0 54 29 0 c2 63 37 1e 30 1e a8 ea a ae b3 7d 20 4d ab 87 d3 96 c6 c1 a6 3f 3f 58 1e 84 a2 d7 23 af 3d 16 f 5 e0 f7 de bc 85 99 56 f8 b3 9f fd 12 8b e8 9a 58 d7 55 6e c8 d4 5a 85 d1 4c 17 1a c a1 80 d9 bc 86 36 41 cc 74 5d e8 1b 48 42 c1 da 60 36 14 6e 17 88 58 74 1d b2 98 20 84 2 80 90 67 2c 6 ca ae f2 72 4d 2e 20 e8 ac b 73 e0 c5 62 9a 3e 32 6e 69 e8 1b f8 ee 8f aa 1 e3 72 c1 4 3b f3 19 ae 5f 3d 80 f7 c0 f1 e9 19 56 4d 3b 8 b0 83 cd c2 22 31 f3 c7 c0 f4 c7 18 3d 10 0 65 86 e 9 65 f1 4f 1f 9d e2 e1 f9 12 10 c1 ba 73 90 58 fa cf c1 34 6e b9 13 d5 8b 82 3c bf ee 3c a0 42 96 9a 9f 7c 5a 98 23 7d 23 5e ee 5f 28 d7 13 db 50 46 6f 5b 85 b6 d 8b 94 5c 12 15 22 70 f1 35 32 55 38 5f bf b2 33 c7 f5 83 5d 9c 77 36 58 2 a7 e7 a5 f5 c6 ae 85 fc 2c 95 a0 3 60 c3 b9 2 8c 91 8d 99 fb b4 b6 2f 2d f3 9 f 91 5c f9 c6 52 2b 56 25 a2 a0 d9 31 1a df ff e1 f7 71 65 7f 7 7f fd ab f f1 f0 f8 b4 30 2d ea 1b 29 9d b 8b 8f 24 9e f7 97 47 5 5d a7 61 ad c9 67 ff d6 5a 68 ad d1 b6 a9 72 13 2c 87 db 96 bd 0 84 2 80 90 67 9a fd 4f 39 fc 95 7f ca b9 f1 71 e7 3f 36 b2 f8 42 4 8c 7a 1 a6 bb 6 a6 33 fa 94 bd ce ea 3a 64 c9 12 ac 6e fd f8 fb e6 70 2e 83 79 7f 63 34 b4 31 30 a6 ea 3b e5 d3 32 1c f8 dc bd e 0 6b eb 60 d7 5d 16 3d 55 6c 18 ec 47 f 43 70 57 4a c2 1a e0 7e 27 2e 6 db b ca 9 48 84 59 79 7 19 78 f0 97 af 79 bf 3b a1 7f e6 7d c3 5b 1a d1 53 30 95 c1 ac aa f0 e3 b7 ef e0 fb 6f de c1 cf 3e fc 1c 17 9d cb 8d 8d c9 8b 20 2d 61 ea 97 e9 f4 62 23 bf f e2 fa 63 8b bc 82 18 b1 f7 20 96 eb 1d a0 b5 ef 57 36 6f fe f0 f4 15 4 0 f cf 17 58 d9 ae b7 f4 4d c6 4b c6 4 11 64 e3 8e 6 6b 7 d 7e 5d d7 86 31 4b a3 f3 8 67 b0 d ee 36 7e f6 d2 14 5 45 0 a1 0 20 e4 39 5 7f 19 ec 87 57 83 8c 7f 30 cd 37 7a 9c a1 20 c0 e4 54 40 ff 61 5b f8 1f 1e 13 2c 57 d e 8f 4f a1 44 d0 74 dd 16 c1 30 bc a5 b7 fb d 6 3f a6 32 30 95 86 56 3a 7 d4 70 2e af fa 2c 54 54 6f f0 93 6e 2f d6 e7 a6 89 b7 7c 7c 0 e9 cf c9 5 48 87 ff 69 f4 70 77 66 f0 ed ab 7 70 de e3 b3 a3 53 ac 3a b a5 ca b5 c0 fd 6b 62 cc 70 72 a0 3c ea 10 1d 82 63 a8 0 18 1c ec ee e0 f6 d5 3 cc 67 35 d6 be cd 8d 81 5a 6b 18 25 d8 ab 2b 1c cc 2b ac 3a 8b e3 c5 1a b6 b0 e0 5 c2 74 80 28 95 1b 2a f3 ea 5e e7 e1 c4 67 43 a2 cd 58 5f ac e7 2d fe e6 bd c7 62 dd e2 1f ff f1 3d 18 78 9c ae c2 62 1f a5 a3 e8 41 9c 46 30 26 6f 3a f4 de e5 fd 7 4d 13 5e ef 7e 71 90 45 67 2d 54 37 6e 40 c5 a0 3a 90 d6 8 13 42 1 40 c8 37 8 fc db fe 3d f8 83 ed bb 0 86 9b fd 26 1e af 14 4 93 22 60 2a 9a fb c1 27 9c 73 38 39 3b 9f ec 31 98 d2 1 49 ac a4 b2 7f 1e 9d ab aa 3c d7 5e 99 5e 1c a4 f9 fe 34 4a 97 ba e1 e7 75 30 fe 11 11 7c fb da 3e 4 c0 67 47 a7 68 9d 2f c6 1b 87 47 18 be a8 a ec d5 15 7e fc e3 1f a0 36 1a ee ef df 8b f7 75 d9 da b7 bf 77 98 d9 33 26 98 f3 38 ef d1 59 d 6d 5d 7e 2e e1 fa d 74 65 f0 d9 d1 29 44 6b ac 3a 57 6c 23 ec 27 1 6a a3 71 65 67 6 dd b4 38 5d 36 b0 49 58 14 15 18 55 bc 87 21 e0 3a 38 89 99 fb e8 88 a2 b4 73 96 d1 fb e4 e3 9a 63 6b 2d e 9b 6 ab d5 1a 8d 75 79 a3 a0 56 6a f0 f3 93 9d fe 10 36 22 86 32 bf c4 d 82 2d da 56 36 27 2a 9c 87 31 be 8 fe 61 13 a1 b5 8e bf cc 84 2 80 90 6f 9a f5 6f b fa b9 2c 8d f1 3e 0 19 9e e9 8f 32 f9 74 44 d0 67 c2 5b 44 0 64 b2 62 b0 21 5 fc 96 a9 82 d1 75 f c 6 8a e7 90 46 e7 f6 76 e6 98 cf 6b 58 1f 4c 6c 8c e e7 e6 f9 63 65 f2 79 bf 88 a0 36 1a 3f ba 7b b 55 65 70 b1 6e f1 27 7f f4 2e b4 8 fc 7f fa 27 7c f2 e8 34 e7 ef d2 f 1 e4 8b 4b d9 f3 3a 6e 22 bc 7b f3 3a fe f8 fb 6f a1 fe f4 4b dc 3b 39 c7 79 d3 c0 e7 45 77 fd 40 a4 52 2 8d 30 32 17 3a e7 43 d0 d3 5a f 9a fd 8e 57 d 96 5f 1f e f6 11 84 d 7f 2 2f c0 da 5a 1c 2d 56 68 e2 f7 df dc 9a 18 82 f3 ac aa a0 44 61 d9 ac e1 5c 9b f7 17 a4 8d 7c a5 b7 c1 60 bd 73 7e 9e fd c 81 f3 d1 39 30 4d 86 28 89 9e 2 ae a8 1c d c7 49 bd 77 b9 f3 5f a d3 a1 b6 ed 72 33 a3 f3 3e b8 28 22 35 6 6 1 a0 75 8b b6 e5 ef 33 a1 0 20 e4 89 3 ff 93 a 80 a9 fb 97 59 60 19 e8 c7 5f 9e 96 d4 74 2e 64 6a c5 4a bc cd 9d 3f 1e f0 f2 b8 15 40 83 b 99 bc e6 cd 6c b5 57 4 4a 2b bc 73 fb 3a 6e 5d 3b c0 e7 87 a7 58 db 38 83 ae a2 a7 7f cc fc 73 83 a0 84 e7 70 65 6f 7 95 d1 d8 99 55 b8 fd e6 1d 8 80 83 f7 3f 86 3e 3e 47 6c 9a cf 2f 86 14 19 31 24 64 f8 17 eb 16 9f 7e f8 19 66 4d 8b 79 5d e1 bb b7 af 63 d9 b6 b8 68 da 8d 7a 47 ca 78 7d ec 96 37 c6 e4 60 db 5f 9f e9 cf c3 8b 71 c0 64 4c 94 2 f4 da 3a b4 cb 26 6f 1d dc 78 83 52 73 9e a9 c2 b1 4a 1b ce e0 9d 1f 9a 3f 49 fc ba 32 80 e7 f5 c6 52 fc c 15 d5 8f 24 7e 74 5c 97 1c 4a fe 6a d0 30 5a fa 49 88 52 50 5d 5c b4 14 8f 6c 9a 75 83 a6 69 d0 48 1b 1e 33 a 21 63 3c ac 35 b9 39 90 10 a 0 42 9e 22 f0 97 5d fb c3 4a fd 65 4b 7c f0 4 b7 f7 ab 6a af 5f 39 40 55 57 38 3b bf c0 85 5b 4d 58 b8 ca 38 fc 5d f2 4 9e ec 2b cb b2 71 18 ef 53 c5 2 a0 50 9 98 d5 15 e6 b3 1a ae 73 fd d7 e6 f3 f3 fe dc 5f 29 81 68 8d 2f 8e ce a0 b5 c2 db 37 af a2 f2 3e 6c 8 5c ae a1 95 ee b7 f4 e5 6b c 57 a6 e3 64 80 75 e e c0 bd e3 33 34 6d 87 5b 57 f6 a3 4f 41 68 aa 2b fb 7 73 d 40 29 68 11 e8 d8 40 67 8c 8e 2e 8c 71 53 5f bc 36 8 f2 42 22 55 1e d3 20 d 1f 84 85 42 73 1d cc 90 1a 6b a3 d1 50 ea 51 8 99 75 6b 3b c0 a3 cf da 8b d7 b ca 8d 8c 93 36 17 37 95 42 50 8a 9 90 74 fc e2 5c df d1 df 8f 26 e 5 80 92 e8 81 e0 35 ac 9 15 84 34 d5 a0 d7 1a 5a b5 85 d8 ec 9b 31 db b6 85 d6 9a 23 81 84 2 80 10 b9 c4 68 67 1c dc 37 bf 76 b3 bb ff 71 15 81 1c bf a 2f 80 1c 84 46 9b 1 a7 fe 3 2d 78 72 d 30 79 1f 48 d1 98 a8 f2 f7 ec 5d e8 54 df c0 27 82 fb 27 e7 58 7b f 27 a9 5c de 67 b8 fd 72 20 3d 38 4f 3f 5a 36 a8 8d c2 f5 37 6e e0 ca c1 2e 1e 1e 9e 60 d5 5a 18 1d 96 fa 74 de f6 22 20 6 d6 ca 18 cc 4c 85 a6 6d b1 ee 3a 9c ae 1a 68 25 68 7d 70 25 3c 59 ad 43 50 8f 4f c8 bb 5e 48 18 25 f8 f1 dd db 10 0 bf f8 fc eb 50 a9 40 bf aa 57 e7 86 4c c 3 73 8e c4 61 b2 a1 52 a ef de b9 86 b7 bf f3 16 d6 ad c5 47 1f 7e 8a 8f f 4f 50 be b ce 3b ac db 26 94 d5 bd 83 8f 8f a1 4 f0 a 0 54 e1 5 21 83 a3 9e dc c3 10 ff 84 23 5 d a7 1d 4c dc 99 20 7d cb 3e 6c b4 f7 4b d7 9e 7c 13 9c 73 f0 ca 65 91 a0 b4 43 e5 3d 5c 3c 8e a9 aa a 4d d3 c0 54 1a 66 d5 c fc 18 da b6 85 31 1a 6d db 8f 32 12 42 1 40 18 f8 b7 4 ff e9 60 de ff c7 7d 6a cc 6f 6c de f3 b8 b8 ed bc c7 c9 d9 79 38 2 b0 76 e2 3f cc f2 98 7f f 3f b5 d9 1f e8 7b 8b dd ec 7c 17 3e 6a 95 e6 fd 2b d4 75 68 fc 33 71 63 5e 63 1d ce 9b 16 55 55 c5 55 b8 7d 10 2d 45 40 ef aa 17 be 79 ad 35 e e 76 30 af 14 6c d3 a0 b5 31 83 17 40 dc 68 a4 2f be de c1 dd ce a3 b5 16 9d f7 38 5e 35 38 6b 5a 58 ef c3 1c 7e 1a 69 8b 7e fc e1 c1 c2 ab 69 b4 ca 6b 7f 8d f4 d 74 59 b4 28 19 4d 64 c8 c0 8f 0 0 b4 0 df be 73 3 bf ff e3 ef a1 eb 1c ec e2 2 9f 1e 9d 86 66 c0 a2 3f c3 8d b6 ee 89 0 3e 1a 1b a9 74 9d 85 7 84 94 6f 3c fa 16 86 64 f2 e3 61 50 59 17 4a fb 5d d1 7 d2 4a 3e e6 28 7f 9c c2 e4 41 98 6 b0 ce 42 27 5f 2 17 76 20 54 55 85 d9 ac c6 6c 36 c3 aa 5e c1 2c c 56 3a 2c 63 6a bb e b3 d5 1a de 7 31 40 8 5 0 79 2d 83 ff d3 64 ff e3 af 97 91 33 df 64 5 0 8f af 4 24 39 e0 bd c7 ba 69 d1 a0 dd 2a 1c 1e ef a bc 69 24 24 5b 9e 5b e9 53 60 4c 18 93 ab aa 1a 75 5d 85 a6 39 15 9a e7 ca f2 33 52 95 62 7c 8e ae 8a 85 37 d1 32 38 34 d8 d5 68 56 1d 16 27 17 e8 9c 83 4b a3 73 f0 65 3c 84 20 b8 fa ad 9a 36 9e 6f 87 c0 d7 79 8f d4 b0 9e cf cc bd 8f bd f bd d5 ae f5 1e bf ba f7 30 34 bf 65 df 0 e4 55 bd 29 43 cf b 7f ca 6a 4b 91 9d 77 ce e3 64 b1 c2 f2 ec 2 ce 7b ac da e 2a 36 d4 6d fe bc c8 30 aa c3 4f 8 47 14 eb 0 e2 f7 11 3f 98 60 50 a2 50 89 42 c4 1a 56 0 0 20 0 49 44 41 54 c0 d7 e1 75 11 b4 61 ac d0 b8 2c dc 4a 81 d9 7f db f0 5a ba 28 1c 52 71 a1 b2 6 b6 e a6 41 5d d7 61 36 ab 7 46 4e 6d d3 62 35 5b c3 5a 7 e7 6c ec 35 21 84 2 80 b0 2 f0 8d c5 80 28 35 8 f8 22 9b bd 2 d3 56 3e 65 92 ee 8b ea c0 c8 1c e8 b1 d9 ff 93 5 7f 0 7d f6 6e 74 6e 20 ab eb a 75 1d 5 80 31 b9 79 ae b4 0 d6 f1 3c 3d 9c a3 7 9b 61 1d 67 fb 45 d 2b 21 d6 7b 1c 9e 9c e3 33 8 1e 1e 5f 14 1 1c 83 de 86 74 8d d6 7b 34 5d 9b b3 67 25 c3 f3 73 44 63 20 ef 5 2a 3e 88 f7 12 b3 71 60 6d 83 f5 ae d2 7a 23 d3 f 2b 7b cb ac 7c b3 54 22 10 38 0 1f dd 7b 8 51 ef c3 79 8f 8f bf c a2 c2 28 5 b7 a1 c0 7c ee 43 f0 a3 9f 93 c1 16 c0 8d b7 68 68 f4 4 4 1b e4 b2 37 c2 c5 d2 fe 58 0 a4 af 57 f1 f5 c9 a6 40 85 23 61 6f 14 14 8e 10 52 3 64 72 54 5c ad d6 a8 eb a 4d d3 c6 d5 d0 ec 5 20 14 0 e4 f5 9 fd 5b 6f bf cc 53 7f 9b 0 78 9a b3 ff f2 3c 78 d0 d 3e 8 2e 8f cb fe 65 f2 36 19 45 9a f1 ea e0 6c 41 ab fa a6 bd ba aa 30 ab 2b 54 31 e8 87 f2 7f 1d 46 fb 62 97 7f 5d 55 79 7d 6e 9a a9 f 41 a5 98 57 2f 17 ea c4 40 db 39 8f 5f bf ff 9 ee d5 15 8e 16 ab 6c aa 83 3e 91 cf 3d 80 7d 76 bc 59 a2 57 4a 6d 3a ef c5 6e 40 e7 93 10 f0 c5 5a 5e 35 68 6c ec ab 33 2a af e4 2d c5 d6 58 cc 3d 5a ae 71 fc c1 e7 80 f7 e8 9c c3 3b b7 af e1 8d ab 7 f8 e4 fe 21 1e 2d 57 61 5b 61 c fe 7e e4 f4 37 14 80 85 c3 22 ca 75 cf 7e b0 10 48 30 7a 6e c5 a8 1f da 52 0 f4 c2 21 bb 32 fa b4 90 c9 f7 3d 11 3e b9 21 86 49 12 29 84 42 d7 75 98 cf 67 a8 eb 1a 55 d5 a0 69 34 ba ce 52 0 10 a 0 f2 ba 64 fe e3 20 fa f8 5e 80 29 91 f0 38 1 50 66 fc 5b bf bf 6c ce f4 6f ea 80 69 61 22 97 7d 5e a6 83 7f a aa a9 71 af 8a 1e f9 75 5d 47 43 1f 53 4 f9 de c 28 54 5 e2 bf eb 28 0 44 30 ab 34 ae cc 66 30 46 61 d1 76 58 d9 7e 4a c0 79 e0 e1 c5 a 8f 2e 56 79 61 4e df fc df 37 de 49 e9 6b 30 f2 52 c8 2 0 e1 7c 3b 2d c4 9 c7 ff 1e 92 ce dc 7d c b8 b9 1a 31 da 3e 98 c6 ff f2 fa 5d e4 46 bb fc 72 15 23 79 5d b1 81 ef ce d5 3 fc d1 77 df 84 b2 16 e7 5f b6 58 75 36 cc f1 b 20 83 52 c6 f8 e8 a7 17 0 90 5e e8 e4 af 51 bd 1d b4 f7 3e cc fe 7b f 13 57 46 7b 1f bc 6 9c 77 fd 63 a0 af 64 94 6f 73 72 26 f4 e9 88 c5 f5 15 4 e7 1c aa ca 60 36 ab d1 75 73 cc e7 33 cc 66 35 d6 eb a 4d 13 46 3 bb ce 5f b2 28 8a 10 a 0 f2 ca 89 80 a7 3b 6 18 9b f5 5c 26 0 ca 2c 7f aa 29 50 ca 19 f8 91 d9 f 36 6e bb bc 7a 31 29 e 26 c4 4b de c4 57 2c f8 e9 e7 e0 31 30 ff 49 b3 e8 26 6 ff 59 5d 47 d3 9f de 54 47 89 60 7f 56 e3 27 6f bf 81 59 65 f0 cb 7b 5f a3 5d ac e0 b 27 bc 9c 69 17 87 fd e2 25 7 ef a2 16 3e cc d4 8b 4a c0 a6 b5 6e f1 9c a2 e7 7f 38 4b ef 7b 10 6 99 7f 29 26 44 5 d1 91 1b ed a5 3f 8f c8 25 12 84 ed 84 a9 22 70 72 8e af f 4f d0 c6 45 49 63 71 55 be e6 1b 2e 90 98 12 86 28 8e 4b 24 1b 20 69 78 78 af 60 6d 30 1 a 53 22 2a f8 1 4c bc a7 41 3c 21 8a 1 19 9 0 7 ef 4 f0 e 5d 7c 4d b5 d1 98 cd ea 2c 0 52 25 c7 98 e0 c c8 a3 0 42 1 40 5e b 36 d6 f1 3e 45 f0 9f 3a a 18 7 ff be 61 4b 36 3 b3 c b7 fb 8d 17 f3 4c bb ff 95 c1 12 c3 db 26 3e 37 10 29 92 dc f2 54 36 ed 49 b 70 82 79 4f 3f 76 98 9a fa 7a 11 10 8e 0 ea ba a a6 3a 46 c3 18 5 a5 82 0 80 92 90 31 5b 7 eb 3d 94 52 71 1b 9e f4 33 fb a9 4c dd 2b 80 e0 f7 33 b1 fb 60 d0 ec 56 fa e7 e7 e5 3c 1b a 7 2 3f 7c e 82 62 bc af ef 9e 97 c2 39 30 6c 26 54 3 71 22 48 c2 44 e0 e0 c2 ce 1f ef f1 f9 e1 9 ce 97 2b 74 1e c1 ca 38 ae 29 2a af 68 63 9c 53 52 93 a1 82 82 1a bc f a5 0 40 21 44 53 c0 1f 78 17 88 c0 39 95 3 fe 60 1e 11 7d 53 a6 e4 fe 8 1f ec 88 95 e0 4a 3d 87 11 e0 eb e3 33 ac 9b 36 8f 7a 86 8a 4f 95 ab 3d a1 2 d0 f5 3d 7 84 50 0 90 d7 3d f8 4f 75 f9 f7 b7 97 23 80 a3 90 5c 4 30 99 48 d1 7 b7 f5 7e b3 9b c1 7d 64 fd bb 79 c9 a3 26 c3 e1 5 c 3c eb 25 9d d7 e7 ec 3f 34 ff 19 1d 82 ba 8e 67 e7 e5 82 9f f4 27 7d 7d 12 0 ba 18 21 5c 3b 87 5f 7d f5 10 4a 4 cb ae eb 47 d6 e2 53 2b 1b db a4 f8 bf a9 31 48 19 55 58 86 71 ae 5f 68 13 e2 fd e8 58 26 3d 5e f1 c0 2 6c 6c 58 1c 45 d0 22 70 f7 1 3a 54 8 fa 6b 69 9c c3 83 c5 2a 1e 21 a8 bc c6 37 bd d4 7e 74 c 80 f1 46 48 51 83 8a 0 4a 81 52 28 9c f4 fc 93 dd 70 ba 3e a5 7d 2f 82 fc 70 7e 22 ef 53 ca 5b 17 43 f6 af 4 f8 f1 b7 ef 60 b7 ae f0 d7 bf fe 4 c7 17 cb b0 24 48 d9 fc 9e 26 21 10 d6 28 ab fc 73 cc 2a 0 a1 0 20 af 87 18 0 a6 37 f0 3d e6 df e3 e0 3f b9 4b 5e b0 55 4 4c 14 18 6 e7 bc 63 97 c0 a9 75 b2 53 95 81 52 c c8 60 e6 3f 65 f6 85 61 8f ee b7 f6 a5 e ff 24 2 86 95 80 e2 df aa f7 ce 4f cf 69 d1 76 f9 b5 4c af 67 88 55 6e a3 fc 8f e8 81 3f 58 4 14 2b 4 db de 20 5f 3e b8 ef 45 9c 1f 8c 13 6c 94 46 6 6f b0 8c 1a 2c bc df 1c 45 28 8f 2c 72 30 4e 2b 8 93 fb a1 92 7c 8c e1 bc 47 98 d 90 e8 4b d0 57 1b d2 71 ca 60 1a 1 7d 6f c0 30 91 f7 85 cf 60 aa d4 c4 a0 ae 54 ff da 14 d 7f e9 3e 43 31 1b ce f1 9d 47 30 25 82 60 d9 b4 58 34 6d ef d4 a8 55 9e ee 48 b 9d d2 7b dc 75 a de bb ad 6 54 84 50 0 90 57 96 c7 5 ff ed f7 cb 21 b7 bf df c8 eb 7f 3c f6 37 6e f8 d3 4a a1 8a 3b 0 9c 9f f0 ff 9f c8 f8 a7 bf 6 45 30 f6 0 d4 c6 cc bf 2a 66 e1 7 f7 18 ee 2a 1a d4 b3 73 20 1b 2d a7 99 d7 35 76 ea 1a eb a6 c5 c5 7a 15 56 d5 fa 41 ea 3e 5e 50 b8 19 0 cb 66 b9 c1 97 c6 d0 e7 87 77 c8 dd fb e3 18 9e 45 d4 e8 e8 c5 63 d2 79 29 7 b9 f4 39 35 be a6 f4 9a f7 86 49 59 24 88 87 72 80 8f 99 ba cb 1e 0 69 99 8f 9a d8 5 d0 3f 4b 5f 88 90 b4 17 48 10 47 fb 94 2 a2 10 f0 7e 78 fe 3f 98 12 48 62 a0 68 5 14 89 d6 c4 1e 78 ef cb 7 58 ae d7 38 59 ad 1 15 f7 24 68 1d cf fd cd a8 ca 63 78 c 40 28 0 c8 6b 16 f4 7f 83 e0 3f 1e e9 1b fc bb 88 ee db 16 ff 94 9f df df dd 41 5d 55 38 3d bf 80 b7 76 58 fe 97 4d 2b df 6d 9 6f 99 51 7a 17 2 95 2f 66 c4 cb 12 bb cb f3 e2 2 ef 75 6e 8a f7 2e 94 91 cb e6 b8 71 73 5b 42 89 60 77 36 83 40 70 b1 5a f5 9d fa c5 eb 38 ee 99 f3 b1 63 7f 23 cb 2c ab 28 52 4e d7 97 1 bf 77 e0 cb 63 84 53 b5 9c 3c a2 87 a1 b 5f 9a 3f f4 13 22 c0 d 1f a2 f4 71 30 ba 9f a3 cf 47 1b aa bf 16 89 af 33 a4 1c b3 54 fd 14 42 b1 21 12 de a7 9d 47 fd 33 1c 8 2d 15 37 a 2 de f7 7b 19 d2 b4 80 2b 44 a2 2f 3e a6 1e 2 91 b0 62 f8 64 dd 84 b3 7f a5 60 34 e0 4d 30 d 4a 53 1d 55 6c e6 c d5 0 8d b6 d5 68 db 8e d9 3f a1 0 20 af 75 29 60 8b 4c d8 2e 2 a6 82 fc 30 eb 97 ad b6 fd 52 f8 f0 f 4a ba 13 15 0 3c e9 f6 bf 28 2 9c f cd 6c 39 f8 3a 95 83 8 0 d8 b4 17 40 db e0 28 97 c6 df 46 41 70 d8 5d 2f 79 ec 6c d9 34 c0 d9 19 ac 8d fe f4 7e 33 e3 2f ff ee 37 2 ef 65 fd 18 a9 b3 bd cc 7c cb 86 c0 62 da a0 d8 e8 b3 59 c0 90 81 9 51 78 bf fc 70 d1 92 6c be 27 65 23 a3 a8 a1 89 50 12 3a e9 fd 72 be ef a0 f ee 83 45 a5 a5 e8 c7 48 6f 44 12 64 f0 e1 38 1 e2 6 9b d c7 3f 8a 52 ec 86 b0 79 89 8f cf af 85 1f 18 0 85 69 5 9b 7f a6 0 91 b0 de d8 39 97 ad 82 93 10 68 9a 60 a 94 2a 16 d6 52 0 10 a 0 f2 5a c6 fe ed cb 7e 36 45 c1 16 43 1f c8 93 68 87 d2 d1 15 8b e5 a 4d db e b3 e7 22 a c8 d3 3d 8b 3e 53 75 71 61 8d 4f 41 c4 42 69 15 e 7 9c 2f 32 47 81 56 1d 2a 6b b2 a9 ce d4 48 63 99 62 7b 0 9d b5 38 eb ba 50 6d 18 59 fc 4a 12 22 a3 eb 2f b3 f8 a9 e3 92 71 4f 80 47 5f ee 4e 81 6e bc c6 78 90 25 8f 2a 3b 65 a3 5f f9 1e 29 b8 60 28 34 ce f8 3d 6 d7 a6 46 d a0 2 81 d7 1e 52 8a 80 e2 38 42 64 68 64 84 91 2d 74 ba fe b2 9c 2f 3e a c a8 81 70 c1 a8 b7 c4 c3 6f ec 51 28 5f 33 1f dd ff 24 8a 3f 67 5d 6e 14 c 3f f 6 55 3c f7 f 7e f fd de 87 b4 cb c1 39 cf 2a 0 a1 0 20 af 3e c3 26 aa 6d cb 7e 2e cf fe 9f 2e 2c 4f 9 89 b0 3 a0 ed ba 89 6b 91 c7 3e e2 20 a 94 1f bd f4 d6 b2 ce 21 2e 96 b 19 ab 8e fb e4 ad c0 e8 b0 81 ce 18 d 6b 5d 8 32 aa 30 9b 49 d9 bb f3 f0 d2 7 f8 41 56 3e 28 68 17 d9 7e d1 7c ef 47 c1 bf c ba 65 65 c0 c1 c5 30 88 89 d6 40 3f b4 9 96 e1 71 88 47 d9 fd 2f 59 3c 8 4a 6b e6 f4 3d d5 e0 f1 45 46 f 54 56 10 4a b e1 d4 6b a0 4 2a 77 de f7 47 e 98 d8 b a1 e2 2c 7e fa 3e 63 11 90 8e 37 a4 ec 25 88 63 96 a5 30 f1 71 d4 32 f5 f c 8e 4b e2 e7 ad d df c7 3a 87 ce d8 28 2a 3d b4 f2 f0 b1 fb 3f f9 1 34 4d 1b b6 6 c6 9e 80 50 b5 b0 60 fc 27 14 0 e4 35 a fe c0 f8 1c 79 ca f1 6f 2c c 36 45 c0 96 d1 bc c7 88 86 b2 73 fc 9b ed 69 f7 93 b7 79 f4 d1 d5 a6 12 3d 0 6b 55 e 6c 56 db 2c 0 ea da c6 c b0 7f 2 3e 5a cb 3a 71 f1 3e d8 b4 e6 4d 11 3e 45 f3 d1 f3 1c 9c a 14 1 b0 6c 86 4c e5 ec 30 2c 20 93 d5 19 11 c0 28 15 b7 6 2 5d b1 48 9 45 f0 1f 8c f7 a1 5c a2 33 f4 1a f0 a3 f7 7e 9b f9 52 68 d0 53 83 2a 43 79 dd 5e 54 f1 9e c5 80 8f b2 b9 b1 9c 6 29 36 b 7a 9 9d f7 8 67 fd de ba 62 fb 5f 9a 20 c0 e0 d8 a0 9c a 48 c7 33 a9 21 d2 c7 74 df 38 f d3 75 30 26 fc 3c c1 6b 78 15 7a 4 aa ca 60 3e 9f a3 6d 3b b4 6d 10 0 eb f5 1a cb a5 89 7d e b2 e5 e7 89 10 a 0 f2 a 6 ff f1 bf a7 9b 2 a7 8d 6a ca 99 ee ad cb 7b 9e a0 50 b0 b7 33 c7 9d 9b 37 b0 5c ad f1 f5 a3 c3 c1 71 c0 93 7 fd 8d 27 1a 83 a9 7 1c e0 c4 a1 eb fc 20 3b 75 da 5 a7 38 ad 51 d5 2d 66 b1 1b dc 17 41 25 9c 2f 87 4e 39 71 7d ad 7e 1c fc a5 e8 d0 97 89 97 a0 3c e c8 61 c6 4f 8 30 3f 7c 80 52 84 55 46 e3 c6 ee 1c 9d f7 38 5a 36 39 60 26 e1 31 34 dd 19 1b ee 8c 5 42 ae 2b 6c 3a ed d 8e 63 4 5a 4 fb b5 81 56 82 45 6b d1 b8 38 2 e8 7b 17 3e 3f f1 7e 87 9f ad fe 7b c c6 45 7d 70 ff 73 12 ae dd cb 78 fd af 14 2b 80 65 f8 82 95 3f 8b b9 7 20 38 a ba e4 f5 60 35 5c b2 4e 46 e8 11 d0 ba 5f 17 3c 9f cf a2 8 68 b1 5a 35 58 af 9b 41 23 20 8f 2 8 5 0 79 cd 2a 1 e3 ac 53 6 db d8 b6 36 fc 6d 54 8 9e 20 ea 17 5f 62 b4 c6 ac ae 61 5d 58 87 8b 67 d5 8c 15 6b f1 3e 76 c0 3b 7 88 ca 3b 69 20 e2 62 10 30 68 9b e 5d 1b 1b 2 8b 3f d6 86 85 31 ca b9 41 29 7c b8 d0 7 e5 c2 fa 81 d9 51 7a fd aa 78 ac d0 d9 7e 83 5d 76 3f 14 81 96 e0 35 e0 e0 8b b3 fe fe fb 29 11 78 11 74 31 68 2b a5 c6 5d 7 1b ef 9b 92 91 33 a3 c cb f9 e5 db 20 98 ae 3c 28 25 d8 a9 34 6e ee cd b1 53 19 1c 2d d6 78 b8 5c c3 fa de c 48 a 11 90 97 1b 8d 85 25 36 27 2a 5c 72 ef 13 e9 ab 2c b2 39 32 ea 47 4e 47 c9 53 20 1d f0 7 3 23 9f af a7 d3 6 46 5b a0 2 ba a2 79 51 eb 2e 2e 7e aa b1 b3 b3 13 8f d 1c d6 eb 50 9 58 af d7 83 71 40 8a 0 42 1 40 5e 9f e0 2f a3 74 11 5b 56 bb 62 62 c5 ef d4 52 9f 4b f2 77 29 e2 d6 ba 6d f1 e0 f0 8 eb b6 1d 2e 66 89 23 6d f2 9b 3c 4f 44 df fc a2 94 5c 3a bf a5 4d 71 29 1b 6c 9a 36 2e fc 51 d9 2e 58 29 35 7d f6 3e b0 f0 f5 83 ec 36 c5 2b 2d 82 dd aa c2 db 37 e 70 fb ca 1e be 3e 39 c7 7 f 8e d0 5a d7 67 b2 90 b0 81 50 29 b4 e9 18 64 20 b8 d2 4 82 e0 74 dd af d 96 18 1d cb c6 c1 cd fd b a3 80 3a 36 5e 1a bf f7 7e 24 2 e3 aa 67 2d 82 da 68 d4 46 c3 64 2b e1 28 b0 b0 d9 7c 28 2a dc 47 15 ff 16 25 85 17 43 58 6d ec 9c 1b 59 4d 8f 82 7f 7e ff d4 40 ee 94 3d 0 de 87 a f 4 50 2e 9a 38 19 3d f8 59 f7 1e 68 db e 75 6d e0 dc 2c 5f ff ff df de b9 77 c9 91 1c d7 fd 46 56 f5 0 d8 95 96 b4 25 4b b6 64 5b f6 1f fe fe 5f c7 c7 e7 d8 c7 2f d9 b2 28 52 dc 5 a6 bb eb 91 19 fe 23 33 32 23 b3 aa 67 6 dc e5 92 4 ee 4f 67 b4 c0 a0 9f d5 c3 89 9b f1 b8 b1 ae 1b 3e 7c 78 87 eb f5 1d e6 f9 c6 d 81 84 2 80 7c 9d 9c 8d 91 e1 ec eb ac 4 30 1c bc f ae b6 5a 66 c6 21 25 f8 b7 b0 91 1b 1 e3 d0 3 70 3e 3c a8 6f 4b 2a 1c 5e 4c 15 3c 45 54 4 57 ce 48 29 61 db 76 2c cb 8a eb f5 5e c4 1 f2 c2 a0 e2 6b 2f 41 e 9e fd f6 7d 73 7 54 71 a7 62 ab 87 7 e0 cf 9f 2e f8 9b 5f 7e 87 7f fb af 7e 89 77 97 19 ff f0 c3 33 be bf 2f ed c4 5c 32 dc d1 32 3 6e 76 5e 86 35 c1 18 57 2e 57 77 1d d4 32 40 70 b7 13 e7 d2 e7 5d ff 2e 41 f0 4d 59 7d bc ee 11 b7 98 da ba 5f f8 ce 7f 60 4d 9 ff 7c 5f 71 dd 23 6e 5b 2c a2 ec 5c 96 59 d3 df 1c 4 7f f5 ed 7b fc f5 2f fe c 1f 97 d ff f0 e9 96 cb 20 dd ee 8 5f 92 49 fd 5e 1 f3 f9 2f d 82 b6 85 40 4f 44 4c cd a6 a0 f5 93 cc d3 5c c4 45 de 1 1 a0 8e fe a5 32 31 30 5f 36 cc 97 b de bf 7f 8f 6f be 79 8f db ed 7d 11 83 3b d8 b 40 28 0 c8 17 7a fa 7f 7c 4a 3f 6c 70 3 8e 5f 63 2d 59 1e f8 d0 96 27 d3 b2 b8 46 d5 16 d8 f4 e1 3a c6 e8 52 af be 99 d0 76 cf bb 6 b4 c3 e9 ec f5 14 c1 31 db 51 a3 61 e9 48 cf a7 c3 db 6d 71 27 46 eb 3a 7 c2 24 47 7b e1 10 a0 1 98 10 a0 75 45 ad d6 b1 43 1b 1 50 5 42 10 2c db 86 7f fa fe 13 6e eb 86 a7 79 c2 d8 34 b9 a7 74 1e b8 4f b6 ea 5 71 93 2 da fb 2 8c 22 a5 eb b 28 17 ea db a7 19 ff e1 2f 7f 81 bf fe 97 df 61 7e 9a f1 8f bf f9 88 ff f6 7f 7f 8d e7 2d e fd 7 65 72 42 4 1f b7 88 4f 7b 2c ef 32 8f 8 aa 75 f3 a7 fe 64 1e 24 9f fe ff fa bb 6f f1 9f fe f6 af f0 ab 4f 57 7c 5c 36 5c 63 6a ce 82 75 f7 80 9e 2e 9a b2 db a0 b3 3 76 12 70 e8 63 29 57 bb ee 74 8 53 44 d8 3 42 48 0 b2 c5 b0 ed 2 d8 b6 6c eb 3c 97 5 41 1f 3e bc c7 fd fe 1 1f 3e dc 70 bb dd 4b 16 80 d 81 84 2 80 7c 89 27 7d 79 db 8d c6 da f1 71 3e 5e 1e 9e bc bb f3 7b 4d e5 b7 94 f1 f1 77 ab d6 53 a1 e 79 7f 51 7d e1 57 71 6b c4 d3 97 32 1 63 a6 40 fa 7a 75 ce 2 6c 25 d0 4f 8 21 9b c9 24 d5 bc 9d 2e b4 95 c2 d3 3c 61 9a da d8 1a 14 8 e6 a7 eb 44 13 90 eb dc 1f ef 2b fe fe 9f 7f c0 3f 7d 7c c6 7d 8f b8 ae 5b 37 a2 e7 67 ef 46 b dd da 59 1f 4e 1c 9 b5 3c 8a 9c 89 b7 c1 b a0 8 81 29 8 fe ee 6f ff 15 fe d3 bf fe b 4c 31 62 3 f0 cb 6f de e3 bb f7 4f b8 ed f7 2e c8 36 13 a0 be fb 3f 98 e0 d0 62 5 1c 9a b8 8 e5 7e 2a b9 5c f1 f df 7f c2 f3 b2 d5 32 80 89 a8 b6 c5 f 0 52 7b 5f 7e c7 c4 c9 b8 67 bf 5f 41 5b 23 24 72 9d 3f 84 54 ed 88 f c2 29 d8 c6 c1 bc 74 68 9e 27 bc 7b ba 60 7d f7 84 f 1f de e3 9b 6f 3e 14 1 b0 63 5d 69 d 4c 28 0 c8 17 2b 2 fc 99 fe 24 b d0 9f 95 4f 4 84 bc ac 26 ba fa 7d 3b c9 a3 36 bf 1d c3 72 f5 77 2f 6b 73 bd 98 e8 4e fa 83 95 9d 48 7f 12 3e 13 2 be ae 7b 5c 2f b d7 f 10 b1 ae 6b 5d 1e a3 40 dd 20 98 83 bf 62 56 85 ea d4 65 54 10 72 ea 3e 0 70 7b 79 a1 aa f8 b8 6c b8 c7 88 29 8 a2 2a f6 94 7a ff ff b2 91 ae 6d d1 93 c1 28 48 ba 80 e6 9f 58 fc 5a 5f 6f c0 83 a1 eb be 8 82 bf fc f6 3d fe ee 2f ff 5 82 8 fe fb ff f9 15 14 82 77 97 a9 8e dd a9 db 38 18 86 c6 cf b6 d4 a7 39 10 86 54 96 f6 8 f0 ed 3c e3 97 1f 9e f0 69 db f1 bc 45 fc bf 4f 37 fc 50 82 ff 6 94 f7 10 ba fd 0 f6 99 a7 64 cf 61 22 4a 8e 8b 23 d1 44 5e 6b 3a 74 9f 6d 6d 56 45 59 60 14 1e 8a a2 7c ad a7 ba 1c e8 dd bb 5c a f8 f0 e1 3 d6 75 2b ab 82 23 7f 51 10 a 0 f2 e5 66 2 fa d1 be 63 e3 99 3c 3c fd bf 76 da d6 96 b6 35 41 e1 6a f c7 4 40 a9 88 8b bb 9f b fc 72 12 b4 db a9 d0 82 85 33 c2 7f e9 c5 d bb 7a fc 9f 55 13 d6 6d 7 64 a9 6 31 9a 14 69 4e 98 9d 3 9e f7 d4 cf e5 80 90 d7 d7 4e 53 76 c7 b3 ae 74 11 a8 28 b6 94 b0 6b 13 4d 61 8 cc be bc d0 ea f8 2e b0 8f be fa 40 b7 1d cf cc 71 1e 8d 2 5a e9 e6 2f be f9 80 6f 53 c2 f bf bd e2 87 db 82 ef be fd 80 fb 16 f1 c3 7d 1d b2 9 a8 a7 ff 26 a e5 d0 ac a7 1 48 65 a1 cf 87 a7 9 ff fe 2f 7e 81 5f 7d bc e2 fe fd 33 76 55 3c ef b1 d8 3d 87 63 66 c2 cd f6 fb 31 d2 ae cb ff 81 8 1d 37 3 9e 7d 98 b5 89 b1 b3 f 6e 3d 15 76 cd e7 39 60 76 e3 81 f7 fb 53 1d 9 8c 91 99 0 42 1 40 be a8 93 ff 63 31 80 b3 43 f6 83 d3 ff 5b b7 6 3e 6c 3a 18 57 da bd 28 24 5e da 4b 30 88 80 d7 a5 49 b 20 de 91 e ce 46 78 8f d8 d6 d fb e5 92 83 72 12 44 49 90 28 88 22 8 12 6b c3 df 14 14 3a 29 26 64 3f 7c 4c da 9f 56 d1 6f 41 1c a7 9 82 8 42 b7 42 37 f4 eb 96 d1 d2 d7 be 7d bf ce e1 3b e1 33 da e8 fa 54 ba 20 2f 4a 4a 7b 42 5c 77 fc f9 fb 27 3c 4d 1 ff e7 d3 33 96 3d 1d 97 3c 9d 9 42 6f ef 53 6e 1f ca 95 5b 63 c2 7d db b1 ab d6 29 85 d1 66 f8 b0 27 41 5b 3f 0 8a 70 32 19 d0 b5 92 3c f8 1c 6d 7 80 a6 bc 2b 20 96 bd e 29 15 27 44 b1 db e5 d7 78 2c b e4 92 cf 3c 4d 98 cb 8e 0 5b 18 b4 ef 3b 5 0 a1 0 20 5f e fa e2 12 9a f1 64 fd bb 3d fe d9 f2 9e 43 4f ff 69 93 bf 76 c6 34 a7 c7 f6 d3 e7 94 36 61 f0 e0 1e be 4a 0 d5 36 83 ae d5 71 df ad a9 cb 27 cb 58 4a 2 f3 3c 61 c2 54 5 86 a6 84 98 4 12 bb 15 7a 10 b1 6d 75 c3 fc 3b 4e d2 d0 a1 6f ea cb 2 c0 1b 2f 8d 33 fd e1 38 c3 5f 2 a8 c2 97 1 fa 39 f9 d1 a0 e9 fb 65 c1 f7 d7 3b 20 82 a7 69 c6 f7 b7 15 bf b9 2e 48 fe b4 3d 6e 73 f4 ff 37 38 d fa d7 b3 44 c5 ff f8 e7 1f b0 a5 bc 60 b0 9 15 e7 e2 97 2c 3b d2 4f 92 d4 72 40 97 9d d1 c3 7e 4 a9 e6 fe 66 45 ac c5 af 21 21 a6 9c b6 df bb a6 d2 33 a1 db 67 b4 da 7b 52 d7 3 12 de 2e 70 9 a1 0 20 7f d2 c2 e0 f4 dc ac 87 c3 bb 8d f3 59 7d 5b 4e ba b1 cd fb 6d b2 9d f1 a7 4d 7c f 76 4 fe 98 d9 ff ee c5 da a9 58 db 2b 92 3e 75 9f 8a b9 4f 50 b4 a5 32 da 36 cd a1 6e 99 d3 3a db 5f 1d 2 3b 8b e0 f6 58 f9 34 9a 80 30 1d cc 6f 42 e8 3 68 28 23 86 21 84 2a 0 da 65 c9 c1 7b 2a a3 86 e3 e6 45 ef bc 67 c1 53 87 b5 c7 fe 52 98 1 c2 6f ef 2b fe eb af 7f 8b f 97 19 cf eb 86 1f 96 d 6b 6a a7 ee 3a 2e 88 63 29 a1 9f fc f0 b7 69 5b 85 3f ae 71 58 52 24 dd 6b d0 52 b2 e9 66 ed c5 36 3 6a 1d f3 f3 3f 53 75 d1 92 a2 4e 91 68 6a 1b 0 53 d9 14 b8 ef 11 31 c6 9c 5 d0 74 78 e 3d c9 64 d9 e6 48 73 13 4c c9 ff c 10 42 1 40 be f4 c0 ef e6 a8 75 88 a7 63 26 a0 99 e8 c0 ed b6 3f 86 eb 79 9a f0 fe dd 3b a8 26 dc 97 15 d1 ba bc f0 92 4f 40 b dc 6d de fb f3 35 0 7c f3 e1 23 c1 a1 f9 24 9f ca 98 9b 4 41 48 2 95 80 79 a f8 cb ef be 3 42 c0 1a 77 c4 14 11 e3 4 9 a9 4 ab 90 33 8 49 21 21 21 a8 b7 b7 cd d9 85 a0 a8 cd 80 6d c1 90 2f b0 e7 e4 b9 94 ba ff 34 b5 ce 78 b ac ef e6 b 26 11 6c 31 f6 81 d1 5b f c3 97 62 b4 d5 cb e5 38 c6 16 44 b0 27 c5 ff fd 74 cd ce 82 f6 58 c1 7 69 e9 37 f2 e1 b8 78 48 86 8d 90 e6 67 d0 ad 53 ee ee 57 2b fd c5 0 28 4f b 74 6b 94 c4 3d 77 55 15 da ef 5d 70 3f 37 a9 d4 e7 53 4c 25 f5 9f 3 7f 8c b9 1c 60 f de af 53 d6 12 ec ad 4c 10 11 e3 8e 58 3d 28 9a 10 c8 b7 a1 a 20 14 0 e4 8b 56 0 fa 62 fd bd 5b 5f 3b 64 1 5a c7 b8 e a2 e1 70 d4 1a c2 70 1f 8c 8f df f3 5b fd 70 74 ad eb 9f 60 8 ef 4e 40 bc 41 44 a4 94 10 dd 89 56 24 e1 c3 bb 27 fc c7 7f f7 b7 48 9a f0 5f fe d7 df 23 ee 11 7b d8 4b 2a 3e 37 f6 d9 ee f9 90 72 4 ac 5d e7 f6 62 aa 53 9e 77 e9 69 97 db 2 64 40 e8 9a ff c4 5 c2 b9 88 82 a0 8a 6a 87 3f 78 23 f4 f1 f3 64 8f 83 35 24 fa db 98 3f 7f 38 5b 5a e0 3d 1f 5a b7 7f 37 17 22 bd 95 83 74 46 4b ae a9 cf 65 34 ac e4 31 85 80 ef de 5d f0 2f 3e bc c7 12 23 7e 7d 5d b0 ba 85 46 fe 75 74 fb 18 dc 42 a0 bc a4 29 21 ee 39 e8 ef 31 e6 3f a7 58 d6 0 3b d1 90 8a d0 2b ff 16 63 ce 14 e4 85 40 f9 2b 16 11 b1 57 eb e7 c4 d5 c0 84 2 80 7c 69 9c 2d f4 79 a1 59 ce db bd 76 ab 6c db b8 98 f6 83 d9 f5 36 db de 16 ab c4 52 8f f5 b6 bc 5d f0 37 b7 3e 1c 4b 10 26 4 ec 3f 6f cb 8 f8 19 c2 d7 ee 94 4f 85 b9 b9 2f 22 68 b1 9c d5 52 cf 2f 65 80 18 63 3b a9 4b aa 41 d2 af d6 95 72 e2 b7 94 74 eb f0 77 b 66 b4 ec 22 70 dd fe 82 d0 8d fa 95 ca 9 76 73 d8 9 a8 4d 75 4d 53 f4 82 a9 9a 2 55 71 60 c6 4b 2d 78 27 34 7 c4 da ce 77 b2 a5 39 88 e0 12 26 5c e6 9 f7 6d cb f5 7c 37 49 20 2a 9d 33 54 3f a2 a7 35 dd 2e ce 9d 50 8a 43 60 10 c1 b7 97 19 7f f3 8b 6f 70 5b 23 9e 97 ad 2c 17 82 b3 6b d6 7a ca 6f 6b 8d b3 90 b1 13 fa be 47 c4 d2 a4 b7 c7 b2 c3 e1 90 31 b0 cf ce be 62 9 fe 31 3b fe ed 7b 11 11 3b f6 6d c7 ba ae 58 d7 ad 18 1 25 a 0 42 1 40 be a0 f0 3f 98 c3 9c 89 0 75 1b ea da c9 ce 97 1 7c a1 da 75 6c 8b 1e c4 c3 b6 ef ed f1 4b da 7a 1c 3 ec 4 81 6a 37 f3 ff 60 a9 ee 49 b0 97 37 8 83 a1 96 5d b3 a 39 5a a5 94 45 40 a 11 cf b7 3b fe eb ff fc 7b 20 8 e2 1e 81 59 10 53 42 28 42 0 92 53 d8 41 24 9f 14 4b 1d 3a a5 54 77 d6 5b 4f 80 84 dc 30 8 49 ae 1b 5f 6a e3 5b 7d 75 25 58 7 d7 2c 68 13 9 e2 d2 f4 6a 27 d3 ae db 51 ba 66 bb 2a 14 4a dd bf 9e d6 a5 db db d4 59 3 fb 1f 80 20 82 f7 4f 4f 78 ff ee 9 7b 4a 58 63 74 f7 f1 53 6 fe d3 e9 9b 28 eb 27 33 4c 16 28 80 db 16 f1 eb 4f 37 c4 32 56 39 16 2b 7c da 1e 65 c4 b0 4e 9 b8 d3 ff be 45 c4 94 eb fd c9 9 7 eb e5 a8 3d 2 45 4 ec 31 62 df 76 6c fb 86 6d db b1 6f 5b b7 3 62 db 76 ac e5 ef dc 9 40 28 0 c8 17 14 fc fb df fc f d7 f7 ba 60 6b 69 dd ee 94 9f 87 dc 5b 9 0 79 ce bd 9b bf 77 f 6b 46 2d 3e 45 5d 4f fd fe 7b d5 7 c0 82 c9 49 1f 80 7b 1a f9 ec f7 df ae 83 9c 98 18 d4 d3 62 4a b8 2d b 7e f5 cf bf c5 e5 72 c1 e5 72 41 98 12 34 5 a4 18 f3 76 39 db 21 10 da 89 34 c6 d2 50 58 1a 3 d5 89 a 41 ea 1a 2 c7 c0 e2 7d fa c5 cd a8 2b da 58 5c 28 d1 33 9a 38 1b 96 0 61 8 b6 4d f0 f5 42 6f 2c 41 9c 65 80 2c bb 63 a3 87 32 f8 e1 d4 9 6 f4 f6 cc 3e 55 f d1 e2 65 10 f2 8f 8c 7d 9 f0 69 8f b8 7f ff c 55 60 77 22 c5 af e2 6d f6 be 83 d6 49 da 35 0 fa 86 3d f5 c1 7f f8 52 cd e2 6d db b6 92 fa 6f 81 df 82 ff 6e 5f fb 4e 13 20 42 1 40 be 3c 11 e0 83 c2 4b 53 4e 2d f8 fb ef 26 20 f9 85 40 4e 10 40 71 36 83 a7 3e fa 9e 9d fa bb e0 ef 47 f9 ca af fe 33 4f e1 ee 74 89 d3 40 1 e0 77 52 a aa 8a 54 2 85 88 60 9e 27 97 4e 6e 81 67 a a1 db 45 9f 62 42 a 21 7 fd 74 2c b1 d8 f5 cc 4e 7d c0 94 12 34 4 d4 1e 77 77 42 f 2e c0 a6 3e 2d 3 19 e da da 9b f7 76 5e 8 d2 99 36 d 1d 3 e7 7a 2d bb 35 22 6f 68 54 28 62 d2 5e a0 8c 59 a4 2e 68 db 18 a4 1b e5 10 45 90 be c6 bf ab 22 e2 5 af 89 6a 13 ac 5d f6 46 ab a1 4f 7b cf ad cf 2 f5 df b4 36 f1 25 27 14 80 18 b3 c9 d3 b6 6d 58 cb e9 3f 7 fb 1d db b6 62 db b6 ba 97 c2 8b 10 42 28 0 c8 17 95 9 78 4b f0 ef 33 2 fd 2f 6c 1f c3 cb 38 fa c3 51 fd 43 8e c1 8d 93 f9 e0 6f 79 ec e6 1e a8 f8 71 cb 80 df a8 2 7c 93 9b b f4 5d 2a ba 6 18 9c ee 31 f0 27 60 49 79 1 8d 48 39 ad 22 41 13 ea 6a 61 91 80 18 62 b3 dc 1d 2 cd e9 d2 23 4b 87 5b d de 9d ff f 7e 7 f6 6e bc f 80 5b 31 ec 5 81 e 99 18 94 86 c3 35 ee d8 e2 5e 3f 8b 0 ef 4 88 ae 5f d3 b 24 7b bc b3 fe c2 fe 8e af fc c0 a4 f6 33 a6 dd 35 3e c9 e4 d4 a6 cb d6 e9 5f 53 ff b5 4 50 d2 ff c3 a9 bf f5 7 24 6 7e 42 1 40 be 86 e0 2f f ff ed 25 51 d0 ff d2 56 74 5d 60 9f f1 3b b3 97 16 d2 f9 a d4 fa ff b8 45 70 c 28 f2 39 21 be 95 17 c4 bd 64 71 be b7 de 18 a6 6 7e 67 53 db 39 f3 89 db f8 57 bf d1 2 ad ef 40 4f 62 19 81 46 8c b1 5 e1 b2 76 78 d6 29 97 d 54 11 92 ba 52 47 7b 4d f9 9b c3 d4 5 fa 21 3b 7d 78 5 bc 7 42 4d 1f 74 4b 7e ec 96 a2 52 cd 7a 44 fa 8c 4b 6d 20 f5 73 fd 68 4b 79 44 7b d3 9e d0 ad 31 7e f9 73 ea ca 23 5d e9 c7 59 fe ba 4f 5b dc 3a e0 36 cb df 2 7f 6e fa b3 74 ff 8a 65 5d b1 ae ab 4b f5 c7 de 3b 80 9d ff 84 2 80 7c a9 81 ff 73 4f c8 be 7 40 9c 4b 8d 17 3 ea 3c e8 55 f1 6a 76 e1 95 17 da 9f fa eb 1f 5f ca 4 bc 1c 55 86 e2 43 5b 46 13 86 31 3a 39 3a db 9 6c 83 5d 3e b5 4f 53 a8 9b e6 e 29 71 1f 9a b5 65 3 b4 f4 6 9c d8 10 d4 f0 1e e3 94 9d eb 24 af da d5 80 61 3b 1e 5c e7 bf 3b 75 bb e3 bf 5 e1 80 56 e3 d7 1a 38 db f3 e6 a6 3b 2d 59 4 1f 44 c5 95 1 b2 d8 8 1 7 ef ff 2e 6b d0 8d 89 e6 27 97 d2 bb 51 1d e 25 d4 45 43 2f 7d 5c fe e7 cc 67 a0 aa 8b a0 e cf e5 2f 87 fa a6 bf f2 5f 1b f7 5b 36 dc ef 4b fd ea 1a fe ea 9f 37 c4 b8 d7 b9 7f 1a 0 12 a 0 f2 15 9 84 97 4f fe be 79 cc 1b f6 f8 51 c0 6e db 9e fa d3 b2 74 29 f4 16 61 f5 10 c4 e5 45 4f 82 b3 d7 2b af c4 ff de c7 be 2d dc 71 a7 d2 7 8f 6f f7 99 aa 51 4f 5e 3 3c 97 5 41 75 6e df f5 f6 8f 26 4a e6 23 2f ce 35 af a6 ca 9d c9 4c 98 76 6c db 84 29 69 79 ae fc 5f a0 34 ff 99 f8 aa e6 36 4d 0 a4 c1 6f e0 bb f ef f0 6f be fb 16 aa 8a 7f fc 74 c5 f cb 5e ea f2 45 0 d8 74 2 8e 3d 1e 82 5e c5 88 84 b3 1f 88 6e 94 60 ec 25 95 80 ce 48 a8 53 31 ea 93 7 da 8d 21 aa aa eb 59 90 da 5c 6a f5 fb f3 86 c7 26 7c 7c 8f 46 9e f5 df b1 2e 2b 6e b7 7b f9 5a 70 bd de 70 bd dd b1 dc 17 2c cb 82 65 59 ab 10 c8 e5 80 48 17 40 42 1 40 be 2c 5e f6 ff 7f eb 71 c7 9d fa dd 2f 7e 3d a9 5f 8f d6 3c c7 80 ec ad 84 fd 1d e5 d4 2b 60 7c dc b1 24 f0 28 3f d0 1d ea cb 1c fa e4 76 c5 8f d7 c8 ee 13 4a 86 60 9a 4a e0 9f a6 ba 12 78 9e e7 1c a4 83 7f 9c fe c5 a4 9c cb af 65 4 df 8c 17 a6 29 2f f b2 b4 75 4a d5 44 48 75 c6 3c 69 1f 10 cb 35 51 37 ee a8 56 f3 86 37 c9 51 bc 9f 27 fc 87 7f f9 e7 f8 77 7f f1 4b 60 9e f0 ed 6f 7e c0 7f fe fb 5f e1 d3 d6 84 48 40 ae 24 84 a1 17 a4 36 dd 69 7f cd 42 28 b 75 6 2f 86 f1 a4 de 8b a7 61 9b e4 c3 9f 28 6d 2 4a a4 2b 65 58 1f 40 7e c 2d cf af c3 e7 89 76 7f 2d de d a5 9e bf ad 3b 6e b7 3b ae d7 5b f9 ef 1d 9f 3e 3e e3 87 ef 3f d6 53 bf 5 7d ff e7 bd 98 b b1 14 40 28 0 c8 57 20 8 ce c3 e7 98 86 ed 4e ff a7 de fe 2e 90 9e 4 5 7f fe f7 8d 5c fd ef d9 36 2e 58 dd 6 dd 2f f8 b3 e5 41 af 99 4 1d bc f8 43 b1 df f5 be fa aa 68 5e 34 cd b0 c6 9f fc 43 11 3 66 6 14 c2 54 45 80 a5 b8 ad a9 31 bb d1 b9 99 7d 4b 56 88 60 52 cd ab 83 35 20 a5 ec 19 90 1f bb 9c b6 75 c2 a4 80 86 80 a7 79 c2 25 4c d8 62 5e 70 e3 bd 3 6a 47 3c da f3 7c 73 99 30 8b e0 37 1f 9f 31 bf 7b c2 65 a 78 a 82 54 e6 f8 f3 f5 ce af 57 43 38 8 2c 2b 2d 54 ff 80 94 90 52 ce ed fb b4 bb 77 fc eb 12 3a 82 6e b 60 15 48 72 dc 27 30 fe 80 b4 12 8a 14 c3 9f e4 1a 4b 8b e0 b d9 46 18 8 75 ec b2 96 9f 90 37 fe c5 e2 11 b0 ae 1b 96 65 c5 fd 9e b3 0 cf cf 57 7c fc f8 8c 8f 1f 3f e5 91 bf 62 0 94 ca e 81 cd 46 1 4b 4f 0 5 0 a1 0 20 5f 75 86 e0 d0 a1 8f c1 10 48 86 88 7e 92 11 f0 11 62 6c fe 6b d9 80 76 bb b6 db be 74 b3 bf d2 c e8 f3 ca c7 fd 1 32 ac 7f 2d 81 fd 10 8c 34 bb f5 99 73 9f b4 c0 1e 82 60 a d2 5 fb 2a 2 a6 9c 9 b0 20 e7 d7 c 9b 37 80 b7 52 16 5b 62 33 29 a6 a4 98 a6 2c 6f 62 69 46 b3 eb 67 a2 e0 32 95 d7 b a9 fe f4 56 1a a8 66 40 96 71 50 c5 7d dd f1 bf 7f fd 3d 2 4 ef 9f 72 a6 62 2b 1 d d6 cf 50 2 28 60 a6 45 e7 b9 1e 14 37 43 89 f9 7d 85 10 f2 bd b4 79 38 e8 f0 11 8b fb 7c 82 84 ba c1 d0 97 40 ec 5a 74 2 ad 29 b1 92 d1 40 f1 9a 40 75 46 cc 6f 31 14 c9 93 6a 19 21 b4 0 34 0 0 20 0 49 44 41 54 27 84 90 9d 1c cb 6b ce 1 7d af ab 7c f7 b8 e3 be ac b8 5e 6f 78 7e be e1 7a bd d7 71 3f 1b f9 8b 31 d5 2c c0 be 6f f 37 9 12 42 1 40 fe a4 3 7d 3b 9 9e 6d f2 7b 1c 60 8f 1d d8 ea 4e 8c f b2 0 3a 4e c f8 b9 ee fe f1 ac 33 bd cb 0 a0 4 7f 27 2 9a 10 91 ae 73 bd 3e 56 1d 41 97 ce fc c7 d7 fe 7d 46 a0 ef b2 6b 1b fb a6 69 3a d9 1b 2f b5 fe 6f 7f 96 20 ae 4e 8f 16 c4 ac 19 ad 2e 5a ca af 27 2f a ca 9e 1 aa 13 20 82 6d 8f 98 f6 bd d5 f4 93 22 a4 62 a0 13 15 d3 34 e1 dd 34 63 dd f7 1a cc bb cc 4a 79 ce 1f ee 2b b6 3d e2 9b 79 c2 6d db 11 cb f7 76 33 29 42 28 d7 d4 95 60 86 34 4d d7 cb 1 67 69 8c 9c 95 a8 ae 89 32 58 9 97 e3 7a ed 8b f0 eb 85 87 35 c2 72 32 d2 d1 89 2 b4 5d 7 41 4 5a 7e 5e 53 4a 40 40 db 9f 30 65 41 10 34 54 73 a2 2e 8b 81 d6 8b b1 ae 1b 6e b7 1b 6e b7 1b d6 b5 cd fb 67 a1 d6 a6 1 18 fc 9 5 0 f9 2a 82 ff f1 e4 ef 17 fc 3c ca 10 f4 f3 d8 47 57 bb 2e 57 dc 2 fb d8 d2 ae 6d 7c 50 d1 d2 fd 7e 99 8c 16 83 21 75 36 c2 e3 44 c2 69 36 0 38 4 7f 5f fb f7 81 dc bf 66 bf b2 57 c4 fe 5d fa 2f 7f db 92 2d c8 bd 72 ad f3 a1 4b fd 8f e5 92 64 8d 7b 2d da 4d 21 60 9b cc 58 68 aa 2 c0 c 86 fe ec c3 7b bc 7f 7a 2 a0 b8 2e 7b be b4 5e bc b8 85 39 d7 6d c7 b2 e7 31 c3 98 14 7b 4a b5 2b 1f 68 b5 ff f1 8a 8d 4d 9c b5 ef 30 65 c1 a0 e6 fc e8 2f fb 68 fc 54 2 f0 41 44 3a fb e0 f3 2c 80 f3 92 28 45 8e 10 24 97 65 42 80 a8 22 a1 35 7 da 1a 66 b3 5d e 41 8b 18 2b 22 af 94 7a 42 90 ba f5 d1 4e f9 f7 7b 1e 5 b4 ae 7f 3f 39 f0 38 83 45 8 5 0 f9 42 84 40 df d5 af af 2c 4 f2 6b 7f cf ff 7d 3c 8d 76 b3 e3 7e 97 fb 61 9 50 d9 54 a7 3e 47 e0 76 c c 22 0 f 27 12 86 90 a6 e2 16 f1 b4 e0 3f 4d ae 7e 3f f9 d 7c d2 1b 24 59 99 20 8 8e 2b f7 e0 bd 7b 5d 7a 7b 2c 91 b8 db 7a 57 c4 22 8 24 a6 ba bc 27 84 1d f3 3e 65 7d a0 a 9d 27 4c e5 4a 44 71 96 c8 e5 b9 62 8a 65 81 50 9f 1 50 28 76 55 ec dd 67 a3 87 38 dd 6c f3 f5 64 f 84 5b c0 24 ed 7a bc d6 2c 2a 5d 60 3f 8e 54 1e fe a2 83 9f 82 8e 99 a1 80 10 b4 3a c 4a 2a bb 17 ea 1d 51 33 4 41 5c 66 66 9a 10 c2 54 fb 2 3a 6f 80 98 ea c2 9f de 4a 98 41 9f 50 0 90 af 2a 13 e0 4e ad 27 e5 80 96 21 38 9 de 3e 50 1c 84 80 9c ff ee c7 18 b0 4b 20 2c a6 33 e6 2 d8 3a ce 8f 22 a0 6b e 54 d7 1d 3e c6 69 17 fc e7 79 aa cd 7b 21 84 41 10 4c e5 c4 1f 5a 9c d6 b6 7c 27 48 40 e7 b9 a7 5d ae a4 4 73 a9 f5 67 bf 26 d7 2c 7d 91 da a8 5a e7 68 c 45 8c f9 fb 73 9a 9c 1 50 3e f5 7 c9 bb 6 62 4a 58 b6 d 49 13 b6 ad 98 d6 a4 84 a0 e5 f1 d1 2c 71 eb c2 9c b3 11 cb 6e 9e df f9 37 3c 8c e8 4e 40 85 61 96 7f b8 a1 17 92 be 34 f0 b0 e9 af ff a0 e 59 92 e3 7d ca 73 e4 1a a b4 6c 49 14 e7 ea 94 cb 36 4e e4 95 cf ce fa 40 f2 16 47 71 a9 ff d4 bc 14 8 a1 0 20 5f cb e9 bf 13 3 f 82 c0 79 8f c0 5b 9e e3 78 b2 ec c2 a6 d5 ee eb 41 b3 84 50 3d 6 f8 16 10 5a 79 a0 a 2 d7 98 d8 56 e0 fa 80 21 75 84 cf 2 be f7 1 b0 ff 4e d3 d4 ad da b5 90 6e 35 ff 3a 93 5e 23 b7 77 f9 cb 9b 12 53 18 3b 9 4 f3 34 e1 dd e5 82 a4 8a db b2 74 9e 0 aa bd 99 8e c0 bb ec b5 eb 98 92 22 4a c2 f5 be e4 5a b8 19 fb 0 80 a6 3a 44 57 bd f8 46 4f 60 c8 50 d6 90 ba fd 50 fd 3a 61 f1 1e 82 ad 76 6f d7 c7 ae d5 c9 c7 59 6b 2 67 5d fe 32 7c ee dd 86 c9 30 4c 33 78 91 a9 27 22 3 6e 47 40 11 1 55 cc 62 68 f2 c 92 3d 1b 2e 33 2e 4f 33 de bd 7b c2 bb 77 4f b8 3c 5d 4a d6 87 bf b 8 5 0 f9 ea b3 0 3e f0 9e 37 1 be 56 22 78 10 15 5e 17 9 62 c1 4f 8e 99 1 95 6e 3a e0 58 6 c8 bf f6 cf f6 4 59 30 f5 cd 7a 62 5f e5 a4 ef fb 0 aa d3 1f fa c0 6c 1 45 8a eb 1f aa cf bf d6 d5 be 22 9 28 4d 68 73 39 75 46 cd 4d 73 4f f3 8c 6f 3f bc 87 22 a7 a0 ef ba 56 71 60 27 e6 76 6a e 68 fe c4 a8 33 f1 55 68 20 21 d 8e 3b 9 a 49 de aa 57 f 6d f9 be 6d a3 36 c9 b9 cf 48 d5 8f 4f 4a b7 db 1 22 dd 24 44 df 2c 38 34 0 d6 ef 1c fb b 9a fd 70 9b 3a 38 7b 1d 3e f2 2b cc d7 3f ef 50 a8 76 c3 de 66 59 f 9 8b 2e f3 33 4d 13 2e 97 b de bd 7b c2 d3 bb 27 3c 3d 3d e1 32 cf a5 b9 33 4f 41 0 9f ed 62 4d 8 5 0 f9 72 b2 0 fd f7 46 93 9f b7 f5 9 bc 84 34 67 98 7e 39 cd 89 68 38 6d eb ab 19 81 d6 1d 5e 1b 5 e1 4f fe 36 88 ee 4e a3 c5 17 57 dc 48 da 61 5d 2e a4 db b d0 fa 1d 8a 48 28 35 e6 7c e8 ce de fe 48 70 f3 f8 f9 b4 ff 67 1f 3e e0 e9 72 c1 c7 eb 15 eb b6 97 1a 74 79 9d c1 82 bc 13 17 39 fd 31 9c 9c e5 b4 c1 d1 1d b4 d1 ad 6b c6 71 51 51 7f 2a 2e cd 82 21 54 53 9d b6 68 e9 78 32 f7 d7 a0 9b e3 af 81 df 5d b7 b3 6d 3f f 3f db f2 7a 4b e0 e 12 ba 9f 2f 7b c7 96 3d 52 b7 65 d1 cc 89 92 26 c4 d4 36 f5 f9 46 c4 7e 5a 23 60 2a 3d 1e d3 14 30 cf 73 76 6f 2c 63 9b 8f c a0 8 a1 0 20 5f bd 18 e8 8f e3 ce 7f cf 67 d e bf f9 5f fe 25 3a 36 8d 8b bc 1c f4 5f 7c bd 18 57 df 9e 9d 4 ed d4 2a f e2 92 1c 9b d5 80 ae df a1 f5 6 88 b b0 5a bb e2 93 d5 a1 35 60 9e 26 fc e2 cf ff c ef 9e 2e b8 af 2b 96 6d c7 16 23 ae cb 2 94 31 34 71 1d ee 70 56 b7 39 b 61 d1 4f 6b 83 9e ea b 9 16 34 bf fe ba e a8 8c e7 1d 4 40 12 e8 e4 1a dd c2 54 dc 0 b5 2b a5 d4 5e 3f 67 e1 ec 7f 4 fa 9f 95 7e 8e 7f fc b9 e8 83 aa 9c ee 13 38 fb 11 ea 4f f8 25 fb 51 ae 73 ad db 27 13 83 d2 96 f 49 13 35 b5 7f a3 78 37 4c ce c0 c9 a6 1d fc 17 21 14 0 e4 ab f fe bf db 29 5f e 4d 7b af 89 80 7 87 ff 13 81 f0 78 41 91 75 8b 9b 51 10 86 60 35 6 1c ed 16 c9 f4 7b 0 e4 a0 7b a4 2b 13 c 53 8d fd 9e fa d2 78 97 52 c2 ba 6d 0 50 e7 e6 55 15 eb b6 37 ab 5e 1 82 6b 58 b3 20 6d 5e 4 7e 2b 9f b7 15 f0 ea a4 79 f5 17 b3 1c b7 86 d8 1c 8 53 d2 6e 73 5f 8 25 d5 1f aa 2c 0 24 8f d6 e5 fb 9 42 d7 b0 27 43 39 26 7 e2 2e d0 6b 5f b3 f7 ff 3d 1d 27 74 c2 cc 32 23 9d 1f 80 5 ff e2 9b 50 85 56 5d ed 5b fe cd 9 1c ef b0 58 5f ab 35 37 22 97 80 e6 cb 8c cb 7c c1 34 97 3e 10 ef 27 40 8 5 0 f9 da 83 ff d9 9f 7d 3f c0 cb 42 c1 df ee 73 9e bf af f9 e7 d 32 63 30 79 a4 1c dc 6b ed 1a 7 d1 df f 6e 69 8e 9 80 d2 99 6f a9 fd 56 17 97 e3 ba df d0 b6 1d fa 2f 19 17 e0 28 b0 6e 1b 7e f3 db 1f 30 4d 1 5b 8c 2e 4b 71 ec 32 f 5e 7c 38 91 21 e3 76 41 13 30 d2 67 28 3e 3c 3d 21 25 c5 75 5d bb c7 4d 29 b 8d 94 52 b b0 41 8a f1 7f b9 7f 12 a4 20 79 f2 a2 ee f ca b7 b6 32 83 ed ff b1 71 cb 6e b2 c0 cc 93 42 28 63 79 c8 1b 0 21 a7 4b a1 fc a6 44 8 4e f3 31 b5 2c 61 4b 7f cc 4a b9 bc 9f 2c a fa e0 ff d2 cf 55 7e 9d a8 7d 0 f3 9c fb 33 6c 89 53 35 31 3a 31 3e 22 84 2 80 7c 75 42 60 14 1 f5 84 ad f 5c 3 1f 9c 9c db bf be 16 fc fb f4 7f 5b 1a 77 32 fe 75 96 43 90 93 6c 40 59 5f 6b 61 d7 7e d1 7b e3 19 3b 19 76 ae 80 a1 17 0 fe 65 58 27 be 14 e3 19 1d 6b f8 e5 ff c7 a4 b8 2d 6b 4e 33 4f d2 4e c9 76 3a 77 a7 72 7b fc 2c 40 42 35 14 12 57 28 f1 a7 71 df 87 91 20 48 da c6 15 dd 48 41 3f eb 5f 4d 16 4a ab 5b c9 4a 4 d 75 a3 a0 79 10 d8 ce 82 84 36 c6 68 7d 8 e2 26 f 0 40 53 82 6a 31 13 e a1 3a 2e 8e d 88 87 b2 80 b3 2 1e a7 1d dc 55 cf 9f 5c 52 97 ee 2f a9 7f 4d d5 ee 78 fc 39 b4 d2 47 8c a9 3b d9 5b 46 41 91 17 30 d9 12 27 ef ec 98 ef 4b 11 40 28 0 c8 57 1e fc fb 1a bf 9e cc fe eb c1 e5 af 3f c9 e1 d1 91 7d 10 e 4e 3e 8c d 0 c3 e3 8a ab 9 bc f4 a8 cd 13 0 48 2a 40 4a 88 2e 90 26 51 84 ce 4d e7 d1 82 1a 77 76 4f a d a9 33 d9 39 be bb 66 a9 9b 2d 7f ad 85 b2 38 d6 d7 9a 75 79 cc 10 a0 c8 7e fc cd 42 18 c7 6 3b ff 7e 55 a1 9 b5 ac f0 7c bf 37 33 21 b8 6d bb 2e 73 11 f4 78 2a 3e d6 d7 4b 1f 41 ee 69 84 68 82 96 ec 40 28 d 94 7d 9f 84 2f 37 c0 8f 72 b4 2b 21 83 ed 6f 1d 3d c 6e 91 91 6f 76 44 b7 81 b0 d6 fd 6b 40 ef cb 2 b6 32 ba a 93 94 b7 ff e5 af 36 df df c 7e 50 fd 2 a4 64 5a f2 14 0 b8 f2 97 50 0 10 8a 80 f3 c 0 4e 4b 4 2f 85 f5 cf 7f 6e bc 30 8f 2d 2f 64 1 f4 71 46 21 47 5d 28 2 54 f2 26 bb 50 fc eb fb e3 b1 76 35 69 2f 30 bc 1d f1 21 5d ed 4f 97 65 86 4e d1 5f 3b f5 27 6b d7 c9 6e fd 3 ed 79 43 73 12 14 6f 2d 7c f2 9a b4 f be f6 78 53 8 6d 2c af a4 bd 5 6d 3d b0 7a 55 51 d 4 9a f 40 4a 29 3f 4f 9 fa 48 65 5f 41 10 48 f2 af a5 84 ed 20 3e c5 70 f0 fc 3f 3b fd d7 13 b7 84 ae 1f a0 3b 75 7b b7 be 12 fc b3 61 8f 9b f9 af fa ad 65 3d f2 7d 62 dd b9 d0 5c ff da 35 af 49 20 5 a4 34 5 da 6b 4b 89 8d 80 84 2 80 50 4 c b5 5b 79 e3 ee 80 cf a3 b 15 6e e6 fd fc 86 72 9a 50 78 f4 fc 7e 5c d0 4e e4 a1 ab 49 b7 5 31 72 fa 74 e5 d5 1d 3a d7 c6 7b b4 66 b3 2e cd 6f c1 39 a9 b3 a0 d5 6e 89 52 e8 f6 10 48 2b 4b c8 b8 a8 68 ec 65 28 e9 fc 72 3a ce fe f7 1 a1 9c d2 73 57 bf 38 37 40 6d 3d 12 2d ad e0 52 2 da 56 20 4b f9 6c e1 fa e ac f4 63 af 13 a3 48 c2 a9 73 5f 97 a7 71 4e 83 22 67 46 47 ae b7 40 7b cb 5e 75 d6 bd 35 83 22 4d 0 98 c cc d7 a3 8 1e e0 bc bb bf 39 31 67 6f 80 79 46 8 82 bc 5d 59 28 0 8 5 0 a1 8 18 83 ff db 3 fd c9 90 dd b f7 1d 63 ab 9c fc e3 79 fc 97 87 d 81 35 30 6b 6f b2 93 1e 8c 7b e9 10 c4 14 6d c5 ad bd e e9 2 9a 3f d5 a3 76 ff 8b b6 54 7f be 8e ad 94 90 34 7 2f 94 7a bf 5f 40 24 a1 f8 12 94 32 80 ad 16 e 21 f4 e5 0 b7 85 d1 3c f1 4d 0 8c 33 fb b6 4f 21 5 20 d4 31 c2 61 91 41 c9 42 98 38 aa cf e1 ae 84 42 20 56 72 40 82 ca d4 69 87 2e 13 e2 2c 85 ed ef d0 d1 9f a1 4f 14 d5 5e 8a d4 8c 82 6a f0 d7 56 ef cf 2 20 67 1 ea fb c 63 fd ff 85 91 3e 1d 7e be 5 d9 17 e0 92 cd 80 f2 e3 46 70 20 80 50 0 10 f2 4a 46 e0 b5 80 7e 38 e7 bf 78 1f 39 5d 30 23 f 4 c5 79 fc 97 d3 e7 6f 66 32 ae 73 5f 5c 57 bb 9b e5 47 68 63 63 ea 3 ef 30 5a d8 b2 a a9 a4 c6 fb 46 c3 de de 56 21 12 6a f3 9c 28 fa d9 3e b7 68 c8 ef 24 98 a7 b9 66 1 da 66 c1 f3 7d b e3 85 11 e7 22 18 4a 60 55 79 3c 46 d9 c6 e5 5c f0 af d5 15 e7 f 20 1 a2 9 29 85 3c 2a 18 9a f8 f1 8f 67 d7 a1 5e b6 22 48 da 7c 3f e ae 8d fe d 8d 62 cd fe 6e 23 80 59 44 e5 f5 c8 40 1e 6c a8 ef c3 67 76 86 ee 7e 3f 4e 58 33 0 97 b e6 f9 52 ca c 89 59 0 42 1 40 c8 99 8 78 4d 20 88 8c 36 be bd d9 8b af b1 9f 85 6f 19 5c dc ce 5 5 80 83 c9 ac e0 5 ab 80 16 5c e 27 c3 72 8a d6 5c f7 4e c9 46 ed 42 3d 41 fb c c0 21 70 16 27 40 49 1 29 68 cb 62 58 ba 5b cb 3a dc e0 fc 14 bb 93 fa d1 ae 36 a7 a5 27 7c 78 f7 e 97 79 c6 b6 ef 58 63 c4 d9 34 c5 61 b9 8e fa a3 35 5c 94 7d dc 34 a9 6a 46 46 a 20 f5 b7 ac dd 71 a d7 9b 57 c6 fd 9a 7f 80 68 ef ad d0 fa 30 f2 9f 6b 26 a3 7a 15 e5 3d c2 e6 17 e1 1f 3b b9 e0 f c5 21 6b d0 7b 53 a2 f ee f 37 54 e6 25 4a 7b 8c 87 32 c2 b8 1c ea 2d e3 85 84 50 0 90 af 86 b3 e0 df 37 a e 73 fc c3 69 fc 6c cc 6b c f6 72 ba 62 56 1e 4 fc 21 f8 3f 10 9 fe 11 2c 5d 7f b6 db 40 53 42 12 41 2c 81 73 82 b4 40 85 2c 8 34 c8 41 c4 28 da c8 5c 40 2a fe 5 5a ff 4d 0 20 25 4 94 11 b9 ae 9b 1f 6e e5 ad b9 d4 4d 98 e7 fc f5 fe e9 9 ef df 3d e1 ba 2c 88 8b 35 b2 f5 57 c3 36 c e6 91 c7 f6 59 e4 95 ca 43 e6 45 b5 3b 6c fb 97 91 54 73 d7 bf eb 39 8 36 43 59 3 b4 f5 10 64 c1 a0 c5 4c c0 37 4f e6 f1 c8 50 b2 1e ed b3 d7 32 11 d1 ad 70 46 31 2f 76 a7 7f ed 44 5a 7f 8a 17 3f a9 81 be ec 0 eb b5 a8 a2 c1 5b 1b b7 f2 c1 be 47 ec 71 cf a5 84 d8 7a 27 e6 39 37 3 ee 3b b7 2 11 a 0 42 5e 14 1 c7 9d 0 6d fc ed b5 5e 81 31 43 30 7a f1 1f ff de 3b f2 75 51 1d f2 fa 26 b7 83 47 7c e8 3c ed 53 9e 15 2c b 7d 0 89 f6 9c a1 3e 44 28 d1 da db ca fa d4 72 ae f9 e7 7d f5 87 f7 eb ea f6 b5 b9 d0 25 41 44 80 30 d ab 6b 43 40 84 62 dd f7 5c 9f f a1 cd fa bb 28 9e 43 6d 5e 4e 64 63 6d e3 bc 44 d fb 96 da 1e 36 4 fa a6 48 b3 35 a 90 bc 62 17 ae 4c 2 b7 2e 38 0 53 c8 c1 3c a6 52 6 9 82 94 26 84 d0 32 41 fe 33 ec fb 3 5a 56 a1 ed 5d 1e 4 a2 b7 c e 52 a7 22 8e bd 4 96 f4 77 99 4 13 c 2a b9 29 30 9a 0 d8 b1 2c 1b d6 6d 43 2c 23 99 22 52 77 2 9c 79 12 10 42 1 40 18 f8 3f 83 73 9f f8 93 d3 7d d7 d de ad 9e 3 4e 52 e6 c3 f9 f7 95 26 c0 63 30 b4 e0 6d 1b 1 6d 95 6c a 9 88 bd ea 10 e7 68 e7 cd 83 6c 89 50 b7 e6 b6 73 42 2c 1b ee 7c 2a fe 98 b3 68 63 7e 66 44 e4 82 7f 98 2 14 8a 35 ee 50 28 c2 94 83 bc 4d 14 54 eb 5f d7 b9 28 c5 48 8 e3 6b 2b 41 56 87 c c0 98 5b a9 2 43 81 54 f7 2 48 fd 7e 9b eb 57 cc 93 e0 c3 e5 9 a 60 89 bb cb 4e e8 41 c0 75 f6 be 62 fd 6 d2 56 4f 6b 73 83 38 fc 78 88 bf 4e 45 8 a4 63 6 43 5d f6 a0 8a b 94 85 41 31 d6 d4 ff b6 ed 58 d7 d fb 1e 91 ca f7 cc 60 c8 a6 34 8 a1 0 20 e4 45 51 f0 39 37 ee 4f ea 22 f 2 b4 ab 55 1f c7 c4 e4 b3 4e fc f2 20 98 84 7a fa f 75 16 3c 69 ca 56 b8 41 bb 80 18 80 b6 31 50 50 5d fa 4e f7 dc 1f b6 f7 a1 33 e3 f1 3d 4 dd 48 5f f7 78 a1 2e 1b 32 11 20 90 9c 5d d0 de 48 d8 46 fa 52 5d 8f db 7 4b 79 20 3c fc 89 79 bc 58 75 bb 22 5c 30 1f 3f ab 52 6e b0 f1 bc da dc e7 6a f6 a7 c1 df f2 b 2a 5d fd 5f 8a ed b0 88 35 5e a2 1f c5 f0 d7 d7 6d 69 54 d5 2e ab 50 d 96 ea df b5 9e f8 f7 6d 47 dc 23 b6 6d c3 ba ac d8 d6 d db ba 61 5d 37 ac eb 8a 7d df 8b 77 40 1b 3b 24 84 2 80 90 9f 20 1b f0 6a 73 de e3 3 3c 8e 4d 84 bf c3 43 c0 37 d9 f5 e9 ff e6 d8 67 b6 b8 ce 99 e a 4c a8 1d e7 cd aa 77 b8 1e 9d 8f 7f e8 b7 dc d 2f 7e ec 73 8 83 cf bf d4 dd 4 e5 75 9a 82 48 a9 4 48 ef 29 90 9b f 11 b4 37 dd a9 46 3d 52 cd 72 e0 cd 9c dc a e1 9a 49 19 8c 82 b4 eb ec 77 cb 90 4a 39 60 8b 11 1f 6f 37 cc f3 9c cd 87 7c cc 56 ef 5e 38 ec 94 28 65 86 6e a5 b3 a0 7f de 93 71 4d d5 5e 68 d5 6e ff 84 b2 1f c0 9a 18 5d f0 df 76 6c db 8e 7d df b1 6e 1b 96 fb 82 db 7d c1 ed 76 c7 f5 7a c3 f3 f3 d f7 fb d2 32 2 29 71 23 20 a1 0 20 e4 77 11 1 9f 6f a 74 e2 18 d8 7d 6b 8 9e f 44 41 77 5b 79 10 fc 25 38 cf ff 16 c4 ed d4 d7 82 4c db 21 df 8b 87 12 94 45 4e 5 87 f fe d6 8c 57 5d fd fc ca 1b 57 fb cf af 65 2a 8f e9 1b c 43 75 dc b3 a0 2b 12 90 44 aa 97 7d b 8c 69 c8 42 34 fb 5d 6f 92 d8 32 14 b6 e8 47 87 da bf d6 31 45 3f 2e e7 fb 1e f2 63 4c b5 e9 2e 21 7 df 20 e8 9a f3 46 33 87 ce 2b c0 c6 0 25 9b e 89 b4 be c9 f6 dc 66 fc e3 5f 97 76 5b 13 e1 b2 37 d6 fc e7 37 20 5a d0 df d6 d eb b6 e3 7e bb e3 d3 a7 2b 9e 3f 5d f1 e9 d3 33 9e 9f af b8 5e 6f 58 96 2c 0 4c 28 f0 f4 4f 28 0 8 79 29 6c 1f b6 1 be 7e 32 17 f4 81 e8 30 be 86 de c2 17 6e 8e bd 5 f e9 4f ad f2 fa e9 df 8f d7 cd 65 5 ac 4 9f 83 d7 ce b5 f c8 b7 6f 7f 47 57 a7 97 7 2b b fc 42 19 91 13 1 30 bc 6f 2f 46 b2 e1 4f b3 d9 d 41 aa 4f be 9d a2 73 0 4c d0 10 aa cb 9d a5 fb 93 4b 36 78 99 d4 99 fe d5 eb 15 72 16 c1 5 79 3b f9 7a fb dc 7e 61 91 20 24 41 98 da b5 31 31 24 a5 2e 1f ba f1 4e ef 4f d0 1e a3 d9 0 14 f5 e0 c6 33 cc 6e b9 ce fb 17 1 60 f7 ef fa 17 4 b9 64 3 9f 2d 48 55 cc c5 bd 9c fe 4b 9a ff 7e 5f f0 fc 7c c3 27 17 fc 3f 7d 7a c6 ed 76 c7 ed be d4 e0 1f 63 e4 e9 9f 50 0 10 72 16 f0 cf ac 80 1f 9d e4 1f 8f f5 3d 7a e 1f fc 71 d6 1c e0 12 3 f2 a6 47 f5 c1 d6 46 eb a6 69 aa a7 f8 da 50 af 87 d6 b5 93 d1 44 37 f6 a7 be ac 71 c ee 5d f c0 f0 5e ac 99 6d b2 66 c4 a9 d9 0 57 41 50 32 0 f0 c1 7f b8 e 87 86 be de 0 b1 da e1 48 9 fa e2 cb 2 6e 71 ce 8e e2 b2 17 53 e7 99 6f cd 91 36 17 a0 65 cf 6f a 29 97 51 3a 51 d4 bb 15 fa 20 ea 53 fb 59 3c b4 2c 41 9d 2c 48 e5 5d 3a 1 60 1d fa 76 bb b6 d0 27 39 73 a2 7e 53 60 dc f7 ba 33 60 5d 37 2c cb 82 eb 2d a7 fa 9f 9f af 78 7e 7e c6 a7 4f cf 39 13 f0 7c cd 2 e0 7a c7 b6 ad 3c fd 13 a 0 42 de 7a ea 7f f4 bd 63 10 76 67 f6 37 9d fc fb d3 fc 59 c2 fd b8 e 58 5f c fe 79 b4 ae 99 bd f4 cf 5f 4e b0 10 84 30 95 1e 81 d2 90 67 ff b5 ba b9 53 a 72 1a fc fb e7 3f b8 ee 3a c3 9f 6a fa 13 a6 6e 1d b1 9f 50 38 6 fa d2 e1 ae 3a ec 15 70 96 c7 6e d 6f 67 ec 2b 6d 27 61 ad cb 17 21 60 33 f1 b1 6c da 33 6b e3 a4 c9 d5 ee 43 27 fc ce de f7 4b f5 f3 4e 2c e 69 7c ef 44 58 4f f1 29 d6 40 9f dc f7 b3 cf 7f ea d6 fd c6 18 11 63 6e f2 db 4a c3 df b2 ae b8 de ee b8 3e df 4a da ff 8a 8f 1f af f8 e1 e3 27 3c 7f ba e2 f9 7a c3 fd 76 c7 b2 2c 58 d6 ad 78 2 f0 7f e7 84 2 80 90 87 22 60 fc a5 de 7b d0 bf 62 f5 fb f0 ef e7 c1 ff b1 a0 68 59 80 da ca a6 2e e4 d a9 f6 1c fc 5b 87 7d 1f 87 4 b3 73 81 33 a1 30 4d a1 4 e7 96 86 3f cc a4 87 d7 4c 8c 7a 5f 7d 7f ff d6 90 28 b5 f1 4f 42 f0 ee bb 5d a7 7b 8d fd 49 bb 6e 75 eb 1 e8 77 22 b6 b6 fe 6c 1 8c 61 9b 61 5f f6 48 29 9f b8 eb e9 df 56 ee a6 94 47 10 8b 1f 42 1a bb 31 a5 97 64 7d d3 5e fb b9 a8 e5 2 df f0 38 dc c7 9f f2 63 8c d9 5b a0 3c 95 2f 9 d4 4d 7f 49 bb e0 bf ef 7b 39 f5 af f5 f4 7f bb 2e b8 dd 96 d2 f0 97 d3 fe 9f 3e e6 2c c0 f5 7a 2f 13 0 11 31 c5 d2 ef 40 8 5 0 21 6f ca 6 bc 94 1 10 39 33 f3 79 2c 10 f4 e4 4c 5f ed 85 c6 26 3 3f 52 7 b8 4e 77 e9 46 ef ba b4 7a a9 df ab ad ad ad 1d e8 16 88 5b 86 a0 89 80 a9 66 f c2 14 aa d1 4e 18 1a fe fc 69 df 27 bf 45 25 ef 17 38 19 8d eb bc 5 d0 1a f8 72 40 4e 88 56 33 17 77 4a 2e 19 88 0 20 ba da 7d 7d 5c b5 6b d3 af d5 cd 7e 3e e6 f2 a7 b5 8c a1 29 d d9 13 cb 2e a4 7a fa 57 28 12 ca 98 64 f5 d1 b7 db f6 d9 8d ba af a0 a6 e8 71 14 4f 7e 44 51 9b d3 b0 bd 3f f3 e3 6f e9 f8 31 3 90 da 92 a0 e8 dc fd b6 3d 8f f9 ad 2b 6e b7 25 a7 f8 af 77 dc 6e f7 92 fe bf e2 7a bd 96 3f df 70 bb dd bb 2c 3 21 14 0 84 fc 88 e0 ef d3 c3 f 3 fe 78 1f b 1b 76 72 ac 2b 78 f1 e6 d1 c1 4e 4 b8 88 f4 b8 e4 d0 9f c8 5b ea bf 39 f1 d5 7e 81 92 9 c8 19 1 2f 26 fc c8 9f f4 5b 8c ad a9 cd d9 f1 8e b9 8d 6a 40 64 1 d5 2d 24 b2 fd 2 9d 20 2a 1 32 94 c6 3f a0 6c 1c ac cb 70 9c 4b df c9 36 24 13 52 ea 32 27 45 a 15 2b e1 d0 8f fe a9 1f 14 ec eb fb ea c4 81 5f 6d 2c 87 ce 7f 75 1e a ed 7a 79 7f a7 66 6c a8 87 4d 7e a9 8c 26 d6 e6 c4 94 5c 36 20 97 9 ec f4 bf 95 c c0 fd be e0 7e bb e3 7e bb e3 f9 7a c5 b5 34 ff 5d af 37 dc ee b ee f7 5 cb b2 60 df 77 97 c5 e2 ff ae 9 5 0 21 9f 2d 2 1e 9d fa fd ed 8e e1 6f 8 fc 87 c8 31 76 f8 f 76 c1 f 44 40 7f 6b 81 4f 77 a7 a4 6d 39 4d 11 18 36 e9 e7 bb ef 7d c9 60 2a 22 60 b2 4e 7d 91 ae 8f a0 af 81 cb 70 98 d4 ba f8 46 30 d4 c0 87 e6 b5 14 13 e2 9e b2 8f be f3 f8 4f 83 0 48 aa b9 e3 3f 29 f6 d2 b1 5e 53 d7 ce e8 8 a1 3c 9f db 94 57 83 7f f9 6f 36 28 46 f5 fc cf e2 23 4f 8 b4 e9 3 b e2 c7 9e 6 ad 25 a ed 5 15 9a 29 91 ff 5c cc c6 47 c6 49 8e 2c 65 5c c9 c3 6d 3 8c c9 89 81 d4 95 9 ea 75 b3 2c c0 b6 63 59 d6 7c ea bf df b3 10 28 33 ff f7 fb 3d 97 6 96 35 f7 8 c4 74 10 83 84 50 0 10 f2 3b 8a 80 de f1 ed 71 a0 ae a2 e0 a5 d9 c1 33 57 e0 87 8f 78 fe 1c 7d 63 59 2a 4f d5 f7 2b e4 5 3a 5a 4f c2 26 2 2c ed 3f cf 13 e6 da 3c 68 3b 4 a4 6d b6 ab 42 c3 f9 da 9b 7e 19 2c f7 db 78 5b ae b7 43 a4 59 f f ca 68 2a 7f f 3e bb 61 29 f2 ae f9 cf bf df 6c 2a a4 41 eb 88 dc a9 64 92 36 19 0 51 8 2 42 d2 3c 5e 98 86 6 bf 72 97 2a 78 e0 c7 fc dc fb f5 49 7 39 9f a6 30 e3 1e 51 a9 ce 88 50 bc 22 e5 9c a9 af 9 4 b7 86 d9 2f f8 a9 19 80 65 c5 fd be e2 be ac 58 ee 6b 15 2 f9 e4 bf 62 db b6 ce 3b 81 10 a 0 42 7e b4 20 e8 53 e0 7d 54 c0 e1 97 fa 4b 2d 80 a7 49 73 f9 dc d7 63 a9 74 85 38 a3 1f 3b c9 5a 1d bf d6 d6 65 f4 c 98 31 4f 73 f5 e 18 4f fd 18 2 b3 5 44 e9 1c f8 a4 35 e2 95 86 3a c0 a5 ff 63 40 9c 52 57 cb 6f 93 ef 73 e e6 e1 d0 5c d0 97 58 c4 d5 dc 9d f8 39 94 5f a4 ed 4f f0 d6 c3 7e 79 51 3e 59 a3 b7 61 90 d0 d5 ee 5 a3 ef 7e bf 99 d0 37 59 d6 f7 53 ae 8d ad 1d 6 cc ff bf ff f4 8f 5e 9 39 d 92 6c 67 84 a 12 52 b7 dd af 96 0 9c b5 ef ba ae 58 2c f0 2f 2d ed 6f 8e 7f 3c f4 13 a 0 42 7e 5a 9 d0 d9 b5 be 28 12 d4 36 d3 f5 7f 7f e9 94 ff b9 6 c4 9d d1 d da 89 cf ec 75 b5 8f 8d 2e 80 b5 5e 80 30 d ee 81 a5 91 b0 76 f6 bb e6 b5 54 c6 e7 ec 31 da c6 3b 38 11 60 8d 74 1 51 42 d9 2 18 90 e2 dc a5 cd ed 7e d3 34 21 68 df 53 21 90 76 78 e 1 9 29 6f 4 3c db a6 e7 cc 77 ac 37 20 54 57 c4 e6 76 68 8f 1f 53 4 76 1c 52 fa d6 77 60 19 9f 94 7c e9 41 b2 93 df 38 da 67 af 63 10 48 36 db ef f7 f f4 a3 85 4d 88 e5 b5 4a 29 5f 37 13 2a a9 95 7 62 4c f9 f4 bf e5 e0 6f 1e ff cb 62 27 ff 32 e6 b7 ac e5 f4 bf d3 ea 97 50 0 10 f2 d3 9c fa df 60 fd db 1d ef 8f 67 7f 9b 5f 1f 23 bd fc 4 2a a0 76 92 4b 80 c 9d f8 e3 8 9f b9 d8 5 b7 ea 37 88 9c ce bc 8b 8b 5e a9 8c d1 a5 b6 87 16 b6 44 c7 1a 0 73 90 4b ed 94 6d 8e 82 22 98 62 0 54 ab 13 a0 af a9 43 1 2d 4d 89 a3 b9 50 5e d9 9b 1f 43 3 aa 93 5e dd b0 18 fc b8 9d ba 12 47 d9 3a 58 44 8d 4d 50 a6 94 6a 69 a3 b 92 75 75 71 cb 36 78 eb 5d b8 1c c0 b8 55 d0 2a 4 41 5b 16 20 69 ea fa 26 8e 9f 71 9b 90 30 a1 23 2d 35 d2 89 bb 63 9 a0 8c 0 ba 94 ff b2 6c 58 ca f7 53 a2 d3 1f a1 0 20 e4 a7 41 5e 6b c7 3b 75 fb ef b3 1 7 f 3e ff f0 e7 b3 f5 9f 31 20 d0 2d a7 f1 8f 5b 8d 7e 82 f7 e1 47 b3 9 3e 5b 51 30 3c b1 ef 88 3f d4 b3 5d e4 1a 4d 7b bc 2b 5f 9a 26 88 8 a6 29 d6 31 c5 3a 3e 57 4e d7 b6 96 17 4e 7c 68 51 34 12 42 5d e4 83 3a 77 df 4 4c 5d 4a ec 56 ea 56 fb 61 c9 2b 87 db 16 c1 d0 4d 18 8 4 32 55 a9 56 7c 8 52 9e 18 38 74 ed 37 93 21 1 90 4a 99 43 24 d4 cf c0 1a 31 4d 18 c9 e0 1e a8 b5 0 a2 f5 2d 29 fc 62 20 37 9e a8 e8 44 80 ad f9 bd bb 4e ff a5 94 4 b6 75 2b e5 2 d6 fe 9 5 0 21 3f 4d fc 7f 28 2 7e d4 23 9e 68 8c 1f f7 1c de 87 a0 6e ef eb 4e fe ed 1c eb 8c 7f bb 60 24 a3 2 a8 cb 6b ce 94 cb f9 4b ae 41 4e d5 cd fe 8b b 64 2 91 84 30 95 40 7 74 8d 76 70 9 86 76 ee 3e f6 5b b4 93 7f 13 d f5 f9 c2 e0 5d e0 fa 16 fc 6b aa 41 1f 72 f2 1e 5a 70 3e 3d 51 67 5 70 bc b7 7a 47 43 b8 92 89 eb 1b d0 a3 50 6c c6 45 a8 36 c7 80 17 1 8a b8 47 e7 8 b8 67 83 9f 62 d 3c 6e f9 3b 9b 60 21 84 2 80 90 1f cd 98 d6 ef c3 80 96 df fa e2 8c 62 5e 3a db 9f 9e f6 87 6c bb 5 9d 53 99 e0 96 fa b4 db 39 57 3a e0 74 83 5d cb 1e c cb 82 d4 39 e9 25 9f 97 3e 69 80 13 b7 6d cf 2d ad 51 d5 6e 24 6e df a3 6b 32 4c 98 62 ca e6 3d 9d a5 ef e9 95 7e 28 a1 bc e5 af 17 8 a3 c4 f1 8f a5 87 ec b 4e 3f bb ba 3a 58 87 17 a8 72 1e 5c 7d a3 65 e7 2f a0 2e 93 a2 fd 2e 2 35 5b e2 96 3d 69 e3 7f da c6 ff f6 dc 4 98 7b 1 f6 d2 e8 97 ff be c7 58 4f fe 29 f5 53 13 84 50 0 10 f2 93 9f d9 81 b1 21 b0 fb 85 6b b3 e8 78 c9 19 50 ba 93 b6 9d bc f 83 86 dd 9c 5d df d8 77 2a 8 5c 13 9d 4 39 98 fa 4 67 15 5c cd 79 4a fd 3e 9b e6 49 ed 25 a8 1e fa ae 1b 1e 27 af cf ac 76 73 e0 8a c5 72 37 55 c1 30 4d a1 3b c9 26 cd 9d ff 4f e9 2 c 69 76 41 9b 2a 80 3e 16 1 dd 35 f0 73 f7 ee cf 32 4 79 71 bd 3 d3 14 ea 67 e8 d7 20 77 a6 3d 68 6 46 70 8f 92 db 1f ca 33 e8 20 2b 14 fd d4 42 39 d2 1f 2 7c 75 5 6c a7 fa 56 ef df b1 15 d7 bf 6d 5d b1 2e b ee b7 dc f0 f7 5c 2c 7f af d7 ec f4 77 bf 2d 58 ee 6b dd f4 47 8 5 0 21 3f 45 e0 1f 52 ce 2f 95 2 54 7b 97 7a 1d a4 83 c8 e3 f8 ff 39 99 87 fe af ad 79 ad d5 b8 5d d 5c da 3a db 70 ba ce 56 5d d 1a 10 2d b3 4 c9 4c 6b 5a b0 2 d0 35 c 8e a7 e5 ec 5a 57 be 62 44 dc 73 8a 1f c8 c1 36 55 7f ff d2 fd 1f 42 4b 5b 3 87 f5 bc fe ba da 6d ea b5 15 19 82 3b e b6 c9 75 b 1f fa 91 bb a9 4c 3f e8 3c 37 b7 47 48 b5 51 16 33 36 f2 6 48 7 df 0 e9 9a 3 db e7 af e5 df 8e fe ff 7e a9 4f 7b df 5a ad 7e 6b f0 af e9 fd 2c 0 96 75 c3 fd be e2 76 cf e6 3f cf cf 57 7c fc f4 8c fb ed 5e c 80 16 ac cb 86 6d df bb 1d 5 84 50 0 10 f2 7b e6 a5 9a 6b 6f fe d7 77 85 77 f1 ff c4 24 f0 73 b2 11 de e1 cf 66 fc f 4e 7e f5 ef 18 4e f3 5a b3 0 b9 f9 c ad 41 6d ac 2b 87 50 56 fc 86 6e 9c cf 6f db 33 c7 bf b6 7b be 8c 1 56 21 91 a7 1 e6 79 aa cb 79 42 b1 7 b6 31 c3 51 f0 8c af 21 9c f4 4c f8 bd a 28 a5 8 71 7e 1 76 d c2 14 30 a5 29 f7 28 74 7b 13 5c 26 21 48 31 47 72 cb 92 ec 52 15 c7 41 7b d2 6e 62 2 ce fb c7 35 f0 ed 7b 4e d1 c7 14 6b 1d bf ee 5 48 b1 8a 80 76 fa df 6a d7 ff 72 5f eb 49 ff 76 bd e3 d3 c7 67 7c fc f8 9 6b 59 8 64 e5 80 54 7d 20 18 fc 9 5 0 21 3f 49 70 f7 a7 dd b1 21 f0 91 5d f0 98 3d e8 43 d4 e3 a0 5e ce 8f 27 5 71 39 ff e3 60 ed 6b 86 3e 7e 9b 5f 33 a8 3d ef 48 f7 c1 b5 7a d0 c7 54 77 d5 37 8b e1 ec 2f 90 e6 9 f3 94 d3 e6 de 27 20 d6 20 96 b0 c7 ec 5b 1f 8b 21 8d ec 52 6b d4 82 3c fb 7f b9 b4 60 18 82 38 91 d4 8b 80 fa da ca 6b 98 26 40 64 ea cc 80 ba 71 3e 3b 5 a7 bc 18 a8 da fe a2 8d 46 4e 93 0 3a b9 5a ff b8 c5 30 db 21 4f 73 b9 a6 61 2a af 21 b5 cf d6 9e 32 f f2 e7 d1 c2 ee d3 6e 8b 7f 7a 5b df 7c ca 4f 31 21 a5 52 c3 af cd 7d 96 fa df 6b 19 e0 56 5d fe ee b8 de 6e b8 5e 6f b8 3e df 6a e0 f7 d 80 f2 93 36 ab 12 42 1 40 c8 8b bf 5c fb 20 24 2e 6 9d ef 10 18 9b c1 3b 8f 20 4b 75 8b 9c 9f 6f 87 e0 6f ee 7d b3 5 2a 3b f9 7 bf d2 b7 dd 7e dc 69 6f 2e 82 70 a9 63 4d 5a 4f 9f ea 1a d6 ac 87 60 4e 9 69 4e 75 f5 ad dd af 36 ac 15 e3 9a b8 e7 3f 6b 9 9a 79 2b 5d 5e f4 33 cf 13 f6 fd 92 83 5d 59 58 13 42 aa 9d fb 7a b2 26 b8 5e 67 14 5f 7f 69 9b fb 2c b3 92 34 8f e0 5 91 62 fb 9b e7 f1 55 92 73 f4 43 de 25 30 f5 59 1b 41 ce 54 4 b7 21 d1 9c 14 7d 40 4f 9a 10 b4 ef d4 10 d5 ae 11 53 9d 1d b2 5f eb 5b 9d fd 4a 76 64 2b 1b fe 2c f8 5b b3 df ba 6e e5 da 6c 58 ee 2b 96 b5 7c d9 9f ab df 7f ec 44 12 4f ff 84 2 80 90 3f 40 76 c0 77 fd e3 d1 68 99 b7 b0 b5 a0 31 6c 98 2b 37 2e 2e f7 da 5 ef 3a de 7 6f e9 1b 86 94 bc 5b 4a 33 a4 c 7c ad dd 82 a3 48 b6 9e 35 e7 40 4b 4b af eb 86 14 63 f7 7e 42 8 88 31 62 da cd 39 30 7b d 58 9 c0 f6 ce c7 bd d4 bc 63 e9 3 b0 94 bc 8 a6 6d c2 ba 6e b8 5c 72 20 9b e7 9 e9 92 ea 22 a2 d1 82 18 c0 c1 7d 30 86 a9 a4 da 43 73 cf 2b a4 72 ed bc 6f 81 16 2f 80 6c 55 8c 62 93 1c 80 d0 f6 29 4 91 72 e2 cf f6 c8 61 a bd 9d 93 35 fb 25 20 1d 4c 9d 8a f8 48 ed f5 da 89 df 2f f6 a9 19 92 bd 35 fa 59 a9 64 8f 3b f6 2d 3b fe d5 6 c0 62 fc b3 ad 7b fe 2a ff d6 ca 2b c f8 84 2 80 90 df 7b a0 3f db a e8 4f fd d0 17 7b d5 f 2b 60 c3 30 1a 38 c b4 9d 66 10 e 5f e1 d8 94 e7 bf 5a 6d db b 8b 7c 8a 95 d4 e6 e4 3 42 4d 6b a7 94 b0 6f 11 eb b2 22 c6 d4 9a db 6a 83 61 13 1d e6 b6 7 a0 6 36 1f ec 72 f6 a0 5e a5 12 c4 0 0 16 19 49 44 41 54 d4 f9 15 48 53 3e 15 ef 31 b 8c 65 59 11 82 60 df f3 3e 82 30 4d f9 ba b4 62 7e 67 72 14 ca c2 a2 18 63 15 44 aa 5d f5 bf be bf 94 4 29 28 a6 14 ea ae 1 3f a2 e8 a9 ef 2b 84 ee fd f9 4f a7 da f7 68 3e f1 cb 90 91 d1 d4 67 51 da a9 3f 1e c7 f9 4a 19 20 8f f2 ed 5d fd df 6e 63 db ff aa 18 28 56 c0 7b d9 f4 c7 e0 4f 28 0 8 f9 3 8 2 7f fc 13 d1 57 17 af 78 7f 79 14 5f 7b b3 a3 15 29 c1 df ed b1 ff 8c 17 73 70 ab b3 91 bd ce 9f de 9f fc 63 c2 61 aa 4f db 6b dc dc 29 d4 37 ab d9 a9 d9 fa e da 56 c1 a9 2e 1c b2 c0 d4 44 40 6a 56 c5 c8 53 5 26 46 62 4c 58 d6 15 22 d9 23 60 9e 73 cd 7d a d2 2d f5 f1 43 80 53 88 a5 87 20 74 c2 c6 3a f8 2d 10 b7 9d 5 11 d1 35 3f 36 27 bf f2 d8 35 73 33 f4 4b 54 51 55 2 7e 19 fd b3 12 3 dc 9e 4 1b 2b 44 82 3b ed bb 55 c8 65 92 c2 66 f8 ed 4 bf bb ce ff 9a 3d b1 3e 8a 64 2b 80 7b 7 40 6e fa 23 14 0 84 fc dc 41 df 42 d1 61 3d 30 3a a3 9f 71 7d ad a5 e9 cd 83 de c4 42 6b ac d3 da 5c 58 f7 d8 43 86 c 40 e 44 3e 65 df 2 d4 71 2b dd 54 fe 9b d0 1c e8 2c 30 b5 8e f8 fc 7a 34 95 9a 76 9 ec 29 69 67 34 13 63 ec 52 f1 d1 ed f6 b5 c c4 e4 2d 77 9d e8 88 6e bc d 0 e6 79 82 ea ec 4e c8 9 db ba e5 8d c1 31 62 df 5b ed dd 6a fa a3 35 f0 2e e2 ae 69 19 19 bc 28 a6 62 35 2c 92 9b 5 bd f0 f0 8f 25 7e bc f ee 73 93 36 f7 ef 33 2f 6d 96 bf d3 5c 55 7c d4 25 3f 9a ff b2 5b 87 bf 9 0 4d b5 b1 d2 16 fa d4 53 7f 19 99 f4 62 c9 4a 4 b9 3f 60 af a7 fe 75 6d 8b 7f f2 b2 1f fe 6f 92 50 0 10 f2 73 1d fb 4f 3d 0 7c f3 d5 a3 69 80 94 14 d9 ca de 77 ad 63 48 d5 a3 ad b3 11 3d 7d 9e 7e 9b 9c 35 cb 89 73 df 53 4c 3a 1 13 86 8d 85 a9 9d f2 83 b8 85 39 92 dd f9 76 4b e3 b 34 25 ec 31 d5 53 aa ba 1a bc b7 a5 6d 22 0 88 83 d9 50 35 fb 49 a9 3e 46 e d8 1 ea 8c 6e 2c 88 8a 8 d2 14 87 f1 45 17 b4 83 eb 66 30 3f 3 1b 2b 4c 11 31 cd 98 cb 4c bf 3d 7f 2c 1d f6 ea 3e bf fc 9e 27 37 2e 29 d5 23 41 d1 6f c 6c f6 c8 7a d8 ac d7 f5 28 a0 ef a9 d8 6d f2 c1 5 7f 13 3b 31 b5 34 7f 9d fb df a3 cb 94 94 49 80 94 53 ff 6b dd f6 b7 e0 76 bb e3 7a bd e1 5e c 7f 8 a1 0 20 e4 67 d5 0 2d c8 f7 59 80 de 54 a7 9d 3a 5b fe e0 10 f0 c5 6a d1 72 8 a8 aa 16 fc d0 65 2 2c 8d 2f 4e 8 e4 c0 a 8 52 75 e4 eb 4e e8 92 9c a7 bc 76 d 84 b6 2c 28 b8 b9 fe 7c 7a 8e d8 f7 ad 66 c 5c 2 a0 f6 3 f8 e7 49 9 25 a3 90 23 ba 3a c7 bb 98 52 b5 c8 9d a6 90 4f b7 7b 49 cb 7 d4 ad 84 aa 1 22 a9 d4 f6 fd e2 22 d7 e7 0 54 b7 be 10 4 e9 32 d7 d4 f9 34 ed 4d 80 40 5d 19 a0 9 b4 2c 30 52 c9 32 28 54 3 30 85 da d1 2f ae c7 21 af 35 4e 87 c7 e9 7a 2f e0 36 a 2a aa 81 8f f9 21 34 61 90 c5 40 8c a9 d6 f2 a3 1b 9 ec 32 0 29 21 ee 3b d6 cd d6 fd de 71 bb dd 70 bd 5e 71 bb dd b1 96 85 3f 84 50 0 10 f2 7 14 3 16 10 ce 4e fd 67 29 da ae 1 30 a5 3a a6 86 12 d8 5c e8 1e fa a e4 20 4 c6 d7 91 3b d3 cb b8 5d ec 6b d8 41 73 aa 3f 84 21 88 99 27 ff d4 5e 87 96 f4 b9 6f e6 3b ae 36 1e 84 89 e6 2c 83 c5 25 bf c5 ae b9 e3 29 62 c cd f6 36 5 48 14 c4 10 4b ff 0 6a 1f 41 b7 93 a0 ee 34 68 59 b eb c6 bf ec 73 e e6 83 d5 f1 a1 21 b2 d4 ea b3 1d b1 bd a6 a9 5c f7 3e f8 e7 2d 89 e8 44 4c 5f 3a 29 5f da 1a 0 eb e8 64 9 ee 56 cb f7 fd 19 29 69 f6 46 28 29 fd 54 ec 95 db 94 40 f3 3 f0 1b ff 9e 9f cd f6 f7 8e 65 59 4a fd 9f ff fb 23 14 0 84 fc c1 b2 0 87 0 3c f0 a8 27 20 25 45 40 e fe a3 55 6c 2f 2 fc e3 3c 16 18 e3 e3 db 7d 5a 30 e f5 f4 3b 3a de 89 9b 71 f7 af 37 a6 58 d3 d1 6d 6d 2f 70 34 31 ea 5d fa b4 6c f6 6b f3 f0 7e 24 2e df 3f 4 f3 2e 28 2b 7d c5 ef a 8 b5 5f 21 ba 13 b4 9 81 80 1c a0 2d 85 6e be 7 de f5 70 9a 42 2e 7 4 cb 44 94 d7 2e 80 ea 54 b3 2c 29 d9 2e 80 2a b9 e 9f 99 4f cd fb 7e 8e 71 bb 62 ed 67 d8 76 2c cb 5a fb 0 fc 1e 3 d5 54 32 4 6d 89 4f 33 6 da 6b b6 64 b7 66 bf 92 f6 b7 d4 ff ed 76 c7 b2 6c 1c fd 23 14 0 84 fc b1 9c fe df 22 14 7a 93 96 54 83 f2 58 5f 6e 6e 76 e8 ba f2 ab 1 50 b7 11 50 6b 60 95 50 8c 68 72 64 3b c9 3a 48 5d 78 d3 52 eb 28 f3 fb 28 81 d8 8f c9 f5 a7 df f6 5e 7b 23 23 b f1 5a 47 fd d2 a1 67 c0 fe 6c 96 bb 12 e0 3a f2 5b 46 63 8a ed 14 9f 34 15 1f 81 d8 89 1 91 dc 70 b8 3e cd d8 f7 1d f3 3c d7 de 3 6b 42 bc 5c 66 3c 3d 5d 30 4d 53 7d 6c b1 99 7f 1b 25 c 1 21 e4 c7 35 f3 21 bf f1 cf b2 6 d1 a5 e6 bb f2 4f 29 43 d8 67 62 9d fc 5b 49 db 9b 2d af 95 6 ec 5d a6 14 bb 49 80 18 73 bf 80 dd 3e 96 a6 c8 7c f2 bf 96 9a ff 82 65 59 6b f7 3f c7 ff 8 5 0 21 7f 44 42 e0 b5 d3 ff 99 10 38 9b d7 ef 9a 1 6b 33 40 69 a 1c 46 f6 20 d2 5 58 fb 7e 12 75 75 fa 5c eb 4e 29 94 9a 77 3b 1 e7 99 7e b4 bf 17 71 d0 77 f1 c7 32 a9 20 75 f4 d 63 22 c0 2f c 2a 42 60 bc 3e f6 df ba 6c c7 35 eb 69 9 8c 41 42 fd 77 eb 43 b0 40 99 4f e0 59 b0 4c 73 c0 bb fd 9 29 29 e6 4b e9 fc 2f a7 f7 69 9a f0 f4 74 c1 be bf c3 e5 92 c5 41 1e 5d 2c 99 e d1 d2 44 d8 fa c 7c 59 21 25 5 24 21 20 67 f f6 b8 23 c5 d2 3 60 46 48 49 10 42 ce e0 54 b1 12 f3 c9 3d 7 ea a5 74 e9 f cd 83 82 da 24 b8 2e b9 ab 7f dd 36 e7 2 98 bb fe 73 e3 df 9a ed 7e af 37 dc eb b2 9f 95 a7 7f 42 1 40 c8 9f 82 30 18 b3 3 63 aa be 1f 3 44 57 f3 f7 69 6b 67 6d df 9d c0 fd 16 be b6 1d 4f 4b 3d de e6 f1 ad f9 2d 9b d5 b7 c7 ed 53 d8 f9 61 e4 d0 c1 df 16 f3 8c fd 8 ae 17 a1 8 0 cb 18 9c 66 36 ec 9e 29 d5 db 5a a9 e1 92 12 f6 3d b8 3a 3f 6a 3a dd c 70 6c 7b 60 b6 3c 9e 81 92 cd 88 71 ea ae f3 34 4d 88 25 5d 9f f4 a9 58 f9 b6 d2 40 99 b1 70 1b d 73 f6 64 4a a1 9c e2 77 a8 6 44 2b 43 ec 7b bd 16 da 65 f 5a 29 c0 a7 ed 6f b7 dc b1 ef bd f9 53 52 28 52 5d b7 bc ef d9 60 69 b9 2f 58 d6 ad 36 5 ee b6 3 60 dd 72 3 e0 3d 8b 9 db 3 b0 6e 7d 53 26 21 14 0 84 fc 51 67 7 fa 54 f7 28 4 42 c8 b5 68 91 54 fe 3b ce f7 77 c6 ff 90 2e a5 de 4c 6c cc 8b de 8b 0 85 42 63 ea 1a f1 c6 46 36 b8 96 3 2b f 28 d4 5 3d 33 10 72 99 7 37 27 3f 8e 6 5a 6 e0 20 6 ec dd 88 20 45 c1 5e 6c 82 e3 d3 8c b8 c7 9a ae b7 c7 ad 8e 79 a5 29 ae 65 52 2 2e 97 88 79 ce 4e 7d d3 14 eb 48 65 e f2 2d ed 9e 52 c2 7c 99 31 17 47 bf 94 7c f 44 6f df 3c 4d 11 d3 14 b3 e0 8a a9 ae e8 6d 8b 76 b4 8 a9 66 7a 64 3d c 31 45 6c eb 86 65 d9 4a 9d 7e ed bc ff 7d 97 bf fd 7d b9 e7 ee fe ec ef 9f b3 1 36 3e 68 ee 80 eb b2 e2 76 5b ea 63 32 f5 4f 28 0 8 f9 d3 92 1 a7 1d db de 19 2f 37 bd e1 b4 1 d0 d3 b5 0 c f6 b7 a3 89 90 95 c 54 80 6c 3c 98 80 12 d8 25 b4 13 b0 77 8 4c da c6 da ac ee dd 7 7d 74 41 df fe ec 17 f5 8c bd 3 8f 66 e8 45 22 54 23 62 cc b5 fc 5a af 2f 8d 84 76 82 8e c5 4c a7 89 94 50 5d 3 73 dd 3c b8 5 4b 72 8 b4 f3 36 e1 72 99 31 4d 73 31 21 72 e9 78 4d 48 69 ae e2 27 4 c9 a3 7b e5 8d d5 69 85 6a 67 dc 4 80 ed 23 0 b4 8 80 ec d7 bf 2c 4b ee f0 77 af 63 db f6 22 64 f6 32 2 b9 e7 b9 fe fb 1d eb b2 e1 be e6 f4 fe be ef d5 30 68 2b 1e 0 56 fb e7 dc 3f a1 0 20 e4 b c9 a 64 11 90 1b 2 eb 32 9e d3 29 80 12 e0 4f d7 dd 9e 5b 10 7b 1f 1 33 6 48 22 39 c0 4b 42 48 a1 d6 af eb 7d 43 0 54 aa d3 61 1a 66 df c7 e0 ef 9d 1 ad e3 df 7b d 8c 62 e0 4c 4 58 a0 1f 5 c0 31 8b 0 37 ad 90 fb 19 6c 4c 71 9a fc e 0 a9 29 7a b dc f3 3c 61 db 26 cc 97 b de bd 7b ea 3e 87 b8 4f 88 73 aa 16 c7 36 29 1 94 51 48 3b bd 3b 47 c1 10 4 12 42 e7 20 b8 ef b1 d6 f2 97 35 6f e8 d3 d2 d0 17 63 ce e 98 ab a2 2d ff 31 63 9f 65 59 71 bb df b0 98 b9 4f f9 9c f7 52 fa b0 4c 8 21 14 0 84 7c 51 59 1 ed d2 fe 66 6d 1b 42 ef 46 67 8d 79 d2 f6 ee d6 1e c0 ce f4 7 fd 7a e1 83 f0 28 46 3a 1a 50 3b d9 c7 d2 80 c5 75 df fd f f7 4a 3a bf 61 3b b1 db 37 e 8d 8d a8 27 e7 33 31 91 5 4f c2 be b7 46 3c 13 46 7 87 44 c9 4d 8c ad 47 a1 65 0 5a e6 40 eb 64 c3 34 ed 75 b9 d0 34 5 cc 97 bd f5 4a 14 4b e5 69 9a 4a 53 5d f6 ea df b6 3d 5b 10 a3 4d 21 ec a5 7 c0 4e ff 36 71 60 3e 1 49 53 dd de 67 e 7f db 16 ab f7 7f dc 23 96 75 c1 72 5f cb 7a 5f 6f e9 6b e 7f b7 92 e2 8f 4d 1c 6a ea 32 1f 84 50 0 10 f2 5 89 0 df 71 9f b3 1 9a bb cb 35 1c b6 db 1d cd 86 8e de 0 b5 c1 ef 81 65 b1 8b bc 48 12 b2 73 a0 ab 85 8b f4 c1 d4 6f 21 38 c6 7e 97 79 a8 a6 3f 18 dc e 93 9b e 48 a7 56 ba 16 f4 44 70 78 9f fe ed 86 90 90 92 1f b7 db bb 6b 68 41 3a df 36 94 66 c1 a9 f4 9 e4 c6 41 2d af e1 12 2f 98 4b 1d 3f 3b 13 e6 ee fb 69 9a f2 36 42 c9 6b 7d ed 14 de 37 ff b5 d 81 f9 7e 11 7b 99 eb f7 d6 c7 d6 3 10 63 ce a dc 6f 4b 9d 10 58 8a bd ef b2 ac 58 d7 a5 fa 6 b0 be 4f 8 5 0 f9 5a 24 80 9b 2b cf c1 12 9d 3f 40 59 e5 e3 e4 c2 23 da d9 3f 77 f2 d7 d0 d8 dd 2b fb f8 48 4b df d7 9d f6 a9 dc 4f 4f 1f db 9f fc b5 eb 7 18 1d 1 f5 74 bc b1 ef 5 f0 cb 93 b4 db b6 87 c3 e 84 7e cc d1 82 bf f5 46 c6 38 95 c7 77 af a5 5a f9 f6 99 95 79 9e aa 39 cf e5 72 c1 7c 99 31 85 92 1d 98 27 cc f3 5c be a6 fa 99 54 33 1f 68 27 2 ac 74 b2 ed 39 b5 1f eb ed 32 b6 fb c0 ca 1b db b6 d6 94 7f b fc ab 2b b 30 c5 4f 8 5 0 f9 a 45 c0 b1 79 ce fa 1 e 5b ff dc a9 7e 4c ff 9f 3d 70 df 14 88 41 8 b4 fb 67 1f 7f 75 d3 7 70 a7 72 3f ee 37 36 2 c2 5 7d bc 21 f8 8f 82 41 ba 60 df fa 19 fa e7 ee b2 12 25 fd 9f 62 c4 56 fb 25 dc 1a 5f 41 dd 55 e8 77 36 4c 53 a8 35 f8 a7 a7 27 cc f3 9c 9b 3 e7 6c 23 6c c1 3f 6f 21 74 86 48 e5 f5 8f 1d f8 aa 8a 75 db b0 ad bb cb de b4 cc 40 9d eb 2f 23 7e cb b2 d6 9a 7f 76 2 dc ea aa 5f 42 8 5 0 f9 8a 33 1 be de dd 7 7f 33 ce d1 61 3c f0 d1 f2 a0 21 35 8f c1 c0 c7 87 5c 39 39 e9 1f 9a b fd 66 bc a3 8 70 7f 73 99 c ed d2 f2 a3 0 18 fb d 44 1e bd 87 26 5c da b8 61 3e f1 67 7 bf d0 d9 f2 7a 73 a1 31 5b b1 ef 52 c7 f9 2e 97 ad b9 5 56 1 90 ed 84 db a6 44 94 60 de af e7 f5 13 6 fb 1e 11 53 ea fc b 9a 8d 71 ac 1e 6 7b 59 e9 db 9c fc 62 15 d 84 10 a 0 42 11 70 2e 0 42 f1 a8 2f 29 fa 1a e4 d0 36 fa a9 fa 94 bc 9c 6c 21 b4 fb 6 b4 21 83 63 70 f5 ab 88 b5 6e c7 3b ce fb 77 81 ab 3b fd e7 7f 49 43 27 bf 2d 3f 3a db f f0 48 9c 9c 4d 38 f8 d7 d0 5e 97 f6 de fc 68 d6 c4 bd 48 ca ff 76 bf a3 64 2 66 6c db 86 79 ce 63 82 97 cb a5 96 23 4c 64 a9 26 ac 65 bc af af eb c7 e2 4e 58 fa 33 ac 69 d3 95 37 62 31 f5 c9 65 84 bd f4 6 44 1a f9 10 42 1 40 8 e 81 ef 74 a3 60 3d 61 e2 b4 24 f0 72 6f 40 13 1 f9 56 b9 c1 d0 2 7b 7f e2 6e 1 3f 8b b bf e5 af b7 f3 55 d5 d3 a0 5c b3 0 6e 2f c0 d8 0 58 5b 1b 1f 5a 28 3f da a2 d8 1e bf 66 1f 86 d5 cc 6d 5f c2 99 ef 40 6b 76 34 3f fe 69 32 1 70 c1 d3 53 ec 4e f1 0 ea b8 de fd be 60 5d d7 96 29 d1 e4 4e f1 6d af 41 16 6f 6e d 72 8c 4e 1c 31 f0 13 42 1 40 c8 10 98 f a7 6a 27 8 c4 82 7c cd 8 e4 19 f4 e0 ff dd 9d 3e df 92 69 e8 83 b8 d6 c0 6b 79 0 df 37 d0 67 17 dc e9 bd 45 e5 6e 94 10 da 2f 5 3a b5 5 2e e3 88 e7 82 48 87 6b f3 58 7c 58 f0 f5 19 93 47 b7 39 6e 6f cc 2b 88 b7 4d f2 e6 bd 65 2e ee 82 53 19 c7 4c b5 5b 7f b5 d9 fe ae 69 f3 98 5d 38 5b ec f4 e8 1a 10 42 28 0 8 45 80 3b 59 ea 31 f8 bb 65 42 12 2 24 a5 3c a6 e6 ea dd be 71 f 6e 17 80 7d cf 4e d5 21 c 81 d4 96 9 39 8f 7f 41 fb be df 4b 70 3e 5 80 9a de 57 e7 7b ef 6d 70 cf 46 0 9b 8f 81 bc 98 5 e9 eb f9 fa e2 e2 a5 71 ef c2 b1 c7 c0 ff dd 8f 20 a2 8c 3 ee 98 e7 b2 46 b8 88 a 13 0 56 fb ef 7d 9 8e cf 77 26 56 18 fc 9 a1 0 20 e4 d5 93 f9 f9 ea 60 17 e4 80 2e f8 7b b dc e6 87 3f 66 13 5a 91 c0 d2 d1 f5 f9 bc b3 e0 21 23 31 9e f6 c7 c0 8f ee 31 5b c7 7f aa 29 ef 47 56 c0 e3 7b 6e ee 87 fd fb 1e 4f db c7 c7 68 59 8a c7 2 a0 6c f0 b fd f5 f2 d9 86 d6 d8 27 c5 5f 20 a7 f2 f7 7d 73 b5 ff 73 1f 83 b7 4 ff f3 d7 4e 8 a1 0 20 e4 e4 f4 7b fa ef 31 2 43 d7 bb 17 0 39 10 c9 a1 bb 3f 37 b6 1d 5 c0 f9 f3 c9 a1 f1 ef 90 af 18 ea f0 dd 88 de e0 fa 37 fe fb a3 d 89 67 29 fc 33 f1 d0 df be 9d e8 c7 e0 3c ba 18 da 4a e3 fc ef a1 f3 1b f0 e3 97 ed f6 c7 1e 86 47 af e3 68 97 fc 7a d6 82 10 42 1 40 c8 67 89 80 d1 1f c0 2 76 ff 77 b8 60 87 a1 93 be f 4e d6 63 d0 c2 bf f6 7b 4 30 36 e5 b5 71 c0 1a e0 7c 90 7f c3 a9 ff a5 f7 f4 28 90 3e 7a 1c 79 4b e3 83 bb 8f 19 2c 55 c3 a4 7 27 f5 b7 a6 ef 5f 7a 6d c fe 84 50 0 10 f2 93 8 83 2e d5 8c bc fe b7 8d ac e9 50 a 90 a1 37 0 f 3 9c 8c 27 fc c3 8 de 59 d7 bf be 78 52 ff 5d 44 cf f8 1e 5f ba ed 69 e0 7f d8 5c 88 e1 75 b6 29 8 9f b9 18 47 7 1f 35 20 be f5 35 12 42 28 0 8 f9 e9 b3 3 a5 e0 df 7 7e 7d d0 10 37 de 4d 4e 84 45 b f6 87 6d 82 a7 c1 1f 9f 75 52 fe 1c 11 e0 3 fc 5b 1e af 36 fa 75 ef 59 5e 78 9e d6 28 f9 70 52 e1 33 2 3c 3 3e 21 14 0 84 fc 61 b2 1 f 2 ff 19 be b1 ce 1a e4 6c 1d 2e ba a0 2f 43 9d dc 82 7f 13 a 67 3d 0 63 c6 e1 27 11 3b af 66 3 de fe 9c e3 f8 e3 d9 ba e2 d7 9e fb b5 c 0 21 84 2 80 90 df 7f 36 c0 56 fc be 21 20 b5 c0 25 43 3d 3c c0 c7 50 73 e 6c d 76 3e f8 eb 83 f9 f6 f3 8c c3 ef 5b 4 bd f6 3d f7 aa 1e d6 eb 3f 37 7b c1 e0 4f 8 5 0 21 7f c 4a a0 ce d4 bf 3a 45 a0 fd f6 bd c7 e6 3a c7 ee 7a 2f 2 ce 83 bf 76 eb 80 7f 56 11 34 8 9c 73 11 a0 a7 a9 7b ff 7e 8 21 14 0 84 fc 49 66 4 7a 11 d0 d7 ef 7d c0 6b 3b 0 ca 1c bc 2a 2 5c a a0 19 f6 9e 66 0 4c 10 b4 c0 d9 fe 7b f6 9c 3f a7 18 78 49 8 9d 8d f1 31 f0 13 42 1 40 c8 17 23 2 fa 20 ee cc 75 6b b0 1e ee 98 12 34 4 b4 6 c0 b6 41 f0 98 1 f0 c1 1e 43 ed fc e8 d f0 c7 16 f8 29 0 8 a1 0 20 e4 ab 10 4 e3 b9 fe e5 20 99 90 34 e0 b8 62 e8 71 c7 bc 2 83 28 f8 f9 fd ef df 52 fa f8 dc fb 10 42 28 0 8 f9 93 d fc 9f f3 6f f5 fb 29 3d e8 e2 7b 10 d8 f5 51 5f c0 cf 5b a 78 d4 f c0 60 4f 8 5 0 21 5f 4d f0 f7 cd 70 63 f0 4b 29 39 ef fd 1a 2d 91 8a 21 90 a0 19 c b5 d1 c2 97 b7 dc 3d 6e e fc f9 97 e0 9c 8d 48 12 42 28 0 8 f9 ea 33 1 b6 b1 af 69 0 69 a7 fe f2 a5 22 9d 8 f0 8f 75 36 a 98 92 ba 25 40 7f f8 5 38 2f 8f 3 12 42 28 0 8 f9 c2 3 ff 99 9b 9e 9f fd 2f 39 1 b4 6d 81 ce 55 10 c7 35 bb 67 c1 3f 7f 3f fd 4e 8e 7a 3f b7 f8 21 84 50 0 10 f2 d5 9 81 3a f2 57 4a 0 a3 28 18 ed 84 6b 7e e0 20 2 bc 87 c0 b9 9b de 1f 22 f5 4f 8 a1 0 20 84 bc 72 1a f6 eb 6f cf f6 8 9c ed bd 6f d9 84 96 5 68 82 40 19 fc 9 21 14 0 84 fc b1 b 81 31 f8 fb 20 7f 5c 24 d4 36 a 8e 6 42 2d 1b 90 5c 3f 40 e2 85 26 84 50 0 10 f2 47 9d 11 28 e3 fe 2a fa d0 46 f7 35 1 f0 28 b 40 8 21 3f 96 a3 9f 29 21 e4 c7 fd 8f 6a 48 eb 8f ff 1d 6f fb f2 6a 5d a 0 42 8 5 0 21 7f b2 22 e0 2c b8 9f 95 9 ce 6e c7 e0 4f 8 f9 7d c0 12 0 21 bf 47 7c da ff 2d ee 7d 36 22 88 87 a6 40 84 10 42 1 40 c8 1f 75 e0 af 1 fd 64 4b de ab f7 2f 22 80 31 9f 10 f2 fb 82 25 0 42 7e 8e ff a1 3d d8 a6 77 56 2a 38 b3 da e5 e9 9f 10 42 1 40 c8 17 2a 10 5e ca 24 10 42 8 5 0 21 84 10 42 7e 34 81 97 80 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 28 0 78 9 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 42 1 40 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 14 0 84 10 42 8 a1 0 20 84 10 42 8 5 0 21 84 10 42 28 0 8 21 84 10 a 0 42 8 21 84 50 0 10 42 8 21 84 2 80 10 42 8 21 5f 1c ff 1f 35 76 54 4 87 e2 9 8c 0 0 0 0 49 45 4e 44 ae 42 60 82 
+   End Object
+   Begin Object Name="ParticleModuleCameraOffset_0"
+      Begin Object Name="DistributionCameraOffset"
+         Constant=150.000000
+      End Object
+      CameraOffset=(MinValue=150.000000,MaxValue=150.000000,Distribution=DistributionFloatConstant'"DistributionCameraOffset"',Table=(Values=(150.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=221,G=0,R=88,A=255)
+   End Object
+   Begin Object Name="ParticleModuleCameraOffset_1"
+      Begin Object Name="DistributionCameraOffset"
+         Constant=200.000000
+      End Object
+      CameraOffset=(MinValue=200.000000,MaxValue=200.000000,Distribution=DistributionFloatConstant'"DistributionCameraOffset"',Table=(Values=(200.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=74,G=224,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorOverLife_12"
+      Begin Object Name="DistributionFloatConstant_0"
+         Constant=1.000000
+      End Object
+      Begin Object Name="DistributionVectorConstantCurve_1"
+         ConstantCurve=(Points=((OutVal=(X=1.000000,Y=2.000000,Z=4.000000)),(InVal=0.500000,OutVal=(X=0.125000,Y=0.250000,Z=0.500000)),(InVal=1.000000)))
+         bIsDirty=False
+      End Object
+      ColorOverLife=(MaxValue=4.000000,MaxValueVec=(X=1.000000,Y=2.000000,Z=4.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_1"',Table=(TimeScale=31.000000,Values=(1.000000,2.000000,4.000000,0.943548,1.887097,3.774194,0.887097,1.774194,3.548387,0.830645,1.661290,3.322581,0.774194,1.548387,3.096774,0.717742,1.435484,2.870968,0.661290,1.322581,2.645161,0.604839,1.209677,2.419355,0.548387,1.096774,2.193548,0.491935,0.983871,1.967742,0.435484,0.870968,1.741936,0.379032,0.758065,1.516129,0.322581,0.645161,1.290323,0.266129,0.532258,1.064516,0.209677,0.419355,0.838710,0.153226,0.306452,0.612903,0.120968,0.241935,0.483871,0.112903,0.225806,0.451613,0.104839,0.209677,0.419355,0.096774,0.193548,0.387097,0.088710,0.177419,0.354839,0.080645,0.161290,0.322581,0.072581,0.145161,0.290323,0.064516,0.129032,0.258065,0.056452,0.112903,0.225806,0.048387,0.096774,0.193548,0.040323,0.080645,0.161290,0.032258,0.064516,0.129032,0.024194,0.048387,0.096774,0.016129,0.032258,0.064516,0.008065,0.016129,0.032258,0.000000,0.000000,0.000000),Op=1,EntryCount=32,EntryStride=3))
+      AlphaOverLife=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"DistributionFloatConstant_0"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=210,R=112,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLifetime_0"
+      Begin Object Name="DistributionFloatConstant_3"
+         Constant=1.500000
+      End Object
+      Lifetime=(MinValue=1.500000,MaxValue=1.500000,Distribution=DistributionFloatConstant'"DistributionFloatConstant_3"',Table=(Values=(1.500000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=105,G=213,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLifetime_11"
+      Begin Object Name="DistributionFloatConstant_2"
+         Constant=0.125000
+      End Object
+      Lifetime=(MinValue=0.125000,MaxValue=0.125000,Distribution=DistributionFloatConstant'"DistributionFloatConstant_2"',Table=(Values=(0.125000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=193,G=0,R=143,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRequired_0"
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Material=MaterialInstanceConstant'"/Game/InfinityBladeEffects/Effects/FX_Materials/Smoke/M_Smoke_01_8X8_INST.M_Smoke_01_8X8_INST"'
+      SortMode=PSORTMODE_Age_NewestFirst
+      bUseLegacyEmitterTime=False
+      SpawnRate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"')
+      InterpolationMethod=PSUVIM_Linear_Blend
+      SubImages_Horizontal=8
+      SubImages_Vertical=8
+      RandomImageTime=1.000000
+      EmitterLoops=1
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=151,R=186,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRequired_11"
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Material=MaterialInstanceConstant'"/Game/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_04_INST.M_Flare_04_INST"'
+      bUseLegacyEmitterTime=False
+      EmitterDuration=0.200000
+      SpawnRate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"')
+      RandomImageTime=1.000000
+      EmitterLoops=1
+      LODValidity=1
+      ModuleEditorColor=(B=226,G=64,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRequired_2"
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Material=Material'"/Game/InfinityBladeEffects/Effects/FX_Materials/ICE/M_IceChunksBase.M_IceChunksBase"'
+      ScreenAlignment=PSA_Rectangle
+      bUseLegacyEmitterTime=False
+      SpawnRate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"')
+      InterpolationMethod=PSUVIM_Random
+      SubImages_Horizontal=2
+      SubImages_Vertical=2
+      RandomImageTime=1.000000
+      EmitterLoops=1
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=149,R=188,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRequired_6"
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Material=MaterialInstanceConstant'"/Game/InfinityBladeEffects/Effects/FX_Materials/Liquid/M_Liquid_Spray_01_4X6_INST.M_Liquid_Spray_01_4X6_INST"'
+      bUseLocalSpace=True
+      bUseLegacyEmitterTime=False
+      EmitterDuration=0.200000
+      SpawnRate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"')
+      InterpolationMethod=PSUVIM_Linear_Blend
+      SubImages_Horizontal=4
+      SubImages_Vertical=6
+      RandomImageTime=1.000000
+      EmitterLoops=1
+      LODValidity=1
+      ModuleEditorColor=(B=188,G=149,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_0"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(Count=2)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=202,R=128,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_11"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(Count=1)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=112,R=210,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_2"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(Count=8)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=1
+      ModuleEditorColor=(B=181,G=157,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSpawn_6"
+      Begin Object Name="BurstScaleDistribution"
+         Constant=1.000000
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRate"
+      End Object
+      Begin Object Name="RequiredDistributionSpawnRateScale"
+         Constant=1.000000
+      End Object
+      Rate=(Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRate"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      RateScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"RequiredDistributionSpawnRateScale"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      BurstList(0)=(Count=3)
+      BurstScale=(MinValue=1.000000,MaxValue=1.000000,Distribution=DistributionFloatConstant'"BurstScaleDistribution"',Table=(Values=(1.000000),Op=1,EntryCount=1,EntryStride=1))
+      bApplyGlobalSpawnRateScale=False
+      LODValidity=1
+      ModuleEditorColor=(B=222,G=0,R=84,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorOverLife_0"
+      Begin Object Name="DistributionFloatConstantCurve_1"
+         ConstantCurve=(Points=((InVal=-0.000260,ArriveTangent=16.572231,InterpMode=CIM_CurveAutoClamped),(InVal=0.249519,OutVal=0.707937,ArriveTangent=2.889926,LeaveTangent=2.889926,InterpMode=CIM_CurveUser),(InVal=0.747727,OutVal=0.200346,ArriveTangent=-2.353926,LeaveTangent=-2.353926,InterpMode=CIM_CurveUser),(InVal=1.000000,InterpMode=CIM_CurveAutoClamped)))
+      End Object
+      Begin Object Name="DistributionVectorConstantCurve_4"
+         ConstantCurve=(Points=((OutVal=(X=2.000000,Y=2.000000,Z=2.000000),InterpMode=CIM_CurveAutoClamped),(InVal=0.200000,OutVal=(X=1.000000,Y=1.000000,Z=1.000000),ArriveTangent=(X=-1.279626,Y=0.000000,Z=0.000000),LeaveTangent=(X=-1.279626,Y=0.000000,Z=0.000000),InterpMode=CIM_CurveAutoClamped),(InVal=0.800000,OutVal=(X=0.700000,Y=1.100000,Z=1.500000),InterpMode=CIM_CurveAutoClamped)))
+         bIsDirty=False
+      End Object
+      ColorOverLife=(MinValue=0.700000,MaxValue=2.000000,MinValueVec=(X=0.700000,Y=1.000000,Z=1.000000),MaxValueVec=(X=2.000000,Y=2.000000,Z=2.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_4"',Table=(TimeScale=38.750000,Values=(2.000000,2.000000,2.000000,1.957884,1.954160,1.954160,1.847016,1.834362,1.834362,1.689838,1.666343,1.666343,1.508796,1.475841,1.475841,1.326332,1.288592,1.288592,1.164890,1.130334,1.130334,1.046914,1.026803,1.026803,0.991830,1.000040,1.000201,0.960540,1.000839,1.004197,0.931501,1.002629,1.013146,0.904641,1.005317,1.026585,0.879874,1.008806,1.044027,0.857116,1.012997,1.064986,0.836289,1.017797,1.088986,0.817311,1.023110,1.115549,0.800103,1.028840,1.144200,0.784584,1.034892,1.174461,0.770676,1.041171,1.205856,0.758297,1.047582,1.237908,0.747368,1.054028,1.270141,0.737811,1.060416,1.302077,0.729549,1.066647,1.333234,0.722495,1.072627,1.363136,0.716571,1.078261,1.391307,0.711696,1.083454,1.417271,0.707790,1.088110,1.440550,0.704774,1.092134,1.460668,0.702566,1.095430,1.477149,0.701088,1.097903,1.489516,0.700259,1.099458,1.497291,0.700000,1.100000,1.500000),Op=1,EntryCount=32,EntryStride=3))
+      AlphaOverLife=(MaxValue=0.886543,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_1"',Table=(TimeScale=14.996104,TimeBias=-0.000260,Values=(0.000000,0.086927,0.294067,0.542686,0.753162,0.864551,0.883476,0.828217,0.717293,0.569140,0.402188,0.234894,0.100954,0.030570,0.004110,0.000000),Op=1,EntryCount=16,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=156,G=0,R=183,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorOverLife_11"
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=1.000000),(InVal=0.950000,OutVal=1.000000,InterpMode=CIM_CurveAutoClamped),(InVal=1.000000,InterpMode=CIM_CurveAutoClamped)))
+      End Object
+      Begin Object Name="DistributionColorOverLife"
+         ConstantCurve=(Points=((OutVal=(X=1.500000,Y=1.500000,Z=1.500000)),(InVal=0.800000,OutVal=(X=0.500000,Y=0.500000,Z=0.500000))))
+         bIsDirty=False
+      End Object
+      ColorOverLife=(MinValue=0.500000,MaxValue=1.500000,MinValueVec=(X=0.500000,Y=0.500000,Z=0.500000),MaxValueVec=(X=1.500000,Y=1.500000,Z=1.500000),Distribution=DistributionVectorConstantCurve'"DistributionColorOverLife"',Table=(TimeScale=1.250000,Values=(1.500000,1.500000,1.500000,0.500000,0.500000,0.500000),Op=1,EntryCount=2,EntryStride=3))
+      AlphaOverLife=(MaxValue=1.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_0"',Table=(TimeScale=127.000000,Values=(1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,0.991221,0.883623,0.690495,0.458703,0.235112,0.066589,0.000000),Op=1,EntryCount=128,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=217,R=95,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorOverLife_2"
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=1.000000),(InVal=1.000000)))
+      End Object
+      Begin Object Name="DistributionColorOverLife"
+         ConstantCurve=(Points=((OutVal=(X=1.000000,Y=1.000000,Z=1.000000)),(InVal=0.500000,OutVal=(X=0.800000,Y=0.800000,Z=1.000000))))
+         bIsDirty=False
+      End Object
+      ColorOverLife=(MinValue=0.800000,MaxValue=1.000000,MinValueVec=(X=0.800000,Y=0.800000,Z=1.000000),MaxValueVec=(X=1.000000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorConstantCurve'"DistributionColorOverLife"',Table=(TimeScale=2.000000,Values=(1.000000,1.000000,1.000000,0.800000,0.800000,1.000000),Op=1,EntryCount=2,EntryStride=3))
+      AlphaOverLife=(MaxValue=1.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_0"',Table=(TimeScale=1.000000,Values=(1.000000,0.000000),Op=1,EntryCount=2,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=175,G=0,R=165,A=255)
+   End Object
+   Begin Object Name="ParticleModuleColorOverLife_4"
+      Begin Object Name="DistributionFloatConstantCurve_0"
+         ConstantCurve=(Points=((OutVal=1.000000,InterpMode=CIM_CurveAutoClamped),(InVal=0.613043,OutVal=0.660262,ArriveTangent=-1.724938,LeaveTangent=-1.724938,InterpMode=CIM_CurveUser),(InVal=1.000000,InterpMode=CIM_CurveAutoClamped)))
+      End Object
+      Begin Object Name="DistributionColorOverLife"
+         ConstantCurve=(Points=((OutVal=(X=1.500000,Y=2.000000,Z=3.000000)),(InVal=0.700000,OutVal=(X=1.000000,Y=1.000000,Z=1.000000))))
+         bIsDirty=False
+      End Object
+      ColorOverLife=(MinValue=1.000000,MaxValue=3.000000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.500000,Y=2.000000,Z=3.000000),Distribution=DistributionVectorConstantCurve'"DistributionColorOverLife"',Table=(TimeScale=1.428571,Values=(1.500000,2.000000,3.000000,1.000000,1.000000,1.000000),Op=1,EntryCount=2,EntryStride=3))
+      AlphaOverLife=(MaxValue=1.000058,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_0"',Table=(TimeScale=7.000000,Values=(1.000000,0.997289,0.970026,0.889518,0.727072,0.453099,0.146167,0.000000),Op=1,EntryCount=8,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=109,R=212,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSubUV_0"
+      Begin Object Name="DistributionFloatConstantCurve_3"
+         ConstantCurve=(Points=((ArriveTangent=80.925926,LeaveTangent=80.925926,InterpMode=CIM_CurveUser),(InVal=1.000000,OutVal=63.000000,ArriveTangent=33.139526,LeaveTangent=33.139526,InterpMode=CIM_CurveUser)))
+      End Object
+      SubImageIndex=(MaxValue=63.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_3"',Table=(TimeScale=14.999999,Values=(0.000000,5.364768,10.655279,15.849857,20.927769,25.867334,30.647738,35.247463,39.645458,43.820534,47.751213,51.416786,54.795254,57.866528,60.607880,63.000000),Op=1,EntryCount=16,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=148,G=0,R=189,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSubUV_4"
+      Begin Object Name="DistributionFloatConstantCurve_1"
+         ConstantCurve=(Points=((OutVal=6.133338,ArriveTangent=48.116241,LeaveTangent=48.116241,InterpMode=CIM_CurveUser),(InVal=1.000000,OutVal=23.000000)))
+      End Object
+      SubImageIndex=(MinValue=6.133338,MaxValue=23.000000,Distribution=DistributionFloatConstantCurve'"DistributionFloatConstantCurve_1"',Table=(TimeScale=14.999999,Values=(6.133338,9.141878,11.771531,14.045799,15.991856,17.634079,18.998859,20.111263,20.997089,21.681900,22.191095,22.550535,22.785419,22.921722,22.984619,23.000000),Op=1,EntryCount=16,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=105,R=213,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLifetime_2"
+      Begin Object Name="DistributionLifetime"
+         Min=1.000000
+         Max=1.500000
+      End Object
+      Lifetime=(MinValue=1.000000,MaxValue=1.500000,Distribution=DistributionFloatUniform'"DistributionLifetime"',Table=(Values=(1.000000,1.500000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=148,G=0,R=189,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLifetime_6"
+      Begin Object Name="DistributionLifetime"
+         Min=1.000000
+         Max=1.250000
+      End Object
+      Lifetime=(MinValue=1.000000,MaxValue=1.250000,Distribution=DistributionFloatUniform'"DistributionLifetime"',Table=(Values=(1.000000,1.250000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=182,G=0,R=157,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRotation_0"
+      Begin Object Name="DistributionStartRotation"
+         Max=1.000000
+      End Object
+      StartRotation=(MaxValue=1.000000,Distribution=DistributionFloatUniform'"DistributionStartRotation"',Table=(Values=(0.000000,1.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=199,G=133,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRotation_11"
+      Begin Object Name="DistributionStartRotation"
+         Min=0.500000
+         Max=1.000000
+      End Object
+      StartRotation=(MinValue=0.500000,MaxValue=1.000000,Distribution=DistributionFloatUniform'"DistributionStartRotation"',Table=(Values=(0.500000,1.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=92,G=218,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRotation_2"
+      Begin Object Name="DistributionStartRotation"
+         Max=1.000000
+      End Object
+      StartRotation=(MaxValue=1.000000,Distribution=DistributionFloatUniform'"DistributionStartRotation"',Table=(Values=(0.000000,1.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=222,G=0,R=84,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRotation_5"
+      Begin Object Name="DistributionStartRotation"
+         Max=1.000000
+      End Object
+      StartRotation=(MaxValue=1.000000,Distribution=DistributionFloatUniform'"DistributionStartRotation"',Table=(Values=(0.000000,1.000000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=115,G=209,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRotationRate_0"
+      Begin Object Name="DistributionFloatUniform_60"
+         Min=0.200000
+         Max=-0.200000
+      End Object
+      StartRotationRate=(MinValue=0.200000,MaxValue=-0.200000,Distribution=DistributionFloatUniform'"DistributionFloatUniform_60"',Table=(Values=(0.200000,-0.200000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=109,G=0,R=212,A=255)
+   End Object
+   Begin Object Name="ParticleModuleRotationRate_2"
+      Begin Object Name="DistributionFloatUniform_60"
+         Min=0.500000
+         Max=-0.500000
+      End Object
+      StartRotationRate=(MinValue=0.500000,MaxValue=-0.500000,Distribution=DistributionFloatUniform'"DistributionFloatUniform_60"',Table=(Values=(0.500000,-0.500000),Op=2,EntryCount=1,EntryStride=2,SubEntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=159,R=179,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSubUV_2"
+      Begin Object Name="DistributionFloatUniform_69"
+         Max=3.000000
+      End Object
+      SubImageIndex=(Distribution=DistributionFloatUniform'"DistributionFloatUniform_69"')
+      LODValidity=1
+      ModuleEditorColor=(B=222,G=79,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleVelocity_0"
+      Begin Object Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Name="DistributionVectorUniform_4"
+         Max=(X=50.000000,Y=0.000000,Z=0.000000)
+         Min=(X=80.000000,Y=0.000000,Z=0.000000)
+         bIsDirty=False
+      End Object
+      StartVelocity=(MaxValue=50.000000,MinValueVec=(X=80.000000,Y=0.000000,Z=0.000000),MaxValueVec=(X=50.000000,Y=0.000000,Z=0.000000),Distribution=DistributionVectorUniform'"DistributionVectorUniform_4"',Table=(Values=(80.000000,0.000000,0.000000,50.000000,0.000000,0.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      StartVelocityRadial=(Distribution=DistributionFloatUniform'"DistributionStartVelocityRadial"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=178,G=161,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleVelocity_2"
+      Begin Object Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Name="DistributionStartVelocity"
+         Max=(X=500.000000,Y=0.000000,Z=0.000000)
+         Min=(X=350.000000,Y=0.000000,Z=0.000000)
+         bIsDirty=False
+      End Object
+      StartVelocity=(MaxValue=500.000000,MinValueVec=(X=350.000000,Y=0.000000,Z=0.000000),MaxValueVec=(X=500.000000,Y=0.000000,Z=0.000000),Distribution=DistributionVectorUniform'"DistributionStartVelocity"',Table=(Values=(350.000000,0.000000,0.000000,500.000000,0.000000,0.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      StartVelocityRadial=(Distribution=DistributionFloatUniform'"DistributionStartVelocityRadial"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=181,G=157,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleVelocity_3"
+      Begin Object Name="DistributionStartVelocityRadial"
+      End Object
+      Begin Object Name="DistributionStartVelocity"
+         Max=(X=800.000000,Y=150.000000,Z=150.000000)
+         Min=(X=250.000000,Y=-150.000000,Z=-150.000000)
+         bIsDirty=False
+      End Object
+      StartVelocity=(MinValue=-150.000000,MaxValue=800.000000,MinValueVec=(X=250.000000,Y=-150.000000,Z=-150.000000),MaxValueVec=(X=800.000000,Y=150.000000,Z=150.000000),Distribution=DistributionVectorUniform'"DistributionStartVelocity"',Table=(Values=(250.000000,-150.000000,-150.000000,800.000000,150.000000,150.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      StartVelocityRadial=(Distribution=DistributionFloatUniform'"DistributionStartVelocityRadial"',Table=(Values=(0.000000),Op=1,EntryCount=1,EntryStride=1))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=210,R=112,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAcceleration_3"
+      Begin Object Name="DistributionVectorConstant_4"
+         Constant=(X=0.000000,Y=0.000000,Z=-950.000000)
+         bIsDirty=False
+      End Object
+      Acceleration=(MinValue=-950.000000,MinValueVec=(X=0.000000,Y=0.000000,Z=-950.000000),MaxValueVec=(X=0.000000,Y=0.000000,Z=-950.000000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_4"',Table=(Values=(0.000000,0.000000,-950.000000),Op=1,EntryCount=1,EntryStride=3))
+      bAlwaysInWorldSpace=True
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=58,R=228,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLocation_4"
+      Begin Object Name="DistributionVectorConstant_1"
+         Constant=(X=0.000000,Y=0.000000,Z=18.000000)
+         bIsDirty=False
+      End Object
+      StartLocation=(MaxValue=18.000000,MinValueVec=(X=0.000000,Y=0.000000,Z=18.000000),MaxValueVec=(X=0.000000,Y=0.000000,Z=18.000000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_1"',Table=(Values=(0.000000,0.000000,18.000000),Op=1,EntryCount=1,EntryStride=3))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=188,R=149,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSize_11"
+      Begin Object Name="DistributionVectorConstant_3"
+         Constant=(X=4.000000,Y=0.000000,Z=0.000000)
+         bIsDirty=False
+      End Object
+      StartSize=(MaxValue=4.000000,MinValueVec=(X=4.000000,Y=0.000000,Z=0.000000),MaxValueVec=(X=4.000000,Y=0.000000,Z=0.000000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_3"',Table=(Values=(4.000000,0.000000,0.000000),Op=1,EntryCount=1,EntryStride=3))
+      LODValidity=1
+      ModuleEditorColor=(B=171,G=0,R=169,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSize_8"
+      Begin Object Name="DistributionVectorConstant_2"
+         Constant=(X=20.000000,Y=0.000000,Z=0.000000)
+         bIsDirty=False
+      End Object
+      StartSize=(MaxValue=20.000000,MinValueVec=(X=20.000000,Y=0.000000,Z=0.000000),MaxValueVec=(X=20.000000,Y=0.000000,Z=0.000000),Distribution=DistributionVectorConstant'"DistributionVectorConstant_2"',Table=(Values=(20.000000,0.000000,0.000000),Op=1,EntryCount=1,EntryStride=3))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=222,R=79,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSizeMultiplyLife_0"
+      Begin Object Name="DistributionVectorConstantCurve_2"
+         ConstantCurve=(Points=((OutVal=(X=1.000000,Y=1.000000,Z=1.000000)),(InVal=1.000000,OutVal=(X=1.500000,Y=1.500000,Z=1.500000))))
+         bIsDirty=False
+      End Object
+      LifeMultiplier=(MinValue=1.000000,MaxValue=1.500000,MinValueVec=(X=1.000000,Y=1.000000,Z=1.000000),MaxValueVec=(X=1.500000,Y=1.500000,Z=1.500000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_2"',Table=(TimeScale=1.000000,Values=(1.000000,1.000000,1.000000,1.500000,1.500000,1.500000),Op=1,EntryCount=2,EntryStride=3))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=42,R=230,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSizeMultiplyLife_10"
+      Begin Object Name="DistributionVectorConstantCurve_2"
+         ConstantCurve=(Points=((OutVal=(X=1.000000,Y=0.000000,Z=0.000000)),(InVal=1.000000,OutVal=(X=75.000000,Y=0.000000,Z=0.000000))))
+         bIsDirty=False
+      End Object
+      LifeMultiplier=(MaxValue=75.000000,MinValueVec=(X=1.000000,Y=0.000000,Z=0.000000),MaxValueVec=(X=75.000000,Y=0.000000,Z=0.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_2"',Table=(TimeScale=1.000000,Values=(1.000000,0.000000,0.000000,75.000000,0.000000,0.000000),Op=1,EntryCount=2,EntryStride=3))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=138,R=195,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSizeMultiplyLife_2"
+      Begin Object Name="DistributionVectorConstantCurve_3"
+         ConstantCurve=(Points=((InVal=0.800000,OutVal=(X=1.000000,Y=1.000000,Z=1.000000)),(InVal=1.000000)))
+         bIsDirty=False
+      End Object
+      LifeMultiplier=(MaxValue=1.000000,MaxValueVec=(X=1.000000,Y=1.000000,Z=1.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_3"',Table=(TimeScale=5.000000,TimeBias=0.800000,Values=(1.000000,1.000000,1.000000,0.000000,0.000000,0.000000),Op=1,EntryCount=2,EntryStride=3))
+      LODValidity=1
+      ModuleEditorColor=(B=58,G=0,R=228,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSizeMultiplyLife_7"
+      Begin Object Name="DistributionVectorConstantCurve_1"
+         ConstantCurve=(Points=((OutVal=(X=3.000000,Y=0.000000,Z=0.000000)),(InVal=1.000000,OutVal=(X=14.000000,Y=0.000000,Z=0.000000))))
+         bIsDirty=False
+      End Object
+      LifeMultiplier=(MaxValue=14.000000,MinValueVec=(X=3.000000,Y=0.000000,Z=0.000000),MaxValueVec=(X=14.000000,Y=0.000000,Z=0.000000),Distribution=DistributionVectorConstantCurve'"DistributionVectorConstantCurve_1"',Table=(TimeScale=1.000000,Values=(3.000000,0.000000,0.000000,14.000000,0.000000,0.000000),Op=1,EntryCount=2,EntryStride=3))
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=179,R=159,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAcceleration_0"
+      Begin Object Name="DistributionAcceleration"
+         bIsDirty=False
+      End Object
+      Acceleration=(Distribution=DistributionVectorUniform'"DistributionAcceleration"',Table=(Values=(0.000000,0.000000,0.000000),Op=1,EntryCount=1,EntryStride=3))
+      bAlwaysInWorldSpace=True
+      LODValidity=1
+      ModuleEditorColor=(B=0,G=126,R=203,A=255)
+   End Object
+   Begin Object Name="ParticleModuleAcceleration_2"
+      Begin Object Name="DistributionAcceleration"
+         Max=(X=0.000000,Y=0.000000,Z=-2000.000000)
+         Min=(X=0.000000,Y=0.000000,Z=-700.000000)
+         bIsDirty=False
+      End Object
+      Acceleration=(MinValue=-700.000000,MinValueVec=(X=0.000000,Y=0.000000,Z=-700.000000),MaxValueVec=(X=0.000000,Y=0.000000,Z=-2000.000000),Distribution=DistributionVectorUniform'"DistributionAcceleration"',Table=(Values=(0.000000,0.000000,-700.000000,0.000000,0.000000,-2000.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      bAlwaysInWorldSpace=True
+      LODValidity=1
+      ModuleEditorColor=(B=197,G=136,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLocation_0"
+      Begin Object Name="DistributionStartLocation"
+         Max=(X=50.000000,Y=50.000000,Z=10.000000)
+         Min=(X=-50.000000,Y=-50.000000,Z=0.000000)
+         bIsDirty=False
+      End Object
+      StartLocation=(MinValue=-50.000000,MaxValue=50.000000,MinValueVec=(X=-50.000000,Y=-50.000000,Z=0.000000),MaxValueVec=(X=50.000000,Y=50.000000,Z=10.000000),Distribution=DistributionVectorUniform'"DistributionStartLocation"',Table=(Values=(-50.000000,-50.000000,0.000000,50.000000,50.000000,10.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      LODValidity=1
+      ModuleEditorColor=(B=178,G=161,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLocation_Seeded_0"
+      Begin Object Name="DistributionVectorUniform_1"
+         Max=(X=50.000000,Y=50.000000,Z=0.000000)
+         Min=(X=0.000000,Y=-50.000000,Z=0.000000)
+         bIsDirty=False
+      End Object
+      RandomSeedInfo=(RandomSeeds=(-2147483648))
+      StartLocation=(MinValue=-50.000000,MaxValue=50.000000,MinValueVec=(X=0.000000,Y=-50.000000,Z=0.000000),MaxValueVec=(X=50.000000,Y=50.000000,Z=0.000000),Distribution=DistributionVectorUniform'"DistributionVectorUniform_1"',Table=(Values=(0.000000,-50.000000,0.000000,50.000000,50.000000,0.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      bRequiresLoopingNotification=False
+      LODValidity=1
+      ModuleEditorColor=(B=88,G=220,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleLocation_Seeded_1"
+      Begin Object Name="DistributionVectorUniform_1"
+         Max=(X=50.000000,Y=50.000000,Z=0.000000)
+         Min=(X=0.000000,Y=-50.000000,Z=0.000000)
+         bIsDirty=False
+      End Object
+      RandomSeedInfo=(RandomSeeds=(-2147483648))
+      StartLocation=(MinValue=-50.000000,MaxValue=50.000000,MinValueVec=(X=0.000000,Y=-50.000000,Z=0.000000),MaxValueVec=(X=50.000000,Y=50.000000,Z=0.000000),Distribution=DistributionVectorUniform'"DistributionVectorUniform_1"',Table=(Values=(0.000000,-50.000000,0.000000,50.000000,50.000000,0.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      bRequiresLoopingNotification=False
+      LODValidity=1
+      ModuleEditorColor=(B=165,G=174,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSize_0"
+      Begin Object Name="DistributionVectorUniform_8"
+         Max=(X=100.000000,Y=0.000000,Z=0.000000)
+         Min=(X=140.000000,Y=0.000000,Z=0.000000)
+      End Object
+      StartSize=(Distribution=DistributionVectorUniform'"DistributionVectorUniform_8"')
+      bEnabled=False
+      LODValidity=1
+      ModuleEditorColor=(B=194,G=140,R=0,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSize_2"
+      Begin Object Name="DistributionStartSize"
+         Max=(X=10.000000,Y=10.000000,Z=10.000000)
+         Min=(X=50.000000,Y=70.000000,Z=15.000000)
+         bIsDirty=False
+      End Object
+      StartSize=(MinValue=15.000000,MaxValue=10.000000,MinValueVec=(X=50.000000,Y=70.000000,Z=15.000000),MaxValueVec=(X=10.000000,Y=10.000000,Z=10.000000),Distribution=DistributionVectorUniform'"DistributionStartSize"',Table=(Values=(50.000000,70.000000,15.000000,10.000000,10.000000,10.000000),Op=2,EntryCount=1,EntryStride=6,SubEntryStride=3))
+      LODValidity=1
+      ModuleEditorColor=(B=228,G=0,R=64,A=255)
+   End Object
+   Begin Object Name="InterpCurveEdSetup_0"
+      Tabs(0)=(Curves=((CurveObject=DistributionFloatConstantCurve'"P_Break_IceWall:ParticleModuleSubUV_4.DistributionFloatConstantCurve_1"',CurveColor=(B=0,G=105,R=213,A=255),CurveName="SubImageIndex",bHideCurve=1),(CurveObject=DistributionFloatConstantCurve'"P_Break_IceWall:ParticleModuleSubUV_0.DistributionFloatConstantCurve_3"',CurveColor=(B=148,G=0,R=189,A=255),CurveName="SubImageIndex",bHideCurve=1),(CurveObject=DistributionVectorConstantCurve'"P_Break_IceWall:ParticleModuleColorOverLife_0.DistributionVectorConstantCurve_4"',CurveColor=(B=156,G=0,R=183,A=255),CurveName="ColorOverLife",bHideCurve=1,bColorCurve=1,bFloatingPointColorCurve=1),(CurveObject=DistributionFloatConstantCurve'"P_Break_IceWall:ParticleModuleColorOverLife_0.DistributionFloatConstantCurve_1"',CurveColor=(B=156,G=0,R=183,A=255),CurveName="AlphaOverLife",bHideCurve=1,bColorCurve=1,bFloatingPointColorCurve=1,bClamp=1,ClampHigh=1.000000),(CurveObject=DistributionVectorConstantCurve'"P_Break_IceWall:ParticleModuleColorOverLife_11.DistributionColorOverLife"',CurveColor=(B=0,G=217,R=95,A=255),CurveName="ColorOverLife",bHideCurve=1,bColorCurve=1,bFloatingPointColorCurve=1),(CurveObject=DistributionFloatConstantCurve'"P_Break_IceWall:ParticleModuleColorOverLife_11.DistributionFloatConstantCurve_0"',CurveColor=(B=0,G=217,R=95,A=255),CurveName="AlphaOverLife",bColorCurve=1,bFloatingPointColorCurve=1,bClamp=1,ClampHigh=1.000000)),ViewStartInput=0.945000,ViewEndInput=1.005000,ViewStartOutput=-0.100000,ViewEndOutput=1.100000)
+   End Object
+   Begin Object Name="ParticleSpriteEmitter_0"
+      Begin Object Name="ParticleLODLevel_0"
+         RequiredModule=ParticleModuleRequired'"P_Break_IceWall:ParticleModuleRequired_0"'
+         Modules(0)=ParticleModuleLifetime'"P_Break_IceWall:ParticleModuleLifetime_0"'
+         Modules(1)=ParticleModuleSize'"P_Break_IceWall:ParticleModuleSize_0"'
+         Modules(2)=ParticleModuleSize'"P_Break_IceWall:ParticleModuleSize_9"'
+         Modules(3)=ParticleModuleVelocity'"P_Break_IceWall:ParticleModuleVelocity_0"'
+         Modules(4)=ParticleModuleColorOverLife'"P_Break_IceWall:ParticleModuleColorOverLife_0"'
+         Modules(5)=ParticleModuleSubUV'"P_Break_IceWall:ParticleModuleSubUV_0"'
+         Modules(6)=ParticleModuleSizeMultiplyLife'"P_Break_IceWall:ParticleModuleSizeMultiplyLife_0"'
+         Modules(7)=ParticleModuleRotation'"P_Break_IceWall:ParticleModuleRotation_0"'
+         Modules(8)=ParticleModuleLocation_Seeded'"P_Break_IceWall:ParticleModuleLocation_Seeded_1"'
+         Modules(9)=ParticleModuleAcceleration'"P_Break_IceWall:ParticleModuleAcceleration_0"'
+         Modules(10)=ParticleModuleRotationRate'"P_Break_IceWall:ParticleModuleRotationRate_0"'
+         Modules(11)=ParticleModuleCameraOffset'"P_Break_IceWall:ParticleModuleCameraOffset_1"'
+         SpawnModule=ParticleModuleSpawn'"P_Break_IceWall:ParticleModuleSpawn_0"'
+         PeakActiveParticles=4
+      End Object
+      EmitterName="Slow"
+      bUseLegacySpawningBehavior=True
+      EmitterEditorColor=(B=105,G=213,R=0,A=255)
+      LODLevels(0)=ParticleLODLevel'"ParticleLODLevel_0"'
+      DetailModeBitmask=7
+   End Object
+   Begin Object Name="ParticleSpriteEmitter_11"
+      Begin Object Name="ParticleLODLevel_10"
+         RequiredModule=ParticleModuleRequired'"P_Break_IceWall:ParticleModuleRequired_11"'
+         Modules(0)=ParticleModuleLifetime'"P_Break_IceWall:ParticleModuleLifetime_11"'
+         Modules(1)=ParticleModuleSize'"P_Break_IceWall:ParticleModuleSize_11"'
+         Modules(2)=ParticleModuleColorOverLife'"P_Break_IceWall:ParticleModuleColorOverLife_12"'
+         Modules(3)=ParticleModuleLocation'"P_Break_IceWall:ParticleModuleLocation_4"'
+         Modules(4)=ParticleModuleSizeMultiplyLife'"P_Break_IceWall:ParticleModuleSizeMultiplyLife_10"'
+         Modules(5)=ParticleModuleRotation'"P_Break_IceWall:ParticleModuleRotation_11"'
+         Modules(6)=ParticleModuleOrientationAxisLock'"P_Break_IceWall:ParticleModuleOrientationAxisLock_3"'
+         Modules(7)=ParticleModuleCameraOffset'"P_Break_IceWall:ParticleModuleCameraOffset_0"'
+         SpawnModule=ParticleModuleSpawn'"P_Break_IceWall:ParticleModuleSpawn_11"'
+         PeakActiveParticles=3
+      End Object
+      bUseLegacySpawningBehavior=True
+      EmitterEditorColor=(B=0,G=112,R=210,A=255)
+      LODLevels(0)=ParticleLODLevel'"ParticleLODLevel_10"'
+      DetailModeBitmask=7
+   End Object
+   Begin Object Name="ParticleSpriteEmitter_2"
+      Begin Object Name="ParticleLODLevel_0"
+         RequiredModule=ParticleModuleRequired'"P_Break_IceWall:ParticleModuleRequired_2"'
+         Modules(0)=ParticleModuleLifetime'"P_Break_IceWall:ParticleModuleLifetime_2"'
+         Modules(1)=ParticleModuleSize'"P_Break_IceWall:ParticleModuleSize_2"'
+         Modules(2)=ParticleModuleLocation'"P_Break_IceWall:ParticleModuleLocation_0"'
+         Modules(3)=ParticleModuleVelocity'"P_Break_IceWall:ParticleModuleVelocity_3"'
+         Modules(4)=ParticleModuleColorOverLife'"P_Break_IceWall:ParticleModuleColorOverLife_2"'
+         Modules(5)=ParticleModuleSubUV'"P_Break_IceWall:ParticleModuleSubUV_2"'
+         Modules(6)=ParticleModuleAcceleration'"P_Break_IceWall:ParticleModuleAcceleration_2"'
+         Modules(7)=ParticleModuleRotation'"P_Break_IceWall:ParticleModuleRotation_2"'
+         Modules(8)=ParticleModuleSizeMultiplyLife'"P_Break_IceWall:ParticleModuleSizeMultiplyLife_2"'
+         Modules(9)=ParticleModuleRotationRate'"P_Break_IceWall:ParticleModuleRotationRate_2"'
+         SpawnModule=ParticleModuleSpawn'"P_Break_IceWall:ParticleModuleSpawn_2"'
+         PeakActiveParticles=10
+      End Object
+      bUseLegacySpawningBehavior=True
+      EmitterEditorColor=(B=198,G=0,R=136,A=255)
+      LODLevels(0)=ParticleLODLevel'"ParticleLODLevel_0"'
+      DetailModeBitmask=7
+   End Object
+   Begin Object Name="ParticleSpriteEmitter_6"
+      Begin Object Name="ParticleLODLevel_6"
+         RequiredModule=ParticleModuleRequired'"P_Break_IceWall:ParticleModuleRequired_6"'
+         Modules(0)=ParticleModuleLifetime'"P_Break_IceWall:ParticleModuleLifetime_6"'
+         Modules(1)=ParticleModuleSize'"P_Break_IceWall:ParticleModuleSize_8"'
+         Modules(2)=ParticleModuleVelocity'"P_Break_IceWall:ParticleModuleVelocity_2"'
+         Modules(3)=ParticleModuleColorOverLife'"P_Break_IceWall:ParticleModuleColorOverLife_11"'
+         Modules(4)=ParticleModuleSubUV'"P_Break_IceWall:ParticleModuleSubUV_4"'
+         Modules(5)=ParticleModuleAcceleration'"P_Break_IceWall:ParticleModuleAcceleration_3"'
+         Modules(6)=ParticleModuleSizeMultiplyLife'"P_Break_IceWall:ParticleModuleSizeMultiplyLife_7"'
+         Modules(7)=ParticleModuleRotation'"P_Break_IceWall:ParticleModuleRotation_5"'
+         Modules(8)=ParticleModuleColorOverLife'"P_Break_IceWall:ParticleModuleColorOverLife_4"'
+         Modules(9)=ParticleModuleLocation_Seeded'"P_Break_IceWall:ParticleModuleLocation_Seeded_0"'
+         Modules(10)=ParticleModuleCameraOffset'"P_Break_IceWall:ParticleModuleCameraOffset_0"'
+         SpawnModule=ParticleModuleSpawn'"P_Break_IceWall:ParticleModuleSpawn_6"'
+         PeakActiveParticles=5
+      End Object
+      EmitterName="brightBlood"
+      bUseLegacySpawningBehavior=True
+      EmitterEditorColor=(B=176,G=163,R=0,A=255)
+      LODLevels(0)=ParticleLODLevel'"ParticleLODLevel_6"'
+      DetailModeBitmask=7
+   End Object
+   Begin Object Name="ParticleModuleOrientationAxisLock_3"
+      LockAxisFlags=EPAL_Z
+      bEnabled=False
+      LODValidity=1
+      ModuleEditorColor=(B=197,G=0,R=138,A=255)
+   End Object
+   Begin Object Name="ParticleModuleSize_9"
+      LODValidity=1
+      ModuleEditorColor=(B=168,G=0,R=172,A=255)
+   End Object
+   Emitters(0)=ParticleSpriteEmitter'"ParticleSpriteEmitter_0"'
+   Emitters(1)=ParticleSpriteEmitter'"ParticleSpriteEmitter_6"'
+   Emitters(2)=ParticleSpriteEmitter'"ParticleSpriteEmitter_11"'
+   Emitters(3)=ParticleSpriteEmitter'"ParticleSpriteEmitter_2"'
+   CurveEdSetup=InterpCurveEdSetup'"InterpCurveEdSetup_0"'
+   LODDistances(0)=0.000000
+   LODSettings(0)=()
+   FixedRelativeBoundingBox=(Min=(X=-400.000000,Y=-400.000000,Z=-500.000000),Max=(X=400.000000,Y=400.000000,Z=400.000000),IsValid=1)
+   bUseFixedRelativeBoundingBox=True
+   bShouldResetPeakCounts=True
+   ThumbnailImage=Texture2D'"ThumbnailTexture"'
+   LODMethod=PARTICLESYSTEMLODMETHOD_DirectSet
+End Object

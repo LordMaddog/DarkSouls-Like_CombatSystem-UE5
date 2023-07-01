@@ -1,0 +1,221 @@
+Begin Object Class=/Script/Engine.Material Name="M_SpeedTrails"
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_16"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_17"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_7"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_8"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionParticleColor Name="MaterialExpressionParticleColor_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_10"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_11"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_7"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_4"
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_2"
+      B=(Expression=MaterialExpressionScalarParameter'"M_SpeedTrails:MaterialExpressionScalarParameter_2"')
+      Alpha=(Expression=MaterialExpressionTextureSample'"M_SpeedTrails:MaterialExpressionTextureSample_7"',OutputIndex=2,Mask=1,MaskG=1)
+      ConstA=1.000000
+      ConstB=0.800000
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=C2EC6F7E45DCA851B1E86BAAFBEB4C30
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_3"
+      B=(Expression=MaterialExpressionLinearInterpolate'"M_SpeedTrails:MaterialExpressionLinearInterpolate_2"')
+      Alpha=(Expression=MaterialExpressionParticleColor'"M_SpeedTrails:MaterialExpressionParticleColor_1"',OutputIndex=4,Mask=1,MaskA=1)
+      ConstA=1.000000
+      MaterialExpressionEditorX=352
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=AC7CF1E54A6AF52BB9EFD9841D26B4F9
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_1"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Coordinates/WorldPosition-XY.WorldPosition-XY"'
+      FunctionInputs(0)=(ExpressionInputId=47333F35408E31AD1EBDF3B450F2AACC,Input=(Expression=MaterialExpressionScalarParameter'"M_SpeedTrails:MaterialExpressionScalarParameter_4"',InputName="Scale"))
+      FunctionOutputs(0)=(ExpressionOutputId=6BB68D29481A2EE85AD88493252EEE1B,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-1152
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=D936C02749637169797D3FBB9E15CDF3
+      Material=Material'"M_SpeedTrails"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_16"
+      A=(Expression=MaterialExpressionOneMinus'"M_SpeedTrails:MaterialExpressionOneMinus_3"')
+      B=(Expression=MaterialExpressionTextureSample'"M_SpeedTrails:MaterialExpressionTextureSample_10"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=106
+      MaterialExpressionEditorY=822
+      MaterialExpressionGuid=3E66EBF44C844B2C01E92497E1C04577
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_17"
+      A=(Expression=MaterialExpressionMultiply'"M_SpeedTrails:MaterialExpressionMultiply_16"')
+      B=(Expression=MaterialExpressionScalarParameter'"M_SpeedTrails:MaterialExpressionScalarParameter_3"')
+      MaterialExpressionEditorX=256
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=2AE94960477E829FF46D2D9055184ACE
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_7"
+      A=(Expression=MaterialExpressionParticleColor'"M_SpeedTrails:MaterialExpressionParticleColor_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSample'"M_SpeedTrails:MaterialExpressionTextureSample_7"',OutputIndex=1,Mask=1,MaskR=1)
+      MaterialExpressionEditorX=-394
+      MaterialExpressionEditorY=-249
+      MaterialExpressionGuid=5540C72F4F66E33149329CB6E8037AED
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_8"
+      A=(Expression=MaterialExpressionMultiply'"M_SpeedTrails:MaterialExpressionMultiply_7"')
+      B=(Expression=MaterialExpressionTextureSample'"M_SpeedTrails:MaterialExpressionTextureSample_11"',OutputIndex=2,Mask=1,MaskG=1)
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=-192
+      MaterialExpressionGuid=C67D55DC4B0410C56F11AE87F0310950
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_3"
+      Input=(Expression=MaterialExpressionParticleColor'"M_SpeedTrails:MaterialExpressionParticleColor_1"',OutputIndex=4,Mask=1,MaskA=1)
+      MaterialExpressionEditorX=16
+      MaterialExpressionEditorY=816
+      MaterialExpressionGuid=05E8A3A242684ED239B3AEB6C65FABD9
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionParticleColor_1"
+      MaterialExpressionEditorX=-864
+      MaterialExpressionEditorY=-320
+      MaterialExpressionGuid=89896E0B40A1438EF5EDC2BF4ED95266
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=0.700000
+      ParameterName="RefracStr"
+      ExpressionGUID=0AAC840440C78B9FCB83AAAB8512FAEF
+      MaterialExpressionEditorX=-560
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=849C530E49B405DA128C15BB05DF63AD
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      DefaultValue=50.000000
+      ParameterName="WiggleAmp"
+      ExpressionGUID=B5F29D5A4B2094E606351B968CCAD5A2
+      MaterialExpressionEditorX=96
+      MaterialExpressionEditorY=944
+      MaterialExpressionGuid=6FAAAA4D4A91FBAF6D2F5C9A182CB45E
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=500.000000
+      ParameterName="WPO"
+      ExpressionGUID=1A2C7DC841D1D861730E3085E753F177
+      MaterialExpressionEditorX=-1280
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=B052830A40285A7C7B7CECAB37AEEBE5
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_4"
+      MaterialExpressionEditorX=-1024
+      MaterialExpressionEditorY=-128
+      MaterialExpressionGuid=A1F4E89D47A68B44CD4300AE5178F30A
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_10"
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"M_SpeedTrails:MaterialExpressionMaterialFunctionCall_1"')
+      Texture=Texture2D'"/Game/ParagonSunWukong/FX/Materials/MaterialFunctions/Textures/Noise/T_NormalNoise.T_NormalNoise"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=944
+      MaterialExpressionGuid=76D245C64FE7DF91D3849C8440B957C7
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_11"
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"M_SpeedTrails:MaterialExpressionMaterialFunctionCall_1"')
+      Texture=Texture2D'"/Game/ParagonSunWukong/FX/Textures/Tile/Noise/T_Inky_Smoke_Tile.T_Inky_Smoke_Tile"'
+      MaterialExpressionEditorX=-880
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=CCF18012486E1D7FF8AB1093B207E04E
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_5"
+      Coordinates=(Expression=MaterialExpressionMaterialFunctionCall'"M_SpeedTrails:MaterialExpressionMaterialFunctionCall_1"')
+      Texture=Texture2D'"/Game/ParagonSunWukong/FX/Textures/trails/T_SpeedTrails_R_N.T_SpeedTrails_R_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-880
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=4F82858E46E3BFB76307FDA88309C635
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_7"
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'"M_SpeedTrails:MaterialExpressionTextureCoordinate_4"')
+      Texture=Texture2D'"/Game/ParagonSunWukong/FX/Textures/Heroes/T_ShapedTrail.T_ShapedTrail"'
+      MaterialExpressionEditorX=-880
+      MaterialExpressionEditorY=-128
+      MaterialExpressionGuid=C53701B2457D05C07DC92CB479E1FD3C
+      Material=Material'"M_SpeedTrails"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_4"
+   End Object
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_5"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   EmissiveColor=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_8"')
+   BlendMode=BLEND_Additive
+   ShadingModel=MSM_Unlit
+   ShadingModels=(ShadingModelField=1)
+   WorldPositionOffset=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_17"')
+   Refraction=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_3"')
+   TwoSided=True
+   bUsedWithParticleSprites=True
+   bUsedWithBeamTrails=True
+   bUsedWithMeshParticles=True
+   bUsedWithNiagaraRibbons=True
+   bUsesDistortion=True
+   EditorX=880
+   EditorY=80
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_5"'
+   Expressions(1)=MaterialExpressionMultiply'"MaterialExpressionMultiply_8"'
+   Expressions(2)=MaterialExpressionMultiply'"MaterialExpressionMultiply_17"'
+   Expressions(3)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_3"'
+   Expressions(4)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_7"'
+   Expressions(5)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_2"'
+   Expressions(6)=MaterialExpressionMultiply'"MaterialExpressionMultiply_7"'
+   Expressions(7)=MaterialExpressionParticleColor'"MaterialExpressionParticleColor_1"'
+   Expressions(8)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(9)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_1"'
+   Expressions(10)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_10"'
+   Expressions(11)=MaterialExpressionMultiply'"MaterialExpressionMultiply_16"'
+   Expressions(12)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"'
+   Expressions(13)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_4"'
+   Expressions(14)=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_3"'
+   Expressions(15)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_4"'
+   Expressions(16)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_11"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=5C2D6CC347D681EC8C947492BE1D2E1D
+   ReferencedTextureGuids(0)=412B69A5436E9E5DBD4869A4FCCDA372
+   ReferencedTextureGuids(1)=139325C5424B04FF9AD202BFB82E4FDA
+   ReferencedTextureGuids(2)=83D9BA6041C6CE1480FFE8829E67F02E
+   ReferencedTextureGuids(3)=9EB152ED4CADA24F6F5BFEA2A82322F3
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_4"'
+   LightingGuid=2BB3F689447BBD90229F209ED6FA0C81
+End Object
