@@ -1,4 +1,0 @@
-Breadcrumbs 'RHIThread'
-Context 1/2
-	00 Scene
-	01 LightCompositionTasks_PreLighting
