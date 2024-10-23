@@ -1,6 +1,0 @@
-2024/09/18-00:38:04.714 5ed4 Creating DB D:/Unreal Projects/MeleeCombatSystem/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
-2024/09/18-00:38:04.720 5ed4 Reusing MANIFEST D:/Unreal Projects/MeleeCombatSystem/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/18-01:17:09.372 617c Level-0 table #5: started
-2024/09/18-01:17:09.379 617c Level-0 table #5: 1167 bytes OK
-2024/09/18-01:17:09.380 617c Delete type=0 #3
-2024/09/18-01:17:09.380 617c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
