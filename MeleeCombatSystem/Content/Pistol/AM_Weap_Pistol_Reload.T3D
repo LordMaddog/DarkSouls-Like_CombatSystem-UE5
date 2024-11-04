@@ -1,0 +1,23 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="AM_Weap_Pistol_Reload" ExportPath=/Script/Engine.AnimMontage'"/Game/Weapons/Pistol/Animations/AM_Weap_Pistol_Reload.AM_Weap_Pistol_Reload"'
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel" ExportPath=/Script/Engine.AnimDataModel'"/Game/Weapons/Pistol/Animations/AM_Weap_Pistol_Reload.AM_Weap_Pistol_Reload:AnimDataModel"'
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath=/Script/UnrealEd.SceneThumbnailInfo'"/Game/Weapons/Pistol/Animations/AM_Weap_Pistol_Reload.AM_Weap_Pistol_Reload:SceneThumbnailInfo_0"'
+   End Object
+   Begin Object Name="AnimDataModel" ExportPath=/Script/Engine.AnimDataModel'"/Game/Weapons/Pistol/Animations/AM_Weap_Pistol_Reload.AM_Weap_Pistol_Reload:AnimDataModel"'
+      FrameRate=(Numerator=100000)
+      NumberOfFrames=200000
+      NumberOfKeys=200001
+      bPopulated=True
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath=/Script/UnrealEd.SceneThumbnailInfo'"/Game/Weapons/Pistol/Animations/AM_Weap_Pistol_Reload.AM_Weap_Pistol_Reload:SceneThumbnailInfo_0"'
+   End Object
+   BlendIn=(BlendTime=0.000000)
+   BlendOut=(BlendTime=0.150000)
+   CompositeSections(0)=(SectionName="Default",LinkedMontage=/Script/Engine.AnimMontage'"AM_Weap_Pistol_Reload"',SegmentIndex=0,SegmentLength=2.000000,LinkedSequence=/Script/Engine.AnimSequence'"/Game/Weapons/Pistol/Animations/Weap_Pistol_Reload.Weap_Pistol_Reload"')
+   SlotAnimTracks(0)=(AnimTrack=(AnimSegments=((AnimReference=/Script/Engine.AnimSequence'"/Game/Weapons/Pistol/Animations/Weap_Pistol_Reload.Weap_Pistol_Reload"',AnimEndTime=2.000000))))
+   SequenceLength=2.000000
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   DataModelInterface=AnimDataModel'AM_Weap_Pistol_Reload:AnimDataModel'
+   Skeleton=/Script/Engine.Skeleton'"/Game/Weapons/Pistol/Mesh/SK_Pistol_Skeleton.SK_Pistol_Skeleton"'
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object

@@ -1,0 +1,18 @@
+Begin Object Class=/Script/Engine.PhysicsAsset Name="SK_Pistol_PhysicsAsset" ExportPath=/Script/Engine.PhysicsAsset'"/Game/Weapons/Pistol/Mesh/SK_Pistol_PhysicsAsset.SK_Pistol_PhysicsAsset"'
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_0" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/Weapons/Pistol/Mesh/SK_Pistol_PhysicsAsset.SK_Pistol_PhysicsAsset:SkeletalBodySetup_0"'
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath=/Script/UnrealEd.SceneThumbnailInfo'"/Game/Weapons/Pistol/Mesh/SK_Pistol_PhysicsAsset.SK_Pistol_PhysicsAsset:SceneThumbnailInfo_0"'
+   End Object
+   Begin Object Name="SkeletalBodySetup_0" ExportPath=/Script/Engine.SkeletalBodySetup'"/Game/Weapons/Pistol/Mesh/SK_Pistol_PhysicsAsset.SK_Pistol_PhysicsAsset:SkeletalBodySetup_0"'
+      AggGeom=(BoxElems=((Center=(X=7.138767,Y=-0.000000,Z=7.248730),X=24.500000,Y=5.000000,Z=10.000000,Name="Grip_box"),(Center=(X=-0.749865,Y=0.000000,Z=-1.443525),Rotation=(Pitch=-20.325483,Yaw=-0.000000,Roll=0.000000),X=5.500000,Y=4.000000,Z=8.500000,Name="Grip_box")))
+      BoneName="Grip"
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath=/Script/UnrealEd.SceneThumbnailInfo'"/Game/Weapons/Pistol/Mesh/SK_Pistol_PhysicsAsset.SK_Pistol_PhysicsAsset:SceneThumbnailInfo_0"'
+   End Object
+   PreviewSkeletalMesh="/Game/Weapons/Pistol/Mesh/SK_Pistol.SK_Pistol"
+   BoundsBodies(0)=0
+   SkeletalBodySetups(0)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_0"'
+   SolverSettings=(CullDistance=1.000000,bUseLinearJointSolver=False)
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object

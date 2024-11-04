@@ -1,0 +1,35 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="AM_MM_Pistol_Equip" ExportPath=/Script/Engine.AnimMontage'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Equip.AM_MM_Pistol_Equip"'
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel" ExportPath=/Script/Engine.AnimDataModel'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Equip.AM_MM_Pistol_Equip:AnimDataModel"'
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath=/Script/UnrealEd.SceneThumbnailInfo'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Equip.AM_MM_Pistol_Equip:SceneThumbnailInfo_0"'
+   End Object
+   Begin Object Class=/Script/Engine.AnimNotify_PlaySound Name="AnimNotify_PlaySound_0" ExportPath=/Script/Engine.AnimNotify_PlaySound'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Equip.AM_MM_Pistol_Equip:AnimNotify_PlaySound_0"'
+   End Object
+   Begin Object Name="AnimDataModel" ExportPath=/Script/Engine.AnimDataModel'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Equip.AM_MM_Pistol_Equip:AnimDataModel"'
+      FrameRate=(Numerator=100000)
+      NumberOfFrames=140000
+      NumberOfKeys=140001
+      CurveData=(FloatCurves=((FloatCurve=(Keys=((InterpMode=RCIM_Constant,Value=1.000000),(InterpMode=RCIM_Constant,Time=0.500000))),Name=(DisplayName="ScaleDownWeaponR"),Color=(R=0.570159,G=0.768628,B=0.177839,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((Value=0.500000))),Name=(DisplayName="DisableLHandIK"),Color=(R=0.307074,G=0.177839,B=0.768628,A=1.000000))))
+      bPopulated=True
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath=/Script/UnrealEd.SceneThumbnailInfo'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Equip.AM_MM_Pistol_Equip:SceneThumbnailInfo_0"'
+   End Object
+   Begin Object Name="AnimNotify_PlaySound_0" ExportPath=/Script/Engine.AnimNotify_PlaySound'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Equip.AM_MM_Pistol_Equip:AnimNotify_PlaySound_0"'
+      Sound=/Script/MetasoundEngine.MetaSoundSource'"/Game/Audio/MetaSounds/sfx_WeaponSwap_nl_meta_Preset.sfx_WeaponSwap_nl_meta_Preset"'
+      bFollow=True
+      AttachName="hand_r"
+   End Object
+   BlendIn=(BlendOption=HermiteCubic)
+   BlendOut=(BlendTime=0.400000,BlendOption=HermiteCubic)
+   CompositeSections(0)=(SectionName="Default",LinkedMontage=/Script/Engine.AnimMontage'"AM_MM_Pistol_Equip"',SegmentIndex=0,SegmentLength=1.400000,LinkedSequence=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Equip.MM_Pistol_Equip"')
+   SlotAnimTracks(0)=(SlotName="UpperBody",AnimTrack=(AnimSegments=((AnimReference=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Equip.MM_Pistol_Equip"',AnimEndTime=1.400000))))
+   SlotAnimTracks(1)=(SlotName="UpperBodyAdditive",AnimTrack=(AnimSegments=((AnimReference=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Equip_Additive.MM_Pistol_Equip_Additive"',AnimEndTime=1.400000))))
+   Notifies(0)=(EndTriggerTimeOffset=0.000100,NotifyName="PlaySound",Notify=/Script/Engine.AnimNotify_PlaySound'"AnimNotify_PlaySound_0"',Guid=E4E9B3594EAB893C7ECDD982E03E9E69,LinkedMontage=/Script/Engine.AnimMontage'"AM_MM_Pistol_Equip"',SegmentIndex=0,SegmentLength=1.400000,LinkValue=0.031035,LinkedSequence=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Equip.MM_Pistol_Equip"')
+   SequenceLength=1.400000
+   RawCurveData=(FloatCurves=((FloatCurve=(Keys=((InterpMode=RCIM_Constant,Value=1.000000),(InterpMode=RCIM_Constant,Time=0.500000))),Name=(DisplayName="ScaleDownWeaponR"),Color=(R=0.570159,G=0.768628,B=0.177839,A=1.000000),CurveTypeFlags=4),(FloatCurve=(Keys=((Value=0.500000))),Name=(DisplayName="DisableLHandIK"),Color=(R=0.307074,G=0.177839,B=0.768628,A=1.000000))))
+   RateScale=1.100000
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   DataModelInterface=AnimDataModel'AM_MM_Pistol_Equip:AnimDataModel'
+   Skeleton=/Script/Engine.Skeleton'"/Game/Characters/Heroes/Mannequin/Meshes/SK_Mannequin.SK_Mannequin"'
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object

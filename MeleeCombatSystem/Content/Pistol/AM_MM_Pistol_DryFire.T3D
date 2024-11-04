@@ -1,0 +1,35 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="AM_MM_Pistol_DryFire" ExportPath=/Script/Engine.AnimMontage'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_DryFire.AM_MM_Pistol_DryFire"'
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel" ExportPath=/Script/Engine.AnimDataModel'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_DryFire.AM_MM_Pistol_DryFire:AnimDataModel"'
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath=/Script/UnrealEd.SceneThumbnailInfo'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_DryFire.AM_MM_Pistol_DryFire:SceneThumbnailInfo_0"'
+   End Object
+   Begin Object Class=/Script/Engine.AnimNotify_PlaySound Name="AnimNotify_PlaySound_0" ExportPath=/Script/Engine.AnimNotify_PlaySound'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_DryFire.AM_MM_Pistol_DryFire:AnimNotify_PlaySound_0"'
+   End Object
+   Begin Object Name="AnimDataModel" ExportPath=/Script/Engine.AnimDataModel'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_DryFire.AM_MM_Pistol_DryFire:AnimDataModel"'
+      FrameRate=(Numerator=100000)
+      NumberOfFrames=80000
+      NumberOfKeys=80001
+      bPopulated=True
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath=/Script/UnrealEd.SceneThumbnailInfo'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_DryFire.AM_MM_Pistol_DryFire:SceneThumbnailInfo_0"'
+   End Object
+   Begin Object Name="AnimNotify_PlaySound_0" ExportPath=/Script/Engine.AnimNotify_PlaySound'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_DryFire.AM_MM_Pistol_DryFire:AnimNotify_PlaySound_0"'
+      Sound=/Script/Engine.SoundWave'"/Game/Audio/Sounds/Weapons/Pistol/Weapons_Pistol_DryFire_01.Weapons_Pistol_DryFire_01"'
+      VolumeMultiplier=0.350000
+      bFollow=True
+      AttachName="hand_r"
+   End Object
+   BlendIn=(BlendTime=0.100000,BlendOption=HermiteCubic)
+   BlendOut=(BlendTime=0.350000,BlendOption=HermiteCubic)
+   CompositeSections(0)=(SectionName="Default",LinkedMontage=/Script/Engine.AnimMontage'"AM_MM_Pistol_DryFire"',SegmentIndex=0,SegmentLength=0.800000,LinkedSequence=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_DryFire.MM_Pistol_DryFire"')
+   SlotAnimTracks(0)=(SlotName="UpperBody",AnimTrack=(AnimSegments=((AnimReference=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_DryFire.MM_Pistol_DryFire"',AnimEndTime=0.800000))))
+   SlotAnimTracks(1)=(SlotName="UpperBodyAdditive",AnimTrack=(AnimSegments=((AnimReference=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_DryFire_Additive.MM_Pistol_DryFire_Additive"',AnimEndTime=0.800000))))
+   PreviewBasePose=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Locomotion/Pistol/MM_Pistol_Idle_Hipfire.MM_Pistol_Idle_Hipfire"'
+   Notifies(0)=(TriggerTimeOffset=0.000100,EndTriggerTimeOffset=0.000100,NotifyName="PlaySound",Notify=/Script/Engine.AnimNotify_PlaySound'"AnimNotify_PlaySound_0"',Guid=E8576CC6417EB2C45DFDB6868C9B2131,LinkedMontage=/Script/Engine.AnimMontage'"AM_MM_Pistol_DryFire"',SegmentIndex=0,SegmentLength=0.800000,LinkedSequence=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_DryFire.MM_Pistol_DryFire"')
+   SequenceLength=0.800000
+   RateScale=1.100000
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   DataModelInterface=AnimDataModel'AM_MM_Pistol_DryFire:AnimDataModel'
+   Skeleton=/Script/Engine.Skeleton'"/Game/Characters/Heroes/Mannequin/Meshes/SK_Mannequin.SK_Mannequin"'
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object

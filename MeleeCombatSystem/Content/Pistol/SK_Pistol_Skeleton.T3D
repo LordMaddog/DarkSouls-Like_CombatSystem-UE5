@@ -1,0 +1,21 @@
+Begin Object Class=/Script/Engine.Skeleton Name="SK_Pistol_Skeleton" ExportPath=/Script/Engine.Skeleton'"/Game/Weapons/Pistol/Mesh/SK_Pistol_Skeleton.SK_Pistol_Skeleton"'
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_1" ExportPath=/Script/Engine.SkeletalMeshSocket'"/Game/Weapons/Pistol/Mesh/SK_Pistol_Skeleton.SK_Pistol_Skeleton:SkeletalMeshSocket_1"'
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_0" ExportPath=/Script/Engine.SkeletalMeshSocket'"/Game/Weapons/Pistol/Mesh/SK_Pistol_Skeleton.SK_Pistol_Skeleton:SkeletalMeshSocket_0"'
+   End Object
+   Begin Object Name="SkeletalMeshSocket_1" ExportPath=/Script/Engine.SkeletalMeshSocket'"/Game/Weapons/Pistol/Mesh/SK_Pistol_Skeleton.SK_Pistol_Skeleton:SkeletalMeshSocket_1"'
+      SocketName="ShellEject"
+      BoneName="Root"
+      RelativeLocation=(X=9.040691,Y=1.940165,Z=9.476087)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_0" ExportPath=/Script/Engine.SkeletalMeshSocket'"/Game/Weapons/Pistol/Mesh/SK_Pistol_Skeleton.SK_Pistol_Skeleton:SkeletalMeshSocket_0"'
+      SocketName="Muzzle"
+      BoneName="Barrel"
+      RelativeLocation=(X=11.995138,Y=0.000000,Z=0.000000)
+   End Object
+   BoneTree(6)=()
+   Sockets(0)=/Script/Engine.SkeletalMeshSocket'"SkeletalMeshSocket_0"'
+   Sockets(1)=/Script/Engine.SkeletalMeshSocket'"SkeletalMeshSocket_1"'
+   SlotGroups(0)=(SlotNames=("DefaultSlot"))
+   PreviewSkeletalMesh="/Game/Weapons/Pistol/Mesh/SK_Pistol.SK_Pistol"
+End Object

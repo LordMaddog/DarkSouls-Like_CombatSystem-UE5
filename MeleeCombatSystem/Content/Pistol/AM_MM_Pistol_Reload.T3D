@@ -1,0 +1,60 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="AM_MM_Pistol_Reload" ExportPath=/Script/Engine.AnimMontage'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload"'
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimDataModel" ExportPath=/Script/Engine.AnimDataModel'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AnimDataModel"'
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0" ExportPath=/Script/UnrealEd.SceneThumbnailInfo'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:SceneThumbnailInfo_0"'
+   End Object
+   Begin Object Class=/Script/Engine.AnimNotify_PlaySound Name="AnimNotify_PlaySound_2" ExportPath=/Script/Engine.AnimNotify_PlaySound'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AnimNotify_PlaySound_2"'
+   End Object
+   Begin Object Class=/Script/Engine.AnimNotify_PlaySound Name="AnimNotify_PlaySound_1" ExportPath=/Script/Engine.AnimNotify_PlaySound'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AnimNotify_PlaySound_1"'
+   End Object
+   Begin Object Class=/Script/Engine.AnimNotify_PlaySound Name="AnimNotify_PlaySound_0" ExportPath=/Script/Engine.AnimNotify_PlaySound'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AnimNotify_PlaySound_0"'
+   End Object
+   Begin Object Class=/Game/Characters/Heroes/Abilities/AN_Reload.AN_Reload_C Name="AN_Reload_C_0" ExportPath=/Game/Characters/Heroes/Abilities/AN_Reload.AN_Reload_C'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AN_Reload_C_0"'
+   End Object
+   Begin Object Class=/Game/Characters/Heroes/Mannequin/Animations/AnimNotifies/AN_PlayWeaponMontage.AN_PlayWeaponMontage_C Name="AN_PlayWeaponMontage_Temp_C_0" ExportPath=/Game/Characters/Heroes/Mannequin/Animations/AnimNotifies/AN_PlayWeaponMontage.AN_PlayWeaponMontage_C'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AN_PlayWeaponMontage_Temp_C_0"'
+   End Object
+   Begin Object Name="AnimDataModel" ExportPath=/Script/Engine.AnimDataModel'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AnimDataModel"'
+      FrameRate=(Numerator=100000)
+      NumberOfFrames=200000
+      NumberOfKeys=200001
+      bPopulated=True
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0" ExportPath=/Script/UnrealEd.SceneThumbnailInfo'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:SceneThumbnailInfo_0"'
+   End Object
+   Begin Object Name="AnimNotify_PlaySound_2" ExportPath=/Script/Engine.AnimNotify_PlaySound'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AnimNotify_PlaySound_2"'
+      Sound=/Script/Engine.SoundWave'"/Game/Audio/Sounds/Weapons/Pistol/Weapons_Pistol_Slide_01.Weapons_Pistol_Slide_01"'
+      bFollow=True
+      AttachName="hand_r"
+   End Object
+   Begin Object Name="AnimNotify_PlaySound_1" ExportPath=/Script/Engine.AnimNotify_PlaySound'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AnimNotify_PlaySound_1"'
+      Sound=/Script/Engine.SoundWave'"/Game/Audio/Sounds/Weapons/Pistol/Weapons_Pistol_ClipIn_01.Weapons_Pistol_ClipIn_01"'
+      bFollow=True
+      AttachName="hand_r"
+   End Object
+   Begin Object Name="AnimNotify_PlaySound_0" ExportPath=/Script/Engine.AnimNotify_PlaySound'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AnimNotify_PlaySound_0"'
+      Sound=/Script/Engine.SoundWave'"/Game/Audio/Sounds/Weapons/Pistol/Weapons_Pistol_ClipOut_01.Weapons_Pistol_ClipOut_01"'
+      bFollow=True
+      AttachName="hand_r"
+   End Object
+   Begin Object Name="AN_Reload_C_0" ExportPath=/Game/Characters/Heroes/Abilities/AN_Reload.AN_Reload_C'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AN_Reload_C_0"'
+   End Object
+   Begin Object Name="AN_PlayWeaponMontage_Temp_C_0" ExportPath=/Game/Characters/Heroes/Mannequin/Animations/AnimNotifies/AN_PlayWeaponMontage.AN_PlayWeaponMontage_C'"/Game/Weapons/Pistol/Animations/AM_MM_Pistol_Reload.AM_MM_Pistol_Reload:AN_PlayWeaponMontage_Temp_C_0"'
+      MontageToPlay=/Script/Engine.AnimMontage'"/Game/Weapons/Pistol/Animations/AM_Weap_Pistol_Reload.AM_Weap_Pistol_Reload"'
+      RateScale=1.500000
+   End Object
+   BlendIn=(BlendTime=0.100000,BlendOption=HermiteCubic)
+   BlendOut=(BlendTime=0.350000,BlendOption=HermiteCubic)
+   CompositeSections(0)=(SectionName="Default",LinkedMontage=/Script/Engine.AnimMontage'"AM_MM_Pistol_Reload"',SegmentIndex=0,SegmentLength=2.000000,LinkedSequence=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Reload.MM_Pistol_Reload"')
+   SlotAnimTracks(0)=(SlotName="UpperBody",AnimTrack=(AnimSegments=((AnimReference=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Reload.MM_Pistol_Reload"',AnimEndTime=2.000000))))
+   SlotAnimTracks(1)=(SlotName="UpperBodyAdditive",AnimTrack=(AnimSegments=((AnimReference=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Reload_Additive.MM_Pistol_Reload_Additive"',AnimEndTime=2.000000))))
+   Notifies(0)=(TriggerTimeOffset=0.000100,EndTriggerTimeOffset=0.000100,NotifyName="AN_PlayWeaponMontage_Temp_C",Notify=/Game/Characters/Heroes/Mannequin/Animations/AnimNotifies/AN_PlayWeaponMontage.AN_PlayWeaponMontage_C'"AN_PlayWeaponMontage_Temp_C_0"',Guid=A37A99A147F245A4592431A2C5B5F776,LinkedMontage=/Script/Engine.AnimMontage'"AM_MM_Pistol_Reload"',SegmentIndex=0,SegmentLength=2.000000,LinkedSequence=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Reload.MM_Pistol_Reload"')
+   Notifies(1)=(EndTriggerTimeOffset=0.000100,NotifyName="PlaySound",Notify=/Script/Engine.AnimNotify_PlaySound'"AnimNotify_PlaySound_0"',Guid=E8DF67D944765373B357B4BD7679F8B6,LinkedMontage=/Script/Engine.AnimMontage'"AM_MM_Pistol_Reload"',SegmentIndex=0,SegmentLength=2.000000,LinkValue=0.355151,LinkedSequence=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Reload.MM_Pistol_Reload"')
+   Notifies(2)=(EndTriggerTimeOffset=0.000100,NotifyName="PlaySound",Notify=/Script/Engine.AnimNotify_PlaySound'"AnimNotify_PlaySound_1"',Guid=D62CDE094A3FD75BE8FC8CB10FD48DDB,LinkedMontage=/Script/Engine.AnimMontage'"AM_MM_Pistol_Reload"',SegmentIndex=0,SegmentLength=2.000000,LinkValue=1.004736,LinkedSequence=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Reload.MM_Pistol_Reload"')
+   Notifies(3)=(EndTriggerTimeOffset=0.000100,NotifyName="PlaySound",Notify=/Script/Engine.AnimNotify_PlaySound'"AnimNotify_PlaySound_2"',Guid=7EDAF8A74AAF4C0E2841479961F85738,LinkedMontage=/Script/Engine.AnimMontage'"AM_MM_Pistol_Reload"',SegmentIndex=0,SegmentLength=2.000000,LinkValue=1.345152,LinkedSequence=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Reload.MM_Pistol_Reload"')
+   Notifies(4)=(NotifyName="AN_Reload_C",Notify=/Game/Characters/Heroes/Abilities/AN_Reload.AN_Reload_C'"AN_Reload_C_0"',EndLink=(LinkValue=1.631531),Guid=6A6E5D104E3542FBD4A8C9B675B345EE,LinkedMontage=/Script/Engine.AnimMontage'"AM_MM_Pistol_Reload"',SegmentIndex=0,SegmentLength=2.000000,LinkValue=1.631531,LinkedSequence=/Script/Engine.AnimSequence'"/Game/Characters/Heroes/Mannequin/Animations/Actions/MM_Pistol_Reload.MM_Pistol_Reload"')
+   SequenceLength=2.000000
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   DataModelInterface=AnimDataModel'AM_MM_Pistol_Reload:AnimDataModel'
+   Skeleton=/Script/Engine.Skeleton'"/Game/Characters/Heroes/Mannequin/Meshes/SK_Mannequin.SK_Mannequin"'
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object
