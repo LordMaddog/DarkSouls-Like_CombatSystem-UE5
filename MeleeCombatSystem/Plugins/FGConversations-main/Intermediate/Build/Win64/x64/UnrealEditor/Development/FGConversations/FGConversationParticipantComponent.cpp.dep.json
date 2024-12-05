@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\meleecombatsystem\\plugins\\fgconversations-main\\source\\fgconversations\\private\\fgconversationparticipantcomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\meleecombatsystem\\intermediate\\build\\win64\\x64\\meleecombatsystemeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\meleecombatsystem\\plugins\\fgconversations-main\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fgconversations\\definitions.fgconversations.h",
+            "d:\\unreal projects\\meleecombatsystem\\plugins\\fgconversations-main\\source\\fgconversations\\public\\fgconversationparticipantcomponent.h",
+            "d:\\program files\\epic games\\ue_5.5\\engine\\plugins\\experimental\\commonconversation\\source\\commonconversationruntime\\public\\conversationparticipantcomponent.h",
+            "d:\\program files\\epic games\\ue_5.5\\engine\\plugins\\experimental\\commonconversation\\source\\commonconversationruntime\\public\\conversationmemory.h",
+            "d:\\program files\\epic games\\ue_5.5\\engine\\plugins\\experimental\\commonconversation\\source\\commonconversationruntime\\public\\conversationtypes.h",
+            "d:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "d:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "d:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "d:\\program files\\epic games\\ue_5.5\\engine\\plugins\\experimental\\commonconversation\\source\\commonconversationruntime\\public\\conversationnode.h",
+            "d:\\program files\\epic games\\ue_5.5\\engine\\plugins\\experimental\\commonconversation\\intermediate\\build\\win64\\unrealeditor\\inc\\commonconversationruntime\\uht\\conversationnode.generated.h",
+            "d:\\program files\\epic games\\ue_5.5\\engine\\plugins\\experimental\\commonconversation\\intermediate\\build\\win64\\unrealeditor\\inc\\commonconversationruntime\\uht\\conversationtypes.generated.h",
+            "d:\\program files\\epic games\\ue_5.5\\engine\\plugins\\experimental\\commonconversation\\intermediate\\build\\win64\\unrealeditor\\inc\\commonconversationruntime\\uht\\conversationparticipantcomponent.generated.h",
+            "d:\\unreal projects\\meleecombatsystem\\plugins\\fgconversations-main\\intermediate\\build\\win64\\unrealeditor\\inc\\fgconversations\\uht\\fgconversationparticipantcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

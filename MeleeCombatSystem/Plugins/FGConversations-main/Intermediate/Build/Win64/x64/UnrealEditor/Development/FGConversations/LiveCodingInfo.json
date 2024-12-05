@@ -1,0 +1,14 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.FGConversations.cpp.obj": [
+			"FGConversationParticipantComponent.gen.cpp.obj",
+			"FGConversations.init.gen.cpp.obj",
+			"FGConversationWidget.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"FGConversationParticipantComponent.cpp.obj",
+			"FGConversations.cpp.obj",
+			"FGConversationWidget.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\meleecombatsystem\\plugins\\fgconversations-main\\source\\fgconversations\\private\\fgconversations.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\meleecombatsystem\\intermediate\\build\\win64\\x64\\meleecombatsystemeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\meleecombatsystem\\plugins\\fgconversations-main\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fgconversations\\definitions.fgconversations.h",
+            "d:\\unreal projects\\meleecombatsystem\\plugins\\fgconversations-main\\source\\fgconversations\\public\\fgconversations.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
