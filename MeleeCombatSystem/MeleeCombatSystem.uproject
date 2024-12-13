@@ -44,7 +44,7 @@
 		},
 		{
 			"Name": "MagicNode",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/38f49e7411bc47588e0d219758d6b16f"
 		}
 	]

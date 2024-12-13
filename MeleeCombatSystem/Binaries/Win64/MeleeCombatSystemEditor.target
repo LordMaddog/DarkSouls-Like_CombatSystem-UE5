@@ -12,9 +12,9 @@
 	{
 		"MajorVersion": 5,
 		"MinorVersion": 5,
-		"PatchVersion": 0,
-		"Changelist": 37670630,
-		"CompatibleChangelist": 0,
+		"PatchVersion": 1,
+		"Changelist": 38445549,
+		"CompatibleChangelist": 37670630,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
 		"BranchName": "++UE5+Release-5.5",
@@ -4007,34 +4007,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MagicNod624c48c79cf8V14/Binaries/Win64/UnrealEditor-MagicNodeEditor.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MagicNod624c48c79cf8V14/Binaries/Win64/UnrealEditor-MagicNodeEditor.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MagicNod624c48c79cf8V14/Binaries/Win64/UnrealEditor-MagicNodeKismet.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MagicNod624c48c79cf8V14/Binaries/Win64/UnrealEditor-MagicNodeKismet.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MagicNod624c48c79cf8V14/Binaries/Win64/UnrealEditor-MagicNodeRuntime.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MagicNod624c48c79cf8V14/Binaries/Win64/UnrealEditor-MagicNodeRuntime.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MagicNod624c48c79cf8V14/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -30400,10 +30372,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/Marketplace/MagicNod624c48c79cf8V14/MagicNode.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/Media/AndroidMedia/AndroidMedia.uplugin",
 			"Type": "UFS"
 		},
@@ -30833,7 +30801,6 @@
 		"LocalizableMessage",
 		"LocationServicesBPLibrary",
 		"MacGraphicsSwitching",
-		"MagicNode",
 		"MaterialAnalyzer",
 		"MediaCompositing",
 		"MediaPlate",
