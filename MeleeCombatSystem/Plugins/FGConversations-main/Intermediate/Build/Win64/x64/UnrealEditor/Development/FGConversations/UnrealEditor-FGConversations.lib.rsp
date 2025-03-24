@@ -6,10 +6,7 @@
 /NAME:"UnrealEditor-FGConversations.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Unreal Projects\MeleeCombatSystem\Intermediate\Build\Win64\x64\MeleeCombatSystemEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
-"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\Module.FGConversations.cpp.obj"
-"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\FGConversationParticipantComponent.cpp.obj"
-"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\FGConversations.cpp.obj"
-"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\FGConversationWidget.cpp.obj"
-"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\Default.rc2.res"
-/OUT:"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\UnrealEditor-FGConversations.lib"
+"C:\Users\maddo\OneDrive\Documents\GitHub\DarkSouls-Like_CombatSystem-UE5\MeleeCombatSystem\Intermediate\Build\Win64\x64\MeleeCombatSystemEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:\Users\maddo\OneDrive\Documents\GitHub\DarkSouls-Like_CombatSystem-UE5\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\Module.FGConversations.cpp.obj"
+"C:\Users\maddo\OneDrive\Documents\GitHub\DarkSouls-Like_CombatSystem-UE5\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\Default.rc2.res"
+/OUT:"C:\Users\maddo\OneDrive\Documents\GitHub\DarkSouls-Like_CombatSystem-UE5\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\UnrealEditor-FGConversations.lib"
