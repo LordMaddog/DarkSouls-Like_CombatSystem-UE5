@@ -36,9 +36,12 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 /NOIMPLIB
-"C:\Users\maddo\OneDrive\Documents\GitHub\DarkSouls-Like_CombatSystem-UE5\MeleeCombatSystem\Intermediate\Build\Win64\x64\MeleeCombatSystemEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
-"C:\Users\maddo\OneDrive\Documents\GitHub\DarkSouls-Like_CombatSystem-UE5\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\Module.FGConversations.cpp.obj"
-"C:\Users\maddo\OneDrive\Documents\GitHub\DarkSouls-Like_CombatSystem-UE5\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\Default.rc2.res"
+"D:\Unreal Projects\MeleeCombatSystem\Intermediate\Build\Win64\x64\MeleeCombatSystemEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\Module.FGConversations.cpp.obj"
+"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\FGConversationParticipantComponent.cpp.obj"
+"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\FGConversations.cpp.obj"
+"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\FGConversationWidget.cpp.obj"
+"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\UnrealEditor-Slate.lib"
@@ -73,6 +76,6 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\Users\maddo\OneDrive\Documents\GitHub\DarkSouls-Like_CombatSystem-UE5\MeleeCombatSystem\Plugins\FGConversations-main\Binaries\Win64\UnrealEditor-FGConversations.dll"
-/PDB:"C:\Users\maddo\OneDrive\Documents\GitHub\DarkSouls-Like_CombatSystem-UE5\MeleeCombatSystem\Plugins\FGConversations-main\Binaries\Win64\UnrealEditor-FGConversations.pdb"
+/OUT:"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Binaries\Win64\UnrealEditor-FGConversations.dll"
+/PDB:"D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Binaries\Win64\UnrealEditor-FGConversations.pdb"
 /ignore:4078
