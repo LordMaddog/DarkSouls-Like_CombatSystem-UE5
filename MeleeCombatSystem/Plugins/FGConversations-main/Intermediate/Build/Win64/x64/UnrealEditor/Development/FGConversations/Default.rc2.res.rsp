@@ -84,5 +84,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Melee Combat"
 /DPROJECT_PRODUCT_IDENTIFIER=MeleeCombatSystem
-/fo "D:\Unreal Projects\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\Default.rc2.res"
+/fo "C:\Users\maddo\OneDrive\Documents\GitHub\DarkSouls-Like_CombatSystem-UE5\MeleeCombatSystem\Plugins\FGConversations-main\Intermediate\Build\Win64\x64\UnrealEditor\Development\FGConversations\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
