@@ -62,6 +62,10 @@
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
+		},
+		{
+			"Name": "DaySequence",
+			"Enabled": true
 		}
 	]
 }
